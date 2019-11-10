@@ -1,0 +1,114 @@
+/*
+ * CSS de componentes
+ * 
+ * Criador: Rafael Turse
+ * Data de criação: 20190304 22h17
+ * 
+ */
+
+.mark-indicator-dark {
+    color: #111 !important;
+}
+
+.mark-indicator-light {
+    color: #F9F9F9 !important;
+}
+
+.text-blurred {
+    color: transparent;
+    text-shadow: 0 0 2px rgba(0,0,0,0.50);
+}
+
+.text-blue {
+    color: #17A2b8 !important;
+}
+
+.text-content-dark {
+    color: #555 !important;
+}
+
+.text-describe-dark {
+    color: #444 !important;
+    letter-spacing: 1px;
+}
+
+.text-footer-dark {
+    color: #777;
+}
+.text-footer-dark:hover {
+    color: #999;
+}
+
+.text-footer-dark-title {
+    color: #999;
+}
+.text-footer-dark-title:hover {
+    color: #BBB;
+}
+
+.text-gray {
+    color: #111 !important;
+}
+.text-gray:hover {
+    color: #666 !important;
+}
+
+.text-green {
+    color: #28A745 !important;
+}
+
+.text-hover:hover {
+    font-weight: bold;
+}
+
+.text-purple {
+    color: #50345b !important;
+}
+
+.text-red {
+    color: #DC3545 !important;
+}
+
+.text-skill:hover {
+    font-weight: bold;
+}
+
+.text-subtitle-dark {
+    color: #333 !important;
+    letter-spacing: 2px;
+}
+.text-subtitle-dark:hover {
+    color: #111 !important;
+}
+
+.text-subtitle-light {
+    color: #D9D9D9 !important;
+    letter-spacing: 2px;
+}
+.text-subtitle-light:hover {
+    color: #B9B9B9 !important;
+}
+
+.text-title-dark {
+    color: #333 !important;
+    letter-spacing: 5px;
+}
+.text-title-dark:hover {
+    color: #111 !important;
+}
+
+.text-title-light {
+    color: #F9F9F9 !important;
+    letter-spacing: 5px;
+}
+.text-title-light:hover {
+    color: #D9D9D9 !important;
+}
+
+.text-topic-dark {
+    color: #444 !important;
+}
+
+.text-yellow {
+    color: #FFC107 !important;
+}

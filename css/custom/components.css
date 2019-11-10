@@ -1,0 +1,189 @@
+/*
+ * CSS de componentes
+ * 
+ * Criador: Rafael Turse
+ * Data de criaÃ§Ã£o: 20180726 13h58
+ * 
+ */
+
+ /* extra small */
+ @media (max-width: 576px) { 
+    .circle {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+/* small */
+@media (min-width: 576px) { 
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* medium */
+@media (min-width: 768px) { 
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* large */
+@media (min-width: 992px) { 
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* extra large */
+@media (min-width: 1200px) { 
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+/* BACKGROUND */
+.background-blue {
+    background-color: #17A2b8;
+}
+
+.background-green {
+    background-color: #28A745;
+}
+
+.background-red {
+    background-color: #DC3545;
+}
+
+.background-yellow {
+    background-color: #FFC107;
+}
+
+/* BROWSER BARS */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #A9A9A9; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #111; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #777; 
+}
+
+/* BUTTON */
+.circle {
+    border-style: solid;
+    border-color: #111 !important;
+    border-radius: 50%;
+
+    color: #111 !important;
+    
+    transition: 0.1s ease;
+}
+
+.circle-red.circle {
+    background-color: #DC3545 !important;
+}
+.circle-red.circle:hover {
+    border-color: #DC3545 !important;
+    color: #DC3545 !important;
+}
+
+.circle-yellow.circle {
+    background-color: #FFC107 !important;
+}
+.circle-yellow.circle:hover {
+    border-color: #FFC107 !important;
+    color: #FFC107 !important;
+}
+
+.circle-blue.circle {
+    background-color: #17A2b8 !important;
+}
+.circle-blue.circle:hover {
+    border-color: #17A2b8 !important;
+    color: #17A2b8 !important;
+}
+
+.circle-green.circle {
+    background-color: #28A745 !important;
+}
+.circle-green.circle:hover {
+    border-color: #28A745 !important;
+    color: #28A745 !important;
+}
+
+/* o :hover do circle deve ficar abaixo das classes acima para sobreposiÃ§Ã£o */
+.circle:hover {
+    border-style: solid;
+    border-width: 5px !important;
+
+    transition: 0.3s ease;
+    
+    background-color: #111 !important;
+
+    /*transform: rotateY(180deg);*/
+}
+
+/* CARD */
+.card {
+    border-style: none;
+}
+
+.card-shadow:hover {
+    box-shadow: 0 8px 17px 0 rgba(17, 17, 17, 0.2),0 6px 20px 0 rgba(17, 17, 17, 0.19);
+}
+
+/* PROGRESS */
+.progress {
+    height: 20px;
+}
+
+.bg-success:hover {
+    background-color: #111 !important;
+}
+
+.bg-danger:hover {
+    background-color: #111 !important;
+}
+
+.bg-info:hover {
+    background-color: #111 !important;
+}
+
+.bg-warning:hover {
+    background-color: #111 !important;
+}
+
+/* TRACE */
+.underline {
+    content: '';
+    display: block;
+    
+    border-style: solid;
+    border-top: 1px;
+
+    width: 30px;
+}
+
+.underline-light.underline {
+    border-color: #F9F9F9;
+}
+.underline-dark.underline {
+    border-color: #333;
+}
+
+/* UTILS */
+.badge:hover {
+    opacity: 0.9;
+}
