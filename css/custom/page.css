@@ -4,7 +4,7 @@
  * Criador: Rafael Turse
  * Data de criaÃ§Ã£o: 20180726 14h09
  * 
- */
+**/
 
 /* extra small */
 @media (max-width: 576px) and (orientation:landscape) { 
@@ -16,6 +16,13 @@
     h1 {
         font-size: 1.7em;
     }
+
+    #menu_pages { display: none; }
+    #menu_professional { display: block; }
+    #menu_technical { display: block; }
+    #menu_articles { display: block; }
+    #menu_portfolio { display: block; }
+    #menu_systems { display: block; }
 }
 @media (max-width: 576px) and (orientation:portrait) { 
     html {
@@ -26,6 +33,13 @@
     h1 {
         font-size: 1.7em;
     }
+
+    #menu_pages { display: none; }
+    #menu_professional { display: block; }
+    #menu_technical { display: block; }
+    #menu_articles { display: block; }
+    #menu_portfolio { display: block; }
+    #menu_systems { display: block; }
 }
 
 /* small */
@@ -34,12 +48,26 @@
         /* background-color: yellow; */
         height: 200%;
     }
+
+    #menu_pages { display: none; }
+    #menu_professional { display: block; }
+    #menu_technical { display: block; }
+    #menu_articles { display: block; }
+    #menu_portfolio { display: block; }
+    #menu_systems { display: block; }
 }
 @media (min-width: 576px) and (orientation:portrait) { 
     html {
         /* background-color: green; */
         height: 100%;
     }
+
+    #menu_pages { display: none; }
+    #menu_professional { display: block; }
+    #menu_technical { display: block; }
+    #menu_articles { display: block; }
+    #menu_portfolio { display: block; }
+    #menu_systems { display: block; }
 }
 
 /* medium */
@@ -48,12 +76,26 @@
         /* background-color: gray; */
         height: 170%;
     }
+
+    #menu_pages { display: block; }
+    #menu_professional { display: block; }
+    #menu_technical { display: block; }
+    #menu_articles { display: none; }
+    #menu_portfolio { display: none; }
+    #menu_systems { display: none; }
 }
 @media (min-width: 768px) and (orientation:portrait) { 
     html {
         /* background-color: salmon; */
         height: 100%;
     }
+
+    #menu_pages { display: block; }
+    #menu_professional { display: block; }
+    #menu_technical { display: block; }
+    #menu_articles { display: none; }
+    #menu_portfolio { display: none; }
+    #menu_systems { display: none; }
 }
 
 /* large */
@@ -62,12 +104,26 @@
         /* background-color: orange; */
         height: 100%;
     }
+
+    #menu_pages { display: block; }
+    #menu_professional { display: block; }
+    #menu_technical { display: block; }
+    #menu_articles { display: none; }
+    #menu_portfolio { display: none; }
+    #menu_systems { display: none; }
 }
 @media (min-width: 992px) and (orientation:portrait) { 
     html {
         /* background-color: purple; */
         height: 100%;
     }
+
+    #menu_pages { display: block; }
+    #menu_professional { display: block; }
+    #menu_technical { display: block; }
+    #menu_articles { display: none; }
+    #menu_portfolio { display: none; }
+    #menu_systems { display: none; }
 }
 
 /* extra large */
@@ -76,12 +132,26 @@
         /* background-color: springgreen; */
         height: 100%;
     }
+
+    #menu_pages { display: block; }
+    #menu_professional { display: block; }
+    #menu_technical { display: block; }
+    #menu_articles { display: none; }
+    #menu_portfolio { display: none; }
+    #menu_systems { display: none; }
 }
 @media (min-width: 1200px) and (orientation:portrait) { 
     html {
         /* background-color: brown; */
         height: 100%;
     }
+
+    #menu_pages { display: block; }
+    #menu_professional { display: block; }
+    #menu_technical { display: block; }
+    #menu_articles { display: none; }
+    #menu_portfolio { display: none; }
+    #menu_systems { display: none; }
 }
 
 @media (orientation: landscape) {
