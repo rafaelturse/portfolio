@@ -61,6 +61,13 @@
     font-weight: bold;
 }
 
+.text-light {
+    color: #F9F9F9 !important;
+}
+.text-light:hover {
+    color: #D9D9D9 !important;
+}
+
 .text-purple {
     color: #50345b !important;
 }

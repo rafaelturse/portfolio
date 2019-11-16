@@ -153,6 +153,16 @@
     background-color: #F9F9F9;
 }
 
+/* CUTS */
+.cutway {
+	width: 300%;
+	height: 300px;
+    background: url('../../img/cutway.svg');
+    background-repeat: no-repeat;
+	background-position: center;
+    background-size: scroll;
+}
+
 /* PROGRESS */
 .progress {
     height: 20px;

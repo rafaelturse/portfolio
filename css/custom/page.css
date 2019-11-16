@@ -177,6 +177,15 @@ html {
     scroll-behavior: smooth;
 }
 
+/* INDEX */
+.bring-to-front {
+    z-index: 1;
+}
+
+.send-to-back {
+    z-index: 1000;
+}
+
 /* GRADIENTE */
 .gradient-to-dark {
     height: 100%;
