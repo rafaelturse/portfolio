@@ -1,4 +1,3 @@
-
 /* show and hide when scroll */
 var prevScrollpos = window.pageYOffset;
     
