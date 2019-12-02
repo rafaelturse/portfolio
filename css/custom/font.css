@@ -29,6 +29,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.font-read-text {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+}
+
 .font-footer-developer {
     font-family: 'Indie Flower', cursive;
     letter-spacing: 1px;
