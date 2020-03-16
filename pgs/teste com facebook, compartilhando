@@ -1,0 +1,6 @@
+<span aria-label="Share to Facebook" class="sharing-platform-button sharing-element-facebook" data-href="https://www.blogger.com/share-post.g?blogID=460919613069335761&amp;postID=3051232372675891062&amp;target=facebook" data-url="https://www.rafaelturse.ca/2020/03/technologies-i-use-to-program.html" role="menuitem" tabindex="-1" title="Share to Facebook">
+<svg class="svg-icon-24 touch-icon sharing-facebook">
+<use xlink:href="/responsive/sprite_v1_6.css.svg#ic_24_facebook_dark" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+</svg>
+<span class="platform-sharing-text">Facebook</span>
+</span>

@@ -85,6 +85,58 @@
     background-color:#111;
 }
 
+.social-button-facebook {
+    background-color: #ccc;
+    color: #333;
+
+    border-left: #333 solid 5px;
+}
+.social-button-facebook:hover {
+    background-color: #3b5998;
+    color: #eee;
+
+    border-left: #333 solid 7px;
+}
+
+.social-button-instagram {
+    background-color: #ccc;
+    color: #333;
+
+    border-left: #333 solid 5px;
+}
+.social-button-instagram:hover {
+    background-color: #BC1888;
+    color: #eee;
+
+    border-left: #333 solid 7px;
+}
+
+.social-button-linkedin {
+    background-color: #ccc;
+    color: #333;
+
+    border-left: #333 solid 5px;
+}
+.social-button-linkedin:hover {
+    background-color: #0e76a8;
+    color: #eee;
+
+    border-left: #333 solid 7px;
+}
+
+.social-button-twitter {
+    background-color: #ccc;
+    color: #333;
+
+    border-left: #333 solid 5px;
+}
+.social-button-twitter:hover {
+    background-color: #1dcaff;
+    color: #eee;
+
+    border-left: #333 solid 7px;
+}
+
 .button-card {
     background-color: #FFF;
     border-style: none;
@@ -170,6 +222,11 @@
 /* COMBO */
 #pages {
     background-color: #F9F9F9;
+}
+
+/* COMPONENTS */
+.follow-component {
+    background-color: #111;
 }
 
 /* CUTS */

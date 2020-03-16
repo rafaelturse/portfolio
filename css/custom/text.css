@@ -80,6 +80,10 @@
     font-weight: bold;
 }
 
+.text-social-button {
+    letter-spacing: 5px;
+}
+
 .text-subtitle-dark {
     color: #333 !important;
     letter-spacing: 2px;
