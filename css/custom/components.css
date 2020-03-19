@@ -85,11 +85,24 @@
     background-color:#111;
 }
 
-.social-button-facebook {
+.social-button-github {
     background-color: #ccc;
     color: #333;
 
     border-left: #333 solid 5px;
+}
+.social-button-github:hover {
+    background-color: #333;
+    color: #eee;
+
+    border-left: #333 solid 7px;
+}
+
+.social-button-facebook {
+    background-color: #ccc;
+    color: #333;
+
+    border-left: #3b5998 solid 5px;
 }
 .social-button-facebook:hover {
     background-color: #3b5998;
@@ -102,7 +115,7 @@
     background-color: #ccc;
     color: #333;
 
-    border-left: #333 solid 5px;
+    border-left: #BC1888 solid 5px;
 }
 .social-button-instagram:hover {
     background-color: #BC1888;
@@ -115,7 +128,7 @@
     background-color: #ccc;
     color: #333;
 
-    border-left: #333 solid 5px;
+    border-left: #0e76a8 solid 5px;
 }
 .social-button-linkedin:hover {
     background-color: #0e76a8;
@@ -128,10 +141,23 @@
     background-color: #ccc;
     color: #333;
 
-    border-left: #333 solid 5px;
+    border-left: #1dcaff solid 5px;
 }
 .social-button-twitter:hover {
     background-color: #1dcaff;
+    color: #eee;
+
+    border-left: #333 solid 7px;
+}
+
+.social-button-youtube {
+    background-color: #ccc;
+    color: #333;
+
+    border-left: #FF0000 solid 5px;
+}
+.social-button-youtube:hover {
+    background-color: #FF0000;;
     color: #eee;
 
     border-left: #333 solid 7px;

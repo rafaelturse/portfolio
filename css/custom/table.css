@@ -18,6 +18,8 @@
 
     border: 0px;
     border-style: none;
+
+    border-radius: 0%;
 }
 
 .nav-link.active {
@@ -29,12 +31,16 @@
     color: #F9F9F9 !important;
     
     font-weight: bold;
+
+    border-radius: 0%;
 }
 
 .nav-link:hover {    
     border-style: none;
     background-color: #111 !important;
     color: #F9F9F9 !important;
+
+    border-radius: 0%;
 }
 
 .table-dark {
