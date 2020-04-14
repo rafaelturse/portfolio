@@ -6,12 +6,19 @@
  * 
  */
 
- .image-company {
+/* ICON */
+.icon {
+    font-size: 100px;
+    color: #333 !important;
+}
+
+/* IMAGE */
+.image-company {
     max-height: 200px;
     max-width: 100%;
  }
 
- .image-company-type {
+.image-company-type {
     height: 50px;
     width: 50px;
 }

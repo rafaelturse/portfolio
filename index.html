@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
+    <link rel="stylesheet" href="css\custom\carousel.css">
     <link rel="stylesheet" href="css\custom\components.css">
     <link rel="stylesheet" href="css\custom\font.css">
     <link rel="stylesheet" href="css\custom\image.css">
@@ -24,66 +25,93 @@
     <title>Rafael Turse</title>
 </head>
 <body id="top">
-    <!-- MENU -->
-    <nav id="topMenu" class="navbar navbar-default navbar-dark navbar-expand-md fixed-top"> 
-        <div class="container">
-            <a class="navbar-brand mx-1" href="index.html"><img class="img-fluid image-main-menu-logo mx-2" src="img/logo-icon-main.svg"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto"></ul>
-                <form class="form-inline mt-2 mt-md-0">
-                    <ul class="navbar-nav mr-auto">
-                        <div id="menu_pages" class="btn-group btn-group-sm" role="group">
-                            <div class="btn-group" role="group">
-                                <button id="pages" type="button" class="btn dropdown-toggle font-main-menu" data-toggle="dropdown"><i class="fas fa-copy"></i> Content</button>
-                                <div class="dropdown-menu" aria-labelledby="pages">
-                                    <a class="dropdown-item font-main-menu" href="#"><i class="fas fa-chess"></i> Articles</a>
-                                    <a class="dropdown-item font-main-menu" href="#"><i class="fas fa-palette"></i> Portfolio</a>
-                                    <a class="dropdown-item font-main-menu" href="pgs/systems.html"><i class="fas fa-bolt"></i> Systems</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <li id="menu_articles" class="nav-item mx-2"><a class="nav-link font-main-menu" href="#"><i class="fas fa-chess"></i> Articles</a></li>
-                        <li id="menu_portfolio" class="nav-item mx-2"><a class="nav-link font-main-menu" href="#"><i class="fas fa-palette"></i> Portfolio</a></li>
-                        <li id="menu_professional" class="nav-item mx-2"><a class="nav-link font-main-menu" href="pgs/professional.html"><i class="fas fa-coffee"></i> Professional</a></li>
-                        <li id="menu_systems" class="nav-item mx-2"><a class="nav-link font-main-menu" href="pgs/systems.html"><i class="fas fa-bolt"></i> Systems</a></li>
-                        <li id="menu_technical" class="nav-item mx-2"><a class="nav-link font-main-menu" href="pgs/technical.html"><i class="fas fa-code"></i> Technical</a></li>
-                    </ul>
-                </form>
-            </div>
-        </div>
-    </nav>
-
     <!-- HEAD -->
-    <div class="row">
-        <div class="rounded cutway send-to-back">
-            <div class="container">
-                <div class="pt-5 px-3 bring-to-front">
-                    <h1 class="font-text-title font-weight-bold text-title-light pt-5">Rafael Turse</h1>
-                    <h5 class="font-text-title text-subtitle-light mt-3">systems development</h5>
+    <div class="background-dark-main-header">
+        <div class="container-fluid">
+            <div class="container pt-5">
+                <div class="row pt-5">
+                    <div class="col d-flex justify-content-center align-items-center h-100">
+                        <img class="img-fluid" src="img/logo-rafael-turse-white.svg" width="100" />
+
+                        <div class="col justify-content-center align-items-center h-100">
+                            <h1 class="font-text-title font-weight-bold text-title-light">Rafael Turse</h1>
+                            <h5 class="font-text-title text-subtitle-light">systems development</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- BUTTONS -->
+    <!-- BODY -->
     <div class="body-content">
-        <div class="col-12 d-flex justify-content-center mb-5" style="margin-bottom: -50px">
-            <img class="img-fluid mb-5" data-aos="fade" data-aos-delay="50" data-aos-duration="2000" src="img/logo-main.svg" width="200"></img>
+        <!-- CAROUSEL -->
+        <div class="container mb-5">
+            <div id="mainCarousel" class="carousel slide carousel-fade py-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainCarousel" data-slide-to="1"></li>
+                </ol>
+
+                <div class="carousel-inner">
+                    <!-- CAROUSEL ITEM 1 -->
+                    <div class="carousel-item active">
+                        <svg width="100%" height="400px"><rect width="100%" height="100%" fill="#F9F9F9"/></svg>
+                        <div class="container pt-5">
+                            <div class="carousel-caption text-left">
+                                <div class="text-right"><i class="fas fa-id-card icon"></i></div>
+                                <h1 class="font-text-title font-weight-bold text-title-dark pt-5">Resume</h1>
+                                <h5 class="font-text-title text-subtitle-dark mt-1 mb-5">
+                                    Easy to find. Is in the Technical Page, Data Section > Resume. 
+                                    You can see in the page or download if you want, in .PDF or .DOCX
+                                </h5>
+                                <a href="pgs/technical.html" class="btn btn-dark active" role="button" aria-pressed="true">more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- CAROUSEL ITEM 2 -->
+                    <div class="carousel-item">
+                        <svg width="100%" height="400px"><rect width="100%" height="100%" fill="#F9F9F9"/></svg>
+                        <div class="container pt-5">
+                            <div class="carousel-caption text-left">
+                                <div class="text-right"><i class="fas fa-code icon"></i></div>
+                                <h1 class="font-text-title font-weight-bold text-title-dark pt-5">Technical</h1>
+                                <h5 class="font-text-title text-subtitle-dark mt-1 mb-5">
+                                    Information about my development skills, programming languages, charts and other dev stuffs
+                                </h5>
+                                <a href="pgs/technical.html" class="btn btn-dark active" role="button" aria-pressed="true">more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- WORK AREA -->
         <div class="container-fluid">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-8 p-2" style="background-color: yellow;">
-                        esquerda
+                    <!-- MAIN CONTENT -->
+                    <div class="col-xl-8 pl-2 pr-2 pb-2">
+                        <div class="container font-text">
+                            <div class="row">
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card" href="pgs/professional.html" role="button"><h4 class="font-text-title font-weight-bold"><i class="fas fa-coffee"></i> Professional</h4></a></div>
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card" href="pgs/professional.html#personal" role="button"><h4 class="font-text-title font-weight-bold"><i class="fas fa-user-secret"></i> Personal</h4></a></div>
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card" href="pgs/professional.html#education" role="button"><h4 class="font-text-title font-weight-bold"><i class="fas fa-user-graduate"></i> Education</h4></a></div>
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card" href="pgs/professional.html#career" role="button"><h4 class="font-text-title font-weight-bold"><i class="fas fa-briefcase"></i> Career</h4></a></div>
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card" href="pgs/technical.html" role="button"><h4 class="font-text-title font-weight-bold"><i class="fas fa-code"></i> Technical</h4></a></div>
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card" href="pgs/technical.html#data" role="button"><h4 class="font-text-title font-weight-bold"><i class="fas fa-chart-pie"></i> Data</h4></a></div>
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card" href="pgs/technical.html#technology" role="button"><h4 class="font-text-title font-weight-bold"><i class="fas fa-tools"></i> Technology</h4></a></div>
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card" href="pgs/technical.html#landscape" role="button"><h4 class="font-text-title font-weight-bold"><i class="fas fa-image"></i> Landscape</h4></a></div>
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card" href="pgs/systems.html" role="button"><h4 class="font-text-title font-weight-bold"><i class="fas fa-bolt"></i> Systems</h4></a></div>
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card"><h4 class="font-text-title font-weight-bold"><i class="fas fa-chess"></i> Articles</h4></a></div>
+                                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"><a class="btn button-card"><h4 class="font-text-title font-weight-bold"><i class="fas fa-palette"></i> Portfolio</h4></a></div>
+                            </div>
+                        </div>
                     </div>
 
+                    <!-- MAIN SIDEBAR -->
                     <div class="col-xl-4 pl-2 pr-2 pb-2">
                         <!-- FOLLOW -->
                         <div id="follow">
@@ -171,7 +199,7 @@
 
                             <!-- INSTAGRAM -->
                             <a href="https://www.instagram.com/rafaelturse/" target="_blank">
-                                <div class="col social-button-instagram my-2">
+                                <div class="col social-button-instagram mt-2">
                                     <div class="row p-1">
                                         <div class="col-10">
                                             <small class="font-main-menu font-text-title font-weight-bold text-social-button">instagram</small>
@@ -189,7 +217,7 @@
                         <!-- SIDEBAR MENU -->
                         <div id="sidebar-menu">
                             <div class="font-skill tab-content borderless my-4">
-                                <nav class="nav nav-pills flex-column flex-md-row font-pills-title">
+                                <nav class="nav nav-pills flex-column flex-md-row font-pills-title mb-2">
                                     <a class="flex-md-fill text-md-center nav-link m-2 active" data-toggle="tab" href="#content-popular"><i class="fas fa-fire mr-2"></i>POPULAR</a>
                                     <a class="flex-md-fill text-md-center nav-link m-2" data-toggle="tab" href="#content-archive"><i class="fas fa-archive mr-2"></i>ARCHIVE</a>
                                 </nav>
@@ -295,78 +323,30 @@
                     
                         <!-- TAGS -->
                         <div id="tags">
-                            <div class="col follow-component p-2 mb-3">
+                            <div class="col follow-component p-2 my-3">
                                 <span class="d-flex justify-content-center font-main-menu font-text-title font-weight-bold text-title-light">TAGS</span>
                             </div>
                             <div>
                                 <h5>
-                                    <span class="badge badge-dark m-1">personal</span>
-                                    <span class="badge badge-dark m-1">career</span>
-                                    <span class="badge badge-dark m-1">skill</span>
-                                    <span class="badge badge-dark m-1">music</span>
-                                    <span class="badge badge-dark m-1">companies</span>
-                                    <span class="badge badge-dark m-1">education</span>
-                                    <span class="badge badge-dark m-1">landscape</span>
-                                    <span class="badge badge-dark m-1">professional</span>
-                                    <span class="badge badge-dark m-1">abroad</span>
-                                    <span class="badge badge-dark m-1">technical</span>
-                                    <span class="badge badge-dark m-1">technology</span>
-                                    <span class="badge badge-dark m-1">data</span>
-                                    <span class="badge badge-dark m-1">systems</span>
-                                    <span class="badge badge-dark m-1">articles</span>
-                                    <span class="badge badge-dark m-1">portfolio</span>
+                                    <span class="badge badge-dark ml-1 mb-1">personal</span>
+                                    <span class="badge badge-dark ml-1 mb-1">career</span>
+                                    <span class="badge badge-dark ml-1 mb-1">skill</span>
+                                    <span class="badge badge-dark ml-1 mb-1">music</span>
+                                    <span class="badge badge-dark ml-1 mb-1">companies</span>
+                                    <span class="badge badge-dark ml-1 mb-1">education</span>
+                                    <span class="badge badge-dark ml-1 mb-1">landscape</span>
+                                    <span class="badge badge-dark ml-1 mb-1">professional</span>
+                                    <span class="badge badge-dark ml-1 mb-1">data</span>
+                                    <span class="badge badge-dark ml-1 mb-1">abroad</span>
+                                    <span class="badge badge-dark ml-1 mb-1">technical</span>
+                                    <span class="badge badge-dark ml-1 mb-1">technology</span>
+                                    <span class="badge badge-dark ml-1 mb-1">systems</span>
+                                    <span class="badge badge-dark ml-1 mb-1">articles</span>
+                                    <span class="badge badge-dark ml-1 mb-1">portfolio</span>
                                 </h5>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container font-text mt-5">
-            <div class="row">
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card" href="pgs/professional.html" role="button"><h2 class="font-text-title font-weight-bold"><i class="fas fa-coffee"></i> Professional</h2></a>
-                </div>
-
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card" href="pgs/professional.html#personal" role="button"><h2 class="font-text-title font-weight-bold"><i class="fas fa-user-secret"></i> Personal</h2></a>
-                </div>
-
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card" href="pgs/professional.html#education" role="button"><h2 class="font-text-title font-weight-bold"><i class="fas fa-user-graduate"></i> Education</h2></a>
-                </div>
-
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card" href="pgs/professional.html#career" role="button"><h2 class="font-text-title font-weight-bold"><i class="fas fa-briefcase"></i> Career</h2></a>
-                </div>    
-            
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card" href="pgs/technical.html" role="button"><h2 class="font-text-title font-weight-bold"><i class="fas fa-code"></i> Technical</h2></a>                    
-                </div>
-
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card" href="pgs/technical.html#data" role="button"><h2 class="font-text-title font-weight-bold"><i class="fas fa-chart-pie"></i> Data</h2></a>                    
-                </div>
-    
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card" href="pgs/technical.html#technology" role="button"><h2 class="font-text-title font-weight-bold"><i class="fas fa-tools"></i> Technology</h2></a>                    
-                </div>
-
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card" href="pgs/technical.html#landscape" role="button"><h2 class="font-text-title font-weight-bold"><i class="fas fa-image"></i> Landscape</h2></a>                    
-                </div>
-    
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card" href="pgs/systems.html" role="button"><h2 class="font-text-title font-weight-bold"><i class="fas fa-bolt"></i> Systems</h2></a>
-                </div>
-    
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card"><h2 class="font-text-title font-weight-bold"><i class="fas fa-chess"></i> Articles</h2></a>
-                </div>
-    
-                <div class="col-xm-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                    <a class="btn button-card"><h2 class="font-text-title font-weight-bold"><i class="fas fa-palette"></i> Portfolio</h2></a>
                 </div>
             </div>
         </div>

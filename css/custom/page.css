@@ -209,7 +209,7 @@ body {
 }
 
 .body-content {
-    margin-top: -150px;
+    margin-top: -200px;
 }
 
 .head-margin {
@@ -235,7 +235,6 @@ a {
 
 a:hover {
     color: #111;
-    font-weight: bold;
     text-decoration: none;
 }  
  
@@ -272,6 +271,12 @@ a:hover {
 }
 
 /* SESSION */
+.background-dark-main-header {
+    background-color: #111;
+
+    height: 500px;
+}
+
 .background-dark {
     background-color: #111;
 }

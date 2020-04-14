@@ -9,3 +9,8 @@
 .carousel-indicators li {
     background-color: #111;
 }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
