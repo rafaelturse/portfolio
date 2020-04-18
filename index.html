@@ -218,8 +218,24 @@
                         <div id="sidebar-menu">
                             <div class="font-skill tab-content borderless my-4">
                                 <nav class="nav nav-pills flex-column flex-md-row font-pills-title mb-2">
-                                    <a class="flex-md-fill text-md-center nav-link m-2 active" data-toggle="tab" href="#content-popular"><i class="fas fa-fire mr-2"></i>POPULAR</a>
-                                    <a class="flex-md-fill text-md-center nav-link m-2" data-toggle="tab" href="#content-archive"><i class="fas fa-archive mr-2"></i>ARCHIVE</a>
+                                    <a id="topPosts" class="flex-md-fill text-md-center nav-link m-2 active" data-toggle="tab" href="#content-popular" 
+                                        onmouseover="showText('topPosts', 'topPostsText', 'TOP')" 
+                                        onmouseout="hideText('topPostsText')">
+                                        <i class="fas fa-fire mr-2"></i> 
+                                        <span id="topPostsText"></span>
+                                    </a>
+                                    <a id="newPosts" class="flex-md-fill text-md-center nav-link m-2" data-toggle="tab" href="#content-newPosts"
+                                        onmouseover="showText('newPosts', 'newText', 'NEW')" 
+                                        onmouseout="hideText('newText')">
+                                        <i class="fas fa-rocket mr-2"></i>
+                                        <span id="newText"></span>
+                                    </a>
+                                    <a id="archive" class="flex-md-fill text-md-center nav-link m-2" data-toggle="tab" href="#content-archive"
+                                        onmouseover="showText('archive', 'archiveText', 'ARCHIVE')" 
+                                        onmouseout="hideText('archiveText')">
+                                        <i class="fas fa-archive mr-2"></i>
+                                        <span id="archiveText"></span>
+                                    </a>
                                 </nav>
 
                                 <!-- POPULAR -->
@@ -379,6 +395,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>AOS.init();</script>
-    <script src="js/custom/menu.js"></script>
+    <script src="js/custom/utils.js"></script>
 </body>
 </html>
