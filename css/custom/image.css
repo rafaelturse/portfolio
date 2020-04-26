@@ -12,6 +12,21 @@
     color: #333 !important;
 }
 
+.icon-main-posts {
+    font-size: 100px;
+    color: #333 !important;
+}
+
+.icon-top-posts {
+    font-size: 40px;
+    color: #333 !important;
+}
+
+.icon-text-light {
+    font-size: 40px;
+    color: #E9E9E9;
+}
+
 /* IMAGE */
 .image-company {
     max-height: 200px;

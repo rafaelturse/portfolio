@@ -40,6 +40,11 @@
     letter-spacing: 1px;
 }
 
+.text-describe-light {
+    color: #E9E9E9 !important;
+    letter-spacing: 1px;
+}
+
 .text-footer-dark { color: #777; } .text-footer-dark:hover { color: #999; }
 .text-footer-dark-title { color: #999; }
 .text-footer-dark-title:hover { color: #BBB; }

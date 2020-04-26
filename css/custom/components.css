@@ -63,6 +63,31 @@
     background-color: #FFC107;
 }
 
+/* COLOR */
+.blue {
+    color: #17A2b8 !important;
+}
+
+.green {
+    color: #28A745 !important;
+}
+
+.red {
+    color: #DC3545 !important;
+}
+
+.purple {
+    color: #a317b8 !important;
+}
+
+.yellow {
+    color: #FFC107 !important;
+}
+
+.light {
+    color: #E9E9E9 !important;
+}
+
 /* BROWSER BARS */
 ::-webkit-scrollbar {
     width: 10px;
@@ -86,7 +111,7 @@
 }
 
 .social-button-github {
-    background-color: #ccc;
+    background-color: #E9E9E9;
     color: #333;
 
     border-left: #333 solid 5px;
@@ -99,7 +124,7 @@
 }
 
 .social-button-facebook {
-    background-color: #ccc;
+    background-color: #E9E9E9;
     color: #333;
 
     border-left: #3b5998 solid 5px;
@@ -112,7 +137,7 @@
 }
 
 .social-button-instagram {
-    background-color: #ccc;
+    background-color: #E9E9E9;
     color: #333;
 
     border-left: #BC1888 solid 5px;
@@ -125,7 +150,7 @@
 }
 
 .social-button-linkedin {
-    background-color: #ccc;
+    background-color: #E9E9E9;
     color: #333;
 
     border-left: #0e76a8 solid 5px;
@@ -138,7 +163,7 @@
 }
 
 .social-button-twitter {
-    background-color: #ccc;
+    background-color: #E9E9E9;
     color: #333;
 
     border-left: #1dcaff solid 5px;
@@ -151,7 +176,7 @@
 }
 
 .social-button-youtube {
-    background-color: #ccc;
+    background-color: #E9E9E9;
     color: #333;
 
     border-left: #FF0000 solid 5px;
@@ -300,7 +325,6 @@
 
     width: 30px;
 }
-
 .underline-light.underline {
     border-color: #F9F9F9;
 }
@@ -308,7 +332,36 @@
     border-color: #333;
 }
 
+.underline-separator {
+    content: '';
+    display: block;
+    
+    border-style: solid;
+    border-top: 1px;
+
+    width: 99%;
+}
+.underline-separator-light.underline-separator {
+    border-color: #F9F9F9;
+}
+.underline-separator-dark.underline-separator {
+    border-color: #333;
+}
+
 /* UTILS */
 .badge:hover {
     opacity: 0.9;
+}
+
+/* ACCORDION */
+.extra-area {
+    background-color:#333;
+
+    border-radius:  5px;
+}
+
+/* FACEBOOK */
+.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+    max-width: 100% !important;
+    width: 100% !important;
 }

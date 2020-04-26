@@ -204,7 +204,7 @@
         <!-- EDUCATION TABLE -->
         <div id="education" class="d-flex justify-content-end mt-5 mr-3"><a href="#top"><i class="mark-indicator-dark fas fa-angle-up"></i></a></div>
         <div class="container mt-5">
-            <div class="row"><h1 class="text-title-dark font-text-title font-weight-bold mx-auto"><i class="fas fa-user-graduate mr-2"></i>Education</h1></div>
+            <div class="row"><h1 class="text-title-dark font-text-title font-weight-bold mx-auto"><i class="fas fa-graduation-cap mr-2"></i>Education</h1></div>
             <span class="underline underline-dark mx-auto"></span>
 
             <!-- SCHOOLING -->
@@ -944,19 +944,141 @@
             </div>
         </div>
 
-        <!-- CAREER 
-
-            minimizado (titulo discovery a direita)
-                texto com resumo
-                labels com tecnologias
-
-        -->
+        <!-- CAREER -->
         <div id="career" class="d-flex justify-content-end mt-5 mr-3"><a href="#top"><i class="mark-indicator-dark fas fa-angle-up"></i></a></div>
         <div class="container font-text mt-5">
             <div class="row"><h1 class="text-title-dark font-text-title font-weight-bold mx-auto"><i class="fas fa-briefcase mr-2"></i>Career</h1></div>
             <span class="underline underline-dark mx-auto mb-4"></span>
-    
-            <div id="technologyTimeLineChart" class="d-flex justify-content-center my-3" style="width: 100%"></div>
+
+            <div id="technologyTimeLineChart" class="d-flex justify-content-center mt-5 mb-3"></div>
+                
+            <!-- CAREER EXTRA CONTEXT -->
+            <div class="container extra-area">
+                <div class="pt-4 pr-2"> 
+                    <h4 class="d-flex justify-content-end text-light"> <i class="fas fa-hourglass-start"></i></h4>
+                </div>
+                <div class="p-4">
+                    <div id="careerExtraContent" class="accordion">
+                        <div>
+                            <div id="careerSummary">
+                                <i class="fas fa-circle fa-xs text-light"></i> 
+                                <a class="btn btn-link" type="button" data-toggle="collapse" data-target="#careerSummaryText" aria-expanded="true" aria-controls="careerSummaryText">
+                                    <h4 class="text-title-light font-text-title">Summary</h4>
+                                </a>
+                            </div>
+                            <div id="careerSummaryText" class="collapse font-text text-describe-light" aria-labelledby="careerSummary" data-parent="#careerExtraContent">
+                                <span class="underline-separator underline-separator-light mx-auto mb-4"></span>
+                                <div class="px-2 mb-5">
+                                    <p class="mb-4">
+                                        <i class="fas fa-headset icon-text-light red mr-2"></i> My gateway to the IT world was through 
+                                        <em>technical support</em> to <em>broadband internet</em>.
+                                    </p>
+                                    <p class="mb-4">
+                                        <i class="fas fa-running icon-text-light yellow mr-2"></i> I went on with <em>technical support</em> for bank branches and then 
+                                        repairing and configuring <em>programs and parts for computers</em>,  <em>printers</em>, <em>networks</em>, in addition to providing 
+                                        support to internal store customers to operate the system correctly.
+                                    </p>
+                                    <p class="mb-4">
+                                        <i class="fas fa-cogs icon-text-light blue mr-2"></i> I then became an  <em>ERP programmer</em>, 
+                                        using <span class="badge badge-light m-1">Delphi</span> and <span class="badge badge-light m-1">SQL</span>. After a few years 
+                                        I also worked with <em>Business Intelligence</em> and <span class="badge badge-light m-1">ETL</span>, making advanced use of 
+                                        database tools.
+                                    </p>
+                                    <p class="mb-4">
+                                        <i class="fas fa-code icon-text-light green mr-2"></i> When I started with <span class="badge badge-light m-1">Java</span>, 
+                                        I mainly used <span class="badge badge-light m-1">JSP</span>, <span class="badge badge-light m-1">JSF</span>, 
+                                        <span class="badge badge-light m-1">Spring</span> and <span class="badge badge-light m-1">DevOps</span> to develop 
+                                        <em>WEB applications</em>, becoming a <em">backend programming professional</em> and after a while, a 
+                                        <span class="badge badge-light m-1">Fullstack developer</span>, where I work strongly with the latest in 
+                                        <span class="badge badge-light m-1">Java</span> and <span class="badge badge-light m-1">Javascript</span>.
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-paint-brush icon-text-light purple mr-2"></i> Currently I have invested a lot in <span class="badge badge-light m-1">design</span>, studying technologies of 
+                                        <span class="badge badge-light m-1">usability</span>, <span class="badge badge-light m-1">design</span>, 
+                                        <span class="badge badge-light m-1">frontend</span>, <span class="badge badge-light m-1">motion design</span> and 
+                                        <span class="badge badge-light m-1">digital illustration</span> for logo animations
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div id="careerTechnologies">
+                                <i class="fas fa-circle fa-xs text-light"></i> 
+                                <a class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#careerTechnologiesText" aria-expanded="false" aria-controls="careerTechnologiesText">
+                                    <h4 class="text-title-light font-text-title">Technologies in jobs</h4>
+                                </a>
+                            </div>
+                            <div id="careerTechnologiesText" class="collapse font-text text-describe-light" aria-labelledby="careerTechnologies" data-parent="#careerExtraContent">
+                                <div class="px-2 mb-5">
+                                    <span class="underline-separator underline-separator-light mx-auto mb-4"></span>
+                                    <p class="card-text text-describe-dark">
+                                        <span class="badge badge-light m-1">Delphi</span>
+                                        <span class="badge badge-light m-1">Java</span>
+                                        <span class="badge badge-light m-1">JSP</span>
+                                        <span class="badge badge-light m-1">JSF</span>
+                                        <span class="badge badge-light m-1">Spring Boot</span>
+                                        <span class="badge badge-light m-1">MVC</span>
+                                        <span class="badge badge-light m-1">Reflection</span>
+                                        <span class="badge badge-light m-1">HTML</span>
+                                        <span class="badge badge-light m-1">CSS</span>
+                                        <span class="badge badge-light m-1">Bootstrap</span>
+                                        <span class="badge badge-light m-1">Javascript</span>
+                                        <span class="badge badge-light m-1">JQuery</span>
+                                        <span class="badge badge-light m-1">Ajax</span>
+                                        <span class="badge badge-light m-1">XHTML</span>
+                                        <span class="badge badge-light m-1">XML</span>
+                                        <span class="badge badge-light m-1">Primefaces</span>
+                                        <span class="badge badge-light m-1">Mentawai</span>
+                                        <span class="badge badge-light m-1">Apache Shiro</span>
+                                        <span class="badge badge-light m-1">JDBC</span>
+                                        <span class="badge badge-light m-1">JPA</span>
+                                        <span class="badge badge-light m-1">Spring Data-JPA</span>
+                                        <span class="badge badge-light m-1">Hibernate</span>
+                                        <span class="badge badge-light m-1">Hibernate Envers</span>
+                                        <span class="badge badge-light m-1">Criteria</span>
+                                        <span class="badge badge-light m-1">HQL</span>
+                                        <span class="badge badge-light m-1">JPQL</span>
+                                        <span class="badge badge-light m-1">Flyway</span>
+                                        <span class="badge badge-light m-1">Apache Derby (JavaDB)</span>
+                                        <span class="badge badge-light m-1">DBeaver</span>
+                                        <span class="badge badge-light m-1">MySQL</span>
+                                        <span class="badge badge-light m-1">SQL Server</span>
+                                        <span class="badge badge-light m-1">Oracle SQL Developer</span>
+                                        <span class="badge badge-light m-1">Integration Services</span>
+                                        <span class="badge badge-light m-1">Rave Reports</span>
+                                        <span class="badge badge-light m-1">Apache POI</span>
+                                        <span class="badge badge-light m-1">Jasper Reports</span>  
+                                        <span class="badge badge-light m-1">WinSCP</span>
+                                        <span class="badge badge-light m-1">Tortoise SVN</span>
+                                        <span class="badge badge-light m-1">Git</span>
+                                        <span class="badge badge-light m-1">GitLab</span>
+                                        <span class="badge badge-light m-1">Jenkins</span>
+                                        <span class="badge badge-light m-1">Tomcat</span>
+                                        <span class="badge badge-light m-1">WildFly</span>
+                                        <span class="badge badge-light m-1">Websphere</span>
+                                        <span class="badge badge-light m-1">JUnit</span>
+                                        <span class="badge badge-light m-1">Log4J</span>
+                                        <span class="badge badge-light m-1">Quartz</span>
+                                        <span class="badge badge-light m-1">Spring Batch</span>
+                                        <span class="badge badge-light m-1">NetBeans</span>
+                                        <span class="badge badge-light m-1">Eclipse</span>
+                                        <span class="badge badge-light m-1">IntelliJ IDEA</span>
+                                        <span class="badge badge-light m-1">STS Spring Tools Suite</span>
+                                        <span class="badge badge-light m-1">REST / Restful API</span>
+                                        <span class="badge badge-light m-1">Postman</span>
+                                        <span class="badge badge-light m-1">Apache Maven</span>
+                                        <span class="badge badge-light m-1">Docker</span>
+                                        <span class="badge badge-light m-1">Micro Services</span>
+                                        <span class="badge badge-light m-1">Google Cloud Platform</span>
+                                        <span class="badge badge-light m-1">Google MAPs API</span>
+                                        <span class="badge badge-light m-1">Fedora Linux</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="card border-0 my-5">
                 <div class="row r-100 no-gutters">
@@ -967,7 +1089,7 @@
                                 <div class="col-lg-4 col-xl-3 text-right"><small class="text-muted text-hover">apr/2019 - today</small></div>
                                 <div class="col-lg-8 col-xl-9">
                                     <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-code mr-2"></i>Java Developer</h2> 
-                                    <small class="text-muted">Fundação Carlos Chagas</small>
+                                    <i class="fas fa-building mr-2"></i><small class="text-muted">Fundação Carlos Chagas</small>
                                 </div>
                                 <div class="row mt-3 p-3">
                                     <div class="col-12">
@@ -1008,7 +1130,7 @@
                                             <span class="badge badge-dark m-1">Spring Boot</span>
                                             <span class="badge badge-dark m-1">Spring Data-JPA</span>
                                             <span class="badge badge-dark m-1">IntelliJ IDEA</span> and
-                                            <span class="badge badge-dark m-1">Eclipse</span>.
+                                            <span class="badge badge-dark m-1">Eclipse</span>
                                         </p>
 
                                         <strong>Main Projects:</strong>
@@ -1018,6 +1140,13 @@
                                             <li>Systems of billet generation, remittance files and return banking files handling.</li>
                                         </ul>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center w-auto">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.6249897670828!2d-46.7178206850219!3d-23.58190843467261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce56fb7f2979bf%3A0x17e0646c2cb7d6a1!2sFunda%C3%A7%C3%A3o%20Carlos%20Chagas!5e0!3m2!1sen!2sca!4v1587681579030!5m2!1sen!2sca" 
+                                        width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                                    </iframe>
                                 </div>
                             </div>
                         </div>
@@ -1035,7 +1164,7 @@
                                 <div class="col-lg-4 col-xl-3 text-right"><small class="text-muted text-hover">oct/2018 - apr/2019</small></div>
                                 <div class="col-lg-8 col-xl-9">
                                     <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-code mr-2"></i>Java Developer</h2> 
-                                    <small class="text-muted">Samsung SDS Cello Logistics (Latin America)</small>
+                                    <i class="fas fa-building mr-2"></i><small class="text-muted">Samsung SDS Cello Logistics (Latin America)</small>
                                 </div>
                                 <div class="row mt-3 p-3">
                                     <div class="col-12">
@@ -1052,6 +1181,7 @@
                                             <span class="badge badge-dark m-1">JavaScript</span>
                                             <span class="badge badge-dark m-1">Ajax</span>
                                             <span class="badge badge-dark m-1">XML</span>
+                                            <span class="badge badge-dark m-1">Apache Maven</span>
                                             <span class="badge badge-dark m-1">JSF</span>
                                             <span class="badge badge-dark m-1">Primefaces</span>
                                             <span class="badge badge-dark m-1">XHTML</span>
@@ -1070,7 +1200,7 @@
                                             <span class="badge badge-dark m-1">Docker</span>
                                             <span class="badge badge-dark m-1">Spring Boot</span>
                                             <span class="badge badge-dark m-1">Spring Data-JPA</span> and
-                                            <span class="badge badge-dark m-1">Eclipse</span>.
+                                            <span class="badge badge-dark m-1">Eclipse</span>
                                         </p>
 
                                         <strong>Main Projects:</strong>
@@ -1080,6 +1210,12 @@
                                             <li>Gerdau - Tracking of Bucket.</li>
                                         </ul>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center w-auto">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.4326809394906!2d-46.70375408535436!3d-23.624670869817578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce50dc8b722e33%3A0x67affaf291c79aa0!2sSamsung%20SDS%20Global%20SCL%20Latin%20America!5e0!3m2!1sen!2sca!4v1587682936521!5m2!1sen!2sca" 
+                                        width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -1097,7 +1233,7 @@
                                 <div class="col-lg-4 col-xl-3 text-right"><small class="text-muted text-hover">jul/2017 - oct/2018</small></div>
                                 <div class="col-lg-8 col-xl-9">
                                     <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-code mr-2"></i>Java Analyst Programmer</h2> 
-                                    <small class="text-muted">Magna Sistemas</small>
+                                    <i class="fas fa-building mr-2"></i><small class="text-muted">Magna Sistemas</small>
                                 </div>
                                 <div class="row mt-3 p-3">
                                     <div class="col-12">
@@ -1107,6 +1243,7 @@
                                             <span class="badge badge-dark m-1">Java 8</span>
                                             <span class="badge badge-dark m-1">Reflection</span>
                                             <span class="badge badge-dark m-1">MVC</span>
+                                            <span class="badge badge-dark m-1">Apache Maven</span>
                                             <span class="badge badge-dark m-1">JSF</span>
                                             <span class="badge badge-dark m-1">Primefaces</span>
                                             <span class="badge badge-dark m-1">XHTML</span>
@@ -1136,7 +1273,7 @@
                                             <span class="badge badge-dark m-1">Spring Boot</span>
                                             <span class="badge badge-dark m-1">Spring Data-JPA</span>,
                                             <span class="badge badge-dark m-1">Spring Batch</span> and 
-                                            <span class="badge badge-dark m-1">Eclipse</span>.
+                                            <span class="badge badge-dark m-1">Eclipse</span>
                                         </p>
 
                                         <strong>Main Projects:</strong>
@@ -1146,6 +1283,12 @@
                                             <li>Implementation of the Integrated System of Fines of Detran (State Department of Transit of São Paulo).</li>
                                         </ul>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center w-auto">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0288204798085!2d-46.686625485355776!3d-23.567408367699958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5776774592a9%3A0xafad307805963e69!2sMagna%20Sistemas!5e0!3m2!1sen!2sca!4v1587683757123!5m2!1sen!2sca" 
+                                        width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -1163,7 +1306,7 @@
                                 <div class="col-lg-4 col-xl-3 text-right"><small class="text-muted text-hover">mar/2016 - jun/2017</small></div>
                                 <div class="col-lg-8 col-xl-9">
                                     <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-code mr-2"></i>Java Developer</h2> 
-                                    <small class="text-muted">MMCS Sistemas</small>
+                                    <i class="fas fa-building mr-2"></i><small class="text-muted">MMCS Sistemas</small>
                                 </div>
                                 <div class="row mt-3 p-3">
                                     <p class="card-text text-describe-dark">
@@ -1171,6 +1314,7 @@
                                         Development of Web Application for Freight Forwarding with 
                                         <span class="badge badge-dark m-1">Java 8</span>
                                         <span class="badge badge-dark m-1">Reflection</span>
+                                        <span class="badge badge-dark m-1">Apache Maven</span>
                                         <span class="badge badge-dark m-1">JSF</span>
                                         <span class="badge badge-dark m-1">Primefaces</span>
                                         <span class="badge badge-dark m-1">HTML</span>
@@ -1193,8 +1337,14 @@
                                         <span class="badge badge-dark m-1">Apache POI</span>
                                         <span class="badge badge-dark m-1">Jasper Reports</span>  
                                         <span class="badge badge-dark m-1">NetBeans</span> and
-                                        <span class="badge badge-dark m-1">Fedora Linux. POI</span>.
+                                        <span class="badge badge-dark m-1">Fedora Linux</span>
                                     </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center w-auto">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.641546398695!2d-46.64348698535632!3d-23.545391566887112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce585210199c93%3A0x609eb7e44c6622e6!2sMMCS%20do%20Brasil%20Servi%C3%A7os%20de%20Inform%C3%A1tica!5e0!3m2!1sen!2sca!4v1587683539683!5m2!1sen!2sca" 
+                                        width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -1212,14 +1362,21 @@
                                 <div class="col-lg-4 col-xl-3 text-right"><small class="text-muted text-hover">jun/2015 - mar/2016</small></div>
                                 <div class="col-lg-8 col-xl-9">
                                     <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-database mr-2"></i>Business Intelligence Analyst</h2> 
-                                    <small class="text-muted">IBOPE DTM Marketing de Relacionamento</small>
+                                    <i class="fas fa-building mr-2"></i><small class="text-muted">IBOPE DTM Marketing de Relacionamento</small>
                                 </div>
                                 <div class="row mt-3 p-3">
                                     <p class="card-text text-describe-dark">
-                                        Marketing campaigns management, database analysis with <span class="badge badge-dark m-1">SQL Server 2015</span>
+                                        Marketing campaigns management, database analysis with 
+                                        <span class="badge badge-dark m-1">SQL Server 2015</span>
                                         <span class="badge badge-dark m-1">Oracle SQL Developer</span> and 
-                                        <span class="badge badge-dark m-1">ETL with Integration Services</span>.
+                                        <span class="badge badge-dark m-1">ETL with Integration Services</span>
                                     </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center w-auto">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.1858080542297!2d-46.6760658853569!3d-23.525818566165043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd7fa49d7d%3A0x1961e8565a2a5ddc!2sIBOPE%20DTM!5e0!3m2!1sen!2sca!4v1587684015710!5m2!1sen!2sca" 
+                                        width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -1237,15 +1394,22 @@
                                 <div class="col-lg-4 col-xl-3 text-right"><small class="text-muted text-hover">may/2014 - apr/2015</small></div>
                                 <div class="col-lg-8 col-xl-9">
                                     <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-code mr-2"></i>Delphi Developer</h2> 
-                                    <small class="text-muted">Siscart</small>
+                                    <i class="fas fa-building mr-2"></i><small class="text-muted">Siscart</small>
                                 </div>
                                 <div class="row mt-3 p-3">
                                     <p class="card-text text-describe-dark">
                                         Development of systems for registry offices with 
                                         <span class="badge badge-dark m-1">Delphi 4</span>
                                         <span class="badge badge-dark m-1">Tortoise SVN</span>
-                                        <span class="badge badge-dark m-1">MySQL 4</span> and <span class="badge badge-dark m-1">Reve Reports</span>.
+                                        <span class="badge badge-dark m-1">MySQL 4</span> and 
+                                        <span class="badge badge-dark m-1">Reve Reports</span>
                                     </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center w-auto">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5170.042047621802!2d-46.635835245824545!3d-23.612516041754123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a23dd383585%3A0xcf9f4b2ea78a693f!2sSiscart%20Sistemas!5e0!3m2!1sen!2sca!4v1587684280433!5m2!1sen!2sca" 
+                                        width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -1263,16 +1427,23 @@
                                 <div class="col-lg-4 col-xl-3 text-right"><small class="text-muted text-hover">jun/2011 - feb/2014</small></div>
                                 <div class="col-lg-8 col-xl-9">
                                     <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-code mr-2"></i>Delphi Developer</h2> 
-                                    <small class="text-muted">Livraria Cultura S.A</small>
+                                    <i class="fas fa-building mr-2"></i><small class="text-muted">Livraria Cultura S.A</small>
                                 </div>
                                 <div class="row mt-3 p-3">
                                     <p class="card-text text-describe-dark">
                                         Analysis and development of ERP System with 
                                         <span class="badge badge-dark m-1">Tortoise SVN</span>
                                         <span class="badge badge-dark m-1">SQL Server 2005</span>
-                                        <span class="badge badge-dark m-1">Delphi 2007</span> and <span class="badge badge-dark m-1">Rave Reports</span>.
+                                        <span class="badge badge-dark m-1">Delphi 2007</span> and 
+                                        <span class="badge badge-dark m-1">Rave Reports</span>
                                         <p class="mt-3"><strong>Main Project</strong>: Development of the Customer Support module, with CRUD and reports.</p>
                                     </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center w-auto">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2705517043823!2d-46.662325885356!3d-23.55872466737929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd631ba419%3A0xf4ddea8a1b94701f!2sLivraria%20Cultura%20-%20Conjunto%20Nacional!5e0!3m2!1sen!2sca!4v1587684333699!5m2!1sen!2sca" 
+                                        width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -1290,14 +1461,20 @@
                                 <div class="col-lg-4 col-xl-3 text-right"><small class="text-muted text-hover">feb/2011 - jun/2011</small></div>
                                 <div class="col-lg-8 col-xl-9">
                                     <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-running mr-2"></i>Technical Support</h2> 
-                                    <small class="text-muted">Livraria Cultura S.A</small>
+                                    <i class="fas fa-building mr-2"></i><small class="text-muted">Livraria Cultura S.A</small>
                                 </div>
                                 <div class="row mt-3 p-3">
                                     <p class="card-text text-describe-dark">
                                         On-site technical support to Livria Cultura stores and logistics. Assembly and maintenance of computers; computer network configuration; 
                                         configuration and maintenance of printers, fiscal printers; manages technical calls; internal customer support for various processes in 
-                                        store ERP.
+                                        store ERP
                                     </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center w-auto">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.2705517043823!2d-46.662325885356!3d-23.55872466737929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59cd631ba419%3A0xf4ddea8a1b94701f!2sLivraria%20Cultura%20-%20Conjunto%20Nacional!5e0!3m2!1sen!2sca!4v1587684333699!5m2!1sen!2sca" 
+                                        width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -1315,12 +1492,18 @@
                                 <div class="col-lg-4 col-xl-3 text-right"><small class="text-muted text-hover">dec/2009 - aug/2010</small></div>
                                 <div class="col-lg-8 col-xl-9">
                                     <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-headset mr-2"></i>IT auxiliary</h2> 
-                                    <small class="text-muted">Advanta Conectividade Inteligente</small>
+                                    <i class="fas fa-building mr-2"></i><small class="text-muted">Advanta Conectividade Inteligente</small>
                                 </div>
                                 <div class="row mt-3 p-3">
                                     <p class="card-text text-describe-dark">
-                                        Conducting administrative reports. Call management for technical problems in banks branches of Real and Santander banks.
+                                        Conducting administrative reports. Call management for technical problems in banks branches of Real and Santander banks
                                     </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center w-auto">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2393.378397553082!2d-46.725260513185056!3d-23.653757780907444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce510a497278bb%3A0xe92fa56aeea18f3c!2sPanamerica%20Park!5e0!3m2!1sen!2sca!4v1587684210113!5m2!1sen!2sca" 
+                                        width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -1338,12 +1521,18 @@
                                 <div class="col-lg-3 col-xl-2 text-right"><small class="text-muted text-hover">feb/2008 - jul/2009</small></div>
                                 <div class="col-lg-9 col-xl-10">
                                     <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-headset mr-2"></i>Technical Support</h2> 
-                                    <small class="text-muted">Atento Brasil</small>
+                                    <i class="fas fa-building mr-2"></i><small class="text-muted">Atento Brasil</small>
                                 </div>
                                 <div class="row mt-3 p-3">
                                     <p class="card-text text-describe-dark">
-                                        Broadband Support; home network configuration; formatting and configuration of operating systems and miscellaneous programs.
+                                        Broadband Support; home network configuration; formatting and configuration of operating systems and miscellaneous programs
                                     </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col d-flex justify-content-center w-auto">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29269.241005122018!2d-46.69865856044919!3d-23.508928399999974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8179a085997%3A0x66d19018258faad9!2sAtento%20Brasil!5e0!3m2!1sen!2sca!4v1587684396239!5m2!1sen!2sca" 
+                                        width="100%" height="100px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -1352,6 +1541,12 @@
                 </div>
             </div>
         </div>    
+        
+            <!-- FACEBOOK COMMENTS API
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0"></script>
+            <div class="fb-comments" data-href="http://www.http://www.rafaelturse.ca/pgs/professional.html" data-numposts="3" data-width="500px"></div>
+             -->
     </div>
                  
     <!-- FOOTER -->
