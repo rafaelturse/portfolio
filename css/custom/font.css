@@ -54,6 +54,11 @@
     letter-spacing: 1px;
 }
 
+.font-social {
+    font-family: 'Gloria Hallelujah', cursive;
+    letter-spacing: 1px;
+}
+
 .font-pills-title {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
