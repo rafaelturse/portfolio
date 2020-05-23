@@ -60,6 +60,9 @@ function translate() {
 var mapEn = new Map();
 /* BUTTON */
 mapEn.set("translate-button.more", "more");
+/* LABEL */
+mapEn.set("translate-label.english", "English");
+mapEn.set("translate-label.portuguese", "Portuguese");
 /* TEXT */
 mapEn.set("translate-text.articles.describe", "Articles and thoughts almost always about technology and software development, but also about places, music, films, series, books and everything else");
 mapEn.set("translate-text.professional.short-describe", "Information about education, career and profile");
@@ -73,6 +76,9 @@ mapEn.set("translate-title.technical", "Technical");
 var mapPtBr = new Map();
 /* BUTTON */
 mapPtBr.set("translate-button.more", "mais");
+/* LABEL */
+mapPtBr.set("translate-label.english", "Inglês");
+mapPtBr.set("translate-label.portuguese", "Português");
 /* TEXT */
 mapPtBr.set("translate-text.articles.describe", "Artigos e pensamento quase sempre sobre técnologia e desenvolvimento de software, mas também sobre lugares, música, filmes, séries, livros e tudo mais");
 mapPtBr.set("translate-text.professional.short-describe", "Informação sobre educação, carreira e perfil");
