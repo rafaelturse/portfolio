@@ -47,11 +47,14 @@ function classExists(item) { return document.getElementById(item).classList.cont
 /* ACTION */
 function doClick(id) { document.getElementById(id).click(); }
 
-/* VISIBILITY */
+/* VISIBILITY 
+document.getElementById(item).style.visibility = "visible";
+document.getElementById(item).style.visibility = "hidden";
+*/
 function visibility(item, status) {
     if (status) {
-        document.getElementById(item).style.visibility = "visible";
+        document.getElementById(item).style.display = "inline";
     } else {
-        document.getElementById(item).style.visibility = "hidden";
+        document.getElementById(item).style.display = "none";
     }
 }
