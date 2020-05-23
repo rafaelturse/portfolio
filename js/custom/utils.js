@@ -21,6 +21,11 @@ window.onload = function pageLoad() {
     }
 }
 
+/* URL */
+function getUrl() {
+    return window.location.href;
+}
+
 /* TEXT */
 function showText(itemModifyClass, itemModifyText, text) { 
     if (!classExists(itemModifyClass)) {
@@ -41,3 +46,12 @@ function classExists(item) { return document.getElementById(item).classList.cont
 
 /* ACTION */
 function doClick(id) { document.getElementById(id).click(); }
+
+/* VISIBILITY */
+function visibility(item, status) {
+    if (status) {
+        document.getElementById(item).style.visibility = "visible";
+    } else {
+        document.getElementById(item).style.visibility = "hidden";
+    }
+}
