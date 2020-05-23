@@ -113,6 +113,7 @@ mapEn.set("translate-text.systems.describe", "The best reasons for you to convin
 mapEn.set("translate-text.technical.describe", "Information about my development skills, programming languages, charts and other dev stuffs");
 mapEn.set("translate-text.technical.short-describe", "Information about development skills and programming languages");
 /* TITLE */
+mapEn.set("translate-title.celebrate", "Celebrate");
 mapEn.set("translate-title.resume", "Resume");
 mapEn.set("translate-title.technical", "Technical");
 
@@ -153,5 +154,6 @@ mapPtBr.set("translate-text.systems.describe", "Os melhores motivos para você s
 mapPtBr.set("translate-text.technical.describe", "Informação sobre minhas habilidades de desenvolvimento, linguagens de programação, gráficos e outras coisas");
 mapPtBr.set("translate-text.technical.short-describe", "Informação sobre minhas habilidades de desenvolvimento e linguagens de programação");
 /* TITLE */
+mapPtBr.set("translate-title.celebrate", "Comemore");
 mapPtBr.set("translate-title.resume", "Currículo");
 mapPtBr.set("translate-title.technical", "Técnico");
