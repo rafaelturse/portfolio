@@ -5,9 +5,7 @@ var utils = document.createElement('script').src = 'utils.js';
 window.onload = function pageLoad() {
     visibility("overlay-loader", true);
 
-    translate();
-
-    setDefaultTranslateBox();
+    translateProcess();
 
     visibility("overlay-loader", false);
 }
@@ -29,6 +27,11 @@ function translate() {
     }
 }
 */
+
+function translateProcess() {
+    translate();
+    setDefaultTranslateBox();
+}
 
 function setDefaultTranslateBox() {
     if (this.getUrl().includes("?lg=en")) {
