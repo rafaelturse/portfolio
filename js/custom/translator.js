@@ -86,6 +86,7 @@ mapEn.set("translate-label.portuguese", "Portuguese");
 mapEn.set("translate-text.articles.describe", "Articles and thoughts almost always about technology and software development, but also about places, music, films, series, books and everything else");
 mapEn.set("translate-text.professional.short-describe", "Information about education, career and profile");
 mapEn.set("translate-text.resume.describe", "Easy to find. > Technical Page, Data Section > Resume. See in the page or download if you want, in .PDF or .DOCX");
+mapEn.set("translate-text.systems.describe", "The best reasons for you to convince yourself that you can no longer be without a strong internet identity and a modern and secure system");
 mapEn.set("translate-text.technical.describe", "Information about my development skills, programming languages, charts and other dev stuffs");
 mapEn.set("translate-text.technical.short-describe", "Information about development skills and programming languages");
 /* TITLE */
@@ -102,6 +103,7 @@ mapPtBr.set("translate-label.portuguese", "Português");
 mapPtBr.set("translate-text.articles.describe", "Artigos e pensamento quase sempre sobre técnologia e desenvolvimento de software, mas também sobre lugares, música, filmes, séries, livros e tudo mais");
 mapPtBr.set("translate-text.professional.short-describe", "Informação sobre educação, carreira e perfil");
 mapPtBr.set("translate-text.resume.describe", "Fácil de encontrar. > Página Técnica, Sessão de Dados > Currículo. Veja na página ou baixe se quiser, em .PDF ou .DOCX");
+mapPtBr.set("translate-text.systems.describe", "Os melhores motivos para você se convencer de que não pode mais ficar sem uma forte identidade na Internet e um sistema moderno e seguro");
 mapPtBr.set("translate-text.technical.describe", "Informação sobre minhas habilidades de desenvolvimento, linguagens de programação, gráficos e outras coisas");
 mapPtBr.set("translate-text.technical.short-describe", "Informação sobre minhas habilidades de desenvolvimento e linguagens de programação");
 /* TITLE */
