@@ -4,6 +4,8 @@ var utils = document.createElement('script').src = 'utils.js';
 
 window.onload = function pageLoad() {
     translate();
+
+    setDefaultTranslateBox();
 }
 
 /*
@@ -23,6 +25,20 @@ function translate() {
     }
 }
 */
+
+function setDefaultTranslateBox() {
+    if (this.getUrl().includes("?lg=en")) {
+        visibility("flag-canada-translate-box-default", true);
+        visibility("label-canada-translate-box-default", true);
+        visibility("flag-brazil-translate-box-default", false);
+        visibility("label-brazil-translate-box-default", false);
+    } else if (this.getUrl().includes("?lg=pt-br")) {
+        visibility("flag-canada-translate-box-default", false);
+        visibility("label-canada-translate-box-default", false);
+        visibility("flag-brazil-translate-box-default", true);
+        visibility("label-brazil-translate-box-default", true);
+    }
+}
 
 function setLanguage(language) {
     if (language === 'english') {
