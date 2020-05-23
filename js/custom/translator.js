@@ -24,6 +24,14 @@ function translate() {
 }
 */
 
+function setLanguage(language) {
+    if (language === 'english') {
+        window.location.replace("https://www.rafaelturse.ca?lg=en");
+    } else if (language === 'portuguese') {
+        window.location.replace("https://www.rafaelturse.ca?lg=pt-br");
+    }
+}
+
 function translate() {
     var all = document.getElementsByTagName("*");
     var targets = null;

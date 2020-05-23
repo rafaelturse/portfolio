@@ -110,6 +110,10 @@
     background-color:#111;
 }
 
+.btn {
+    border: none;
+}
+
 .social-button-github {
     background-color: #E9E9E9;
     color: #333;

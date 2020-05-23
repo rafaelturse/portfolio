@@ -47,9 +47,31 @@
 
     <!-- BODY -->
     <div class="body-content">
+        <div class="container d-flex justify-content-end">
+            <div class="dropdown">
+                <button id="dropdownLanguage" class="btn btn-dark btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span><img class="mr-2" src="art/icon/flag/icon-flag-canada.svg" width="20px" />English</span>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownLanguage">
+                    <button class="dropdown-item" type="button" onclick="setLanguage('english')">
+                        <span>
+                            <img class="mr-2" src="art/icon/flag/icon-flag-canada.svg" width="20px" />
+                            English
+                        </span>
+                    </button>
+                    <button class="dropdown-item" type="button" onclick="setLanguage('portuguese')">
+                        <span>
+                            <img class="mr-2" src="art/icon/flag/icon-flag-brazil.png" width="20px" />
+                            Portuguese
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
         <!-- CAROUSEL -->
         <div class="container mb-5">
-            <div id="mainCarousel" class="carousel slide carousel-fade py-5" data-ride="carousel">
+            <div id="mainCarousel" class="carousel slide carousel-fade mt-2 mb-5" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
                     <li data-target="#mainCarousel" data-slide-to="1"></li>
