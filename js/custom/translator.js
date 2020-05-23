@@ -3,9 +3,13 @@ var utils = document.createElement('script').src = 'utils.js';
 /* jquery replace version $("body").html($("body").html().replace(/#Resume#/g,'teste')); */
 
 window.onload = function pageLoad() {
+    visibility("overlay-loader", true);
+
     translate();
 
     setDefaultTranslateBox();
+
+    visibility("overlay-loader", false);
 }
 
 /*
@@ -52,8 +56,6 @@ function translate() {
     var all = document.getElementsByTagName("*");
     var targets = null;
 
-    visibility("overlay-loader", true);
-
     for (var i=0; i < all.length; i++) {
         if (all[i].className.length > 0) {
             if (all[i].className.includes("translate-")) {
@@ -69,8 +71,6 @@ function translate() {
             }
         }
     }
-
-    visibility("overlay-loader", false);
 }
 
 var mapEn = new Map();
