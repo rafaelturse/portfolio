@@ -102,7 +102,7 @@ var mapPtBr = new Map();
 mapPtBr.set("translate-button.more", "mais");
 /* LABEL */
 mapPtBr.set("translate-label.backend", "Backend");
-mapPtBr.set("translate-label.database", "Banco de Dados");
+mapPtBr.set("translate-label.database", "Database");
 mapPtBr.set("translate-label.devops", "DevOps");
 mapPtBr.set("translate-label.english", "Inglês");
 mapPtBr.set("translate-label.frontend", "Frontend");
