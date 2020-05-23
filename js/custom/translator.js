@@ -80,7 +80,11 @@ var mapEn = new Map();
 /* BUTTON */
 mapEn.set("translate-button.more", "more");
 /* LABEL */
+mapEn.set("translate-label.backend", "Backend");
+mapEn.set("translate-label.database", "Database");
+mapEn.set("translate-label.devops", "DevOps");
 mapEn.set("translate-label.english", "English");
+mapEn.set("translate-label.frontend", "Frontend");
 mapEn.set("translate-label.portuguese", "Portuguese");
 /* TEXT */
 mapEn.set("translate-text.articles.describe", "Articles and thoughts almost always about technology and software development, but also about places, music, films, series, books and everything else");
@@ -97,7 +101,11 @@ var mapPtBr = new Map();
 /* BUTTON */
 mapPtBr.set("translate-button.more", "mais");
 /* LABEL */
+mapPtBr.set("translate-label.backend", "Backend");
+mapPtBr.set("translate-label.database", "Banco de Dados");
+mapPtBr.set("translate-label.devops", "DevOps");
 mapPtBr.set("translate-label.english", "Inglês");
+mapPtBr.set("translate-label.frontend", "Frontend");
 mapPtBr.set("translate-label.portuguese", "Português");
 /* TEXT */
 mapPtBr.set("translate-text.articles.describe", "Artigos e pensamento quase sempre sobre técnologia e desenvolvimento de software, mas também sobre lugares, música, filmes, séries, livros e tudo mais");
