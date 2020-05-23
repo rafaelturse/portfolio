@@ -33,17 +33,17 @@ function translateProcess() {
     setDefaultTranslateBox();
 }
 
-function setDefaultTranslateBox() {
-    if (this.getUrl().includes("?lg=en")) {
-        visibility("flag-canada-translate-box-default", true);
-        visibility("label-canada-translate-box-default", true);
-        visibility("flag-brazil-translate-box-default", false);
-        visibility("label-brazil-translate-box-default", false);
-    } else if (this.getUrl().includes("?lg=pt-br")) {
+function setDefaultTranslateBox() {    
+    if (this.getUrl().includes("?lg=pt-br")) {
         visibility("flag-canada-translate-box-default", false);
         visibility("label-canada-translate-box-default", false);
         visibility("flag-brazil-translate-box-default", true);
         visibility("label-brazil-translate-box-default", true);
+    } else {
+        visibility("flag-canada-translate-box-default", true);
+        visibility("label-canada-translate-box-default", true);
+        visibility("flag-brazil-translate-box-default", false);
+        visibility("label-brazil-translate-box-default", false);
     }
 }
 
