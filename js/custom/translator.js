@@ -76,6 +76,9 @@ function translate() {
     }
 }
 
+/* *** ******* *** */
+/* *** ENGLISH *** */
+/* *** ******* *** */
 var mapEn = new Map();
 /* BUTTON */
 mapEn.set("translate-button.more", "more");
@@ -123,6 +126,9 @@ mapEn.set("translate-title.resume", "Resume");
 mapEn.set("translate-title.tags", "Tags");
 mapEn.set("translate-title.technical", "Technical");
 
+/* *** ********** *** */
+/* *** PORTUGUESE *** */
+/* *** ********** *** */
 var mapPtBr = new Map();
 /* BUTTON */
 mapPtBr.set("translate-button.more", "mais");
