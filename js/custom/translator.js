@@ -117,6 +117,7 @@ mapEn.set("translate-text.technical.short-describe", "Information about developm
 /* TITLE */
 mapEn.set("translate-title.celebrate", "Celebrate");
 mapEn.set("translate-title.resume", "Resume");
+mapEn.set("translate-title.tags", "TAGS");
 mapEn.set("translate-title.technical", "Technical");
 
 var mapPtBr = new Map();
@@ -160,4 +161,5 @@ mapPtBr.set("translate-text.technical.short-describe", "Informação sobre minha
 /* TITLE */
 mapPtBr.set("translate-title.celebrate", "Comemore");
 mapPtBr.set("translate-title.resume", "Currículo");
+mapPtBr.set("translate-title.tags", "Etiquetas");
 mapPtBr.set("translate-title.technical", "Técnico");
