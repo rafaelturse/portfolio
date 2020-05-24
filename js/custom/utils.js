@@ -1,4 +1,5 @@
 var translator = document.createElement('script').src = 'translator.js';
+var url = document.createElement('script').src = 'url.js';
 
 /* PAGE LOAD */
 window.onload = function pageLoad() {
@@ -22,9 +23,6 @@ window.onload = function pageLoad() {
         doClick('devops') 
     }
 }
-
-/* URL */
-function getUrl() { return window.location.href; }
 
 /* TEXT */
 function showText(itemModifyClass, itemModifyText, text) { 

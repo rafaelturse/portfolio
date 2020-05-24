@@ -1,15 +1,5 @@
-var utils = document.createElement('script').src = 'utils.js';
-
 /* jquery replace version $("body").html($("body").html().replace(/#Resume#/g,'teste')); */
-
-window.onload = function pageLoad() {
-    visibility("overlay-loader", true);
-
-    translateProcess();
-
-    visibility("overlay-loader", false);
-}
-
+/* var utils = document.createElement('script').src = 'utils.js'; */
 /*
 function translate() {
     var all = document.getElementsByTagName("*");
@@ -28,13 +18,21 @@ function translate() {
 }
 */
 
+window.onload = function pageLoad() {
+    visibility("overlay-loader", true);
+
+    translateProcess();
+
+    visibility("overlay-loader", false);
+}
+
 function translateProcess() {
     translate();
     setDefaultTranslateBox();
 }
 
 function setDefaultTranslateBox() {    
-    if (this.getUrl().includes("?lg=pt-br")) {
+    if (urlIsPortuguese()) {
         visibility("flag-canada-translate-box-default", false);
         visibility("label-canada-translate-box-default", false);
         visibility("flag-brazil-translate-box-default", true);
@@ -47,19 +45,19 @@ function setDefaultTranslateBox() {
     }
 }
 
-function setLanguage(language) {
-    if (language === 'english') {
-        window.location.replace("https://www.rafaelturse.ca?lg=en");
-    } else if (language === 'portuguese') {
-        window.location.replace("https://www.rafaelturse.ca?lg=pt-br");
+function setLanguage(i) {
+    if (i === 'english') {
+        setUrlToEnglish();
+    } else if (i === 'portuguese') {
+        setUrlToPortuguese();
     }
 }
 
-function translateByText(text) {
-    if (getUrl().includes("?lg=pt-br")) {
-        return mapPtBr.get(text)
-    } else {
-        return mapEn.get(text);
+function translateByText(i) {
+    if (urlIsPortuguese()) {
+        return mapPtBr.get(i)
+    } else if (urlIsEnglishOrDefault()) {
+        return mapEn.get(i);
     }
 }
 
@@ -73,9 +71,9 @@ function translate() {
                 targets = document.getElementsByClassName(all[i].className);
 
                 for (var j=0; j < targets.length; j++) {
-                    if (getUrl().includes("?lg=pt-br")) {
+                    if (urlIsPortuguese()) {
                         targets[j].innerHTML = mapPtBr.get(targets[j].className);
-                    } else {
+                    } else if (urlIsEnglishOrDefault()) {
                         targets[j].innerHTML = mapEn.get(targets[j].className);
                     }
                 }
