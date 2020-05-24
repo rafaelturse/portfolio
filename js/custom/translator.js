@@ -109,15 +109,18 @@ mapEn.set("translate-tags.portfolio", "Portfolio");
 /* TEXT */
 mapEn.set("translate-text.articles.describe", "Articles and thoughts almost always about technology and software development, but also about places, music, films, series, books and everything else");
 mapEn.set("translate-text.celebrate-describe", "* don't make fun of me! I can moderate this ... lol");
+mapEn.set("translate-text.professional-education-short-describe", "Education, courses, languages and certificates");
 mapEn.set("translate-text.professional.short-describe", "Information about education, career and profile");
 mapEn.set("translate-text.resume.describe", "Easy to find. > Technical Page, Data Section > Resume. See in the page or download if you want, in .PDF or .DOCX");
+mapEn.set("translate-text.resume.short-describe", "Professional developer resume to download");
 mapEn.set("translate-text.systems.describe", "The best reasons for you to convince yourself that you can no longer be without a strong internet identity and a modern and secure system");
 mapEn.set("translate-text.technical.describe", "Information about my development skills, programming languages, charts and other dev stuffs");
 mapEn.set("translate-text.technical.short-describe", "Information about development skills and programming languages");
+mapEn.set("translate-text.technical-technology-short-describe", "Techonological level of my systems developer skills");
 /* TITLE */
 mapEn.set("translate-title.celebrate", "Celebrate");
 mapEn.set("translate-title.resume", "Resume");
-mapEn.set("translate-title.tags", "TAGS");
+mapEn.set("translate-title.tags", "Tags");
 mapEn.set("translate-title.technical", "Technical");
 
 var mapPtBr = new Map();
@@ -153,11 +156,15 @@ mapPtBr.set("translate-tags.portfolio", "Portifólio");
 /* TEXT */
 mapPtBr.set("translate-text.articles.describe", "Artigos e pensamento quase sempre sobre técnologia e desenvolvimento de software, mas também sobre lugares, música, filmes, séries, livros e tudo mais");
 mapPtBr.set("translate-text.celebrate-describe", "* não me zoe! Eu posso moderar isso ... lol");
+mapPtBr.set("translate-text.professional-education-short-describe", "Educação, cursos, idiomas e certificados");
 mapPtBr.set("translate-text.professional.short-describe", "Informação sobre educação, carreira e perfil");
 mapPtBr.set("translate-text.resume.describe", "Fácil de encontrar. > Página Técnica, Sessão de Dados > Currículo. Veja na página ou baixe se quiser, em .PDF ou .DOCX");
+mapPtBr.set("translate-text.resume.short-describe", "Currículo para download");
 mapPtBr.set("translate-text.systems.describe", "Os melhores motivos para você se convencer de que não pode mais ficar sem uma forte identidade na Internet e um sistema moderno e seguro");
 mapPtBr.set("translate-text.technical.describe", "Informação sobre minhas habilidades de desenvolvimento, linguagens de programação, gráficos e outras coisas");
 mapPtBr.set("translate-text.technical.short-describe", "Informação sobre minhas habilidades de desenvolvimento e linguagens de programação");
+mapPtBr.set("translate-text.technical-technology-short-describe", "Nível tecnológico das minhas habilidades de desenvolvedor de sistemas");
+
 /* TITLE */
 mapPtBr.set("translate-title.celebrate", "Comemore");
 mapPtBr.set("translate-title.resume", "Currículo");
