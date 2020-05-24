@@ -162,7 +162,7 @@ mapPtBr.set("translate-text.resume.describe", "Fácil de encontrar. > Página T�
 mapPtBr.set("translate-text.resume.short-describe", "Currículo para download");
 mapPtBr.set("translate-text.systems.describe", "Os melhores motivos para você se convencer de que não pode mais ficar sem uma forte identidade na Internet e um sistema moderno e seguro");
 mapPtBr.set("translate-text.technical.describe", "Informação sobre minhas habilidades de desenvolvimento, linguagens de programação, gráficos e outras coisas");
-mapPtBr.set("translate-text.technical.short-describe", "Informação sobre minhas habilidades de desenvolvimento e linguagens de programação");
+mapPtBr.set("translate-text.technical.short-describe", "Informação sobre habilidades de desenvolvimento e linguagens de programação");
 mapPtBr.set("translate-text.technical-technology-short-describe", "Nível tecnológico das minhas habilidades de desenvolvedor de sistemas");
 
 /* TITLE */
