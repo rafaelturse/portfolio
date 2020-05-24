@@ -82,6 +82,7 @@ mapEn.set("translate-button.more", "more");
 /* LABEL */
 mapEn.set("translate-label.backend", "Backend");
 mapEn.set("translate-label.database", "Database");
+mapEn.set("translate-label.developed-by", "Developed by");
 mapEn.set("translate-label.devops", "DevOps");
 mapEn.set("translate-label.english", "English");
 mapEn.set("translate-label.frontend", "Frontend");
@@ -124,6 +125,7 @@ mapPtBr.set("translate-button.more", "mais");
 /* LABEL */
 mapPtBr.set("translate-label.backend", "Backend");
 mapPtBr.set("translate-label.database", "Database");
+mapPtBr.set("translate-label.developed-by", "Desenvolvido por");
 mapPtBr.set("translate-label.devops", "DevOps");
 mapPtBr.set("translate-label.english", "Inglês");
 mapPtBr.set("translate-label.frontend", "Frontend");
