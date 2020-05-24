@@ -24,9 +24,7 @@ window.onload = function pageLoad() {
 }
 
 /* URL */
-function getUrl() {
-    return window.location.href;
-}
+function getUrl() { return window.location.href; }
 
 /* TEXT */
 function showText(itemModifyClass, itemModifyText, text) { 
@@ -38,7 +36,7 @@ function showText(itemModifyClass, itemModifyText, text) {
     document.getElementById(itemModifyText).innerText = translateByText(text);
 }
 
-function hideText(id){ document.getElementById(id).innerText = ''; }
+function hideText(id) { document.getElementById(id).innerText = ''; }
 
 /* CLASS */
 function addClass(item) { document.getElementById(item).classList.add("active"); }
