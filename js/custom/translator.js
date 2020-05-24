@@ -69,7 +69,7 @@ function translate() {
                         targets[j].innerHTML = mapPtBr.get(targets[j].className);
                     } else {
                         targets[j].innerHTML = mapEn.get(targets[j].className);
-                    }        
+                    }
                 }
             }
         }
@@ -83,13 +83,16 @@ var mapEn = new Map();
 /* BUTTON */
 mapEn.set("translate-button.more", "more");
 /* LABEL */
+mapEn.set("translate-label.archive", "ARCHIVE");
 mapEn.set("translate-label.backend", "Backend");
 mapEn.set("translate-label.database", "Database");
 mapEn.set("translate-label.developed-by", "Developed by");
 mapEn.set("translate-label.devops", "DevOps");
 mapEn.set("translate-label.english", "English");
 mapEn.set("translate-label.frontend", "Frontend");
+mapEn.set("translate-label.new", "NEW");
 mapEn.set("translate-label.portuguese", "Portuguese");
+mapEn.set("translate-label.top", "TOP");
 /* TAGS */
 mapEn.set("translate-tags.personal", "Personal");
 mapEn.set("translate-tags.career", "Career");
@@ -133,13 +136,16 @@ var mapPtBr = new Map();
 /* BUTTON */
 mapPtBr.set("translate-button.more", "mais");
 /* LABEL */
+mapPtBr.set("translate-label.archive", "ARQUIVO");
 mapPtBr.set("translate-label.backend", "Backend");
 mapPtBr.set("translate-label.database", "Database");
 mapPtBr.set("translate-label.developed-by", "Desenvolvido por");
 mapPtBr.set("translate-label.devops", "DevOps");
 mapPtBr.set("translate-label.english", "Inglês");
 mapPtBr.set("translate-label.frontend", "Frontend");
+mapPtBr.set("translate-label.new", "NOVO");
 mapPtBr.set("translate-label.portuguese", "Português");
+mapPtBr.set("translate-label.top", "TOP");
 /* TAGS */
 mapPtBr.set("translate-tags.personal", "Pessoal");
 mapPtBr.set("translate-tags.career", "Carreira");
@@ -170,7 +176,6 @@ mapPtBr.set("translate-text.systems.describe", "Os melhores motivos para você s
 mapPtBr.set("translate-text.technical.describe", "Informação sobre minhas habilidades de desenvolvimento, linguagens de programação, gráficos e outras coisas");
 mapPtBr.set("translate-text.technical.short-describe", "Informação sobre habilidades de desenvolvimento e linguagens de programação");
 mapPtBr.set("translate-text.technical-technology-short-describe", "Nível tecnológico das minhas habilidades de desenvolvedor de sistemas");
-
 /* TITLE */
 mapPtBr.set("translate-title.celebrate", "Comemore");
 mapPtBr.set("translate-title.resume", "Currículo");

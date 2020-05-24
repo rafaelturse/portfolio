@@ -1,3 +1,5 @@
+var translator = document.createElement('script').src = 'translator.js';
+
 /* PAGE LOAD */
 window.onload = function pageLoad() {
     /* DATA */
@@ -32,8 +34,17 @@ function showText(itemModifyClass, itemModifyText, text) {
         doClick(itemModifyClass);
         addClass(itemModifyClass);
     }
-    
-    document.getElementById(itemModifyText).innerText = text;
+
+    document.getElementById(itemModifyText).innerText = translateByText(text);
+}
+
+/* TRANSLATE */
+function translateByText(text) {
+    if (this.getUrl().includes("?lg=pt-br")) {
+        return mapPtBr.get(text)
+    } else {
+        return mapEn.get(text);
+    }
 }
 
 function hideText(id){ document.getElementById(id).innerText = ''; }
@@ -41,7 +52,6 @@ function hideText(id){ document.getElementById(id).innerText = ''; }
 /* CLASS */
 function addClass(item) { document.getElementById(item).classList.add("active"); }
 function removeClass(item) { document.getElementById(item).classList.remove("active"); }
-
 function classExists(item) { return document.getElementById(item).classList.contains("active"); }
 
 /* ACTION */
