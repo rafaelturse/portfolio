@@ -38,15 +38,6 @@ function showText(itemModifyClass, itemModifyText, text) {
     document.getElementById(itemModifyText).innerText = translateByText(text);
 }
 
-/* TRANSLATE */
-function translateByText(text) {
-    if (this.getUrl().includes("?lg=pt-br")) {
-        return mapPtBr.get(text)
-    } else {
-        return mapEn.get(text);
-    }
-}
-
 function hideText(id){ document.getElementById(id).innerText = ''; }
 
 /* CLASS */

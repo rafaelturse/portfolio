@@ -55,6 +55,14 @@ function setLanguage(language) {
     }
 }
 
+function translateByText(text) {
+    if (getUrl().includes("?lg=pt-br")) {
+        return mapPtBr.get(text)
+    } else {
+        return mapEn.get(text);
+    }
+}
+
 function translate() {
     var all = document.getElementsByTagName("*");
     var targets = null;
@@ -65,7 +73,7 @@ function translate() {
                 targets = document.getElementsByClassName(all[i].className);
 
                 for (var j=0; j < targets.length; j++) {
-                    if (this.getUrl().includes("?lg=pt-br")) {
+                    if (getUrl().includes("?lg=pt-br")) {
                         targets[j].innerHTML = mapPtBr.get(targets[j].className);
                     } else {
                         targets[j].innerHTML = mapEn.get(targets[j].className);
