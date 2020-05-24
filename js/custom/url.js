@@ -5,11 +5,11 @@ function urlIsPortuguese() {
 }
 
 function urlIsEnglish() {
-    return getUrl().includes("?lg=pt-br");
+    return getUrl().includes("?lg=en");
 }
 
 function urlIsEnglishOrDefault() {
-    return getUrl().includes("?lg=pt-br") || !getUrl().includes("?lg=");
+    return getUrl().includes("?lg=en") || !getUrl().includes("?lg=");
 }
 
 function translateByText(text) {
