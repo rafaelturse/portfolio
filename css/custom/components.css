@@ -51,12 +51,20 @@
     background-color: #17A2b8;
 }
 
-.background-prefooter-dark-light {
-    background-color: #F3F3F3;
+.background-dark {
+    background-color: #111;
 }
 
 .background-green {
     background-color: #28A745;
+}
+
+.background-light {
+    background-color: #F9F9F9;
+}
+
+.background-prefooter-dark-light {
+    background-color: #F3F3F3;
 }
 
 .background-red {
