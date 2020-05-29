@@ -84,20 +84,25 @@
     color: #28A745 !important;
 }
 
-.red {
-    color: #DC3545 !important;
+.light {
+    color: #E9E9E9 !important;
 }
 
 .purple {
     color: #a317b8 !important;
 }
 
+.red {
+    color: #DC3545 !important;
+}
+
 .yellow {
     color: #FFC107 !important;
 }
 
-.light {
-    color: #E9E9E9 !important;
+/* CURSOR */
+.cursor-link {
+    cursor: pointer;
 }
 
 /* BROWSER BARS */

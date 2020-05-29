@@ -238,746 +238,880 @@
             </div>
         </div>
 
-        <!-- EDUCATION TABLE -->
-        <div id="education" class="d-flex justify-content-end mt-5 mr-3"><a href="#top"><i class="mark-indicator-dark fas fa-angle-up"></i></a></div>
-        <div class="container mt-5">
-            <div class="row"><h1 class="text-title-dark font-text-title font-weight-bold mx-auto"><i class="fas fa-graduation-cap mr-2"></i>Education</h1></div>
-            <span class="underline underline-dark mx-auto"></span>
+        <!-- EDUCATION -->
+        <div class="container">
+            <div class="d-flex justify-content-end mt-2 mr-3"></div>
+            <div id="education" class="d-flex justify-content-end mt-5 mr-3"><a href="#top"><i class="mark-indicator-dark fas fa-angle-up"></i></a></div>
+                <div class="container mt-5">
+                    <div class="row"><h1 class="text-title-dark font-text-title font-weight-bold mx-auto"><i class="fas fa-graduation-cap mr-2"></i>Education</h1></div>
+                    <span class="underline underline-dark mx-auto"></span>
 
-            <!-- SCHOOLING -->
-            <div class="rounded table-responsive my-5">
-                <table class="table table-sm table-borderless table-hover thead-dark text-content-dark">
-                    <thead>
-                        <tr>
-                            <th class="col-skill"><span class="font-skill-title text-skill text-light ml-3"><i class="fas fa-graduation-cap mr-2"></i>Subject</span></th>
-                            <th class="col-level"><span class="font-skill-title text-skill text-light"><i class="fas fa-level-up-alt mr-2"></i>Status</span></th>
-                            <th class="col-level"><span class="font-skill-title text-skill text-light"><i class="to-light fas fa-asterisk mr-2 mx-auto"></i></span></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="table-subject"><td colspan="2"><span class="text-skill text-center"><h6>University Graduate</h6></span></td></tr>
-                        <tr>
-                            <td><span class="text-skill ml-3">Information Systems</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-success w-100" role="progressbar"><strong> 2012 - 2016</strong></div></div></td>
-                            <td data-toggle="modal" data-target="#modalInformationSystems"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
+                    <!-- EDUCATION MENU  -->    
+                    <div class="font-skill tab-content borderless mt-5">
+                        <nav class="nav nav-pills flex-column flex-md-row font-pills-title">
+                            <a class="flex-md-fill text-md-center nav-link m-2 active" data-toggle="tab" href="#content-technology"><i class="fas fa-angle-right mr-2"></i>TECHNOLOGY</a>
+                            <a class="flex-md-fill text-md-center nav-link m-2" data-toggle="tab" href="#content-language"><i class="fas fa-angle-right mr-2"></i>LANGUAGE</a>
+                            <a class="flex-md-fill text-md-center nav-link m-2" data-toggle="tab" href="#content-academic"><i class="fas fa-angle-right mr-2"></i>ACADEMIC</a>
+                        </nav>
 
-                        <!-- MODAL - modalInformationSystems -->
-                        <div id="modalInformationSystems" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">University Graduate</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto"><img class="card-img img-responsive p-3" src="../art/course/course-saojudas.png" height="200" width="200"></div>
-                                        <div class="row d-flex justify-content-end mr-1"><small class="text-muted text-hover">2012 - 2016</small></div>
-                                        <div class="row ml-1">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-globe-americas mr-2"></i>Information Systems</h2>
+                        <!-- TECHNOLOGY -->
+                        <div id="content-technology" class="tab-pane fade show active" role="tabpanel">
+                            <div class="px-4 pt-4 my-2 font-text text-describe-dark">
+                                <div class="row">
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- CARD - TYPE SCRIPT STARTING -->
+                                        <div class="card cursor-link h-100" data-toggle="modal" data-target="#modalTypeScriptStarting">
+                                            <div class="card-head">
+                                                <div class="row d-flex justify-content-end"><small class="text-muted pt-2 px-4">8 hours - sep-2019</small></div>
+                                            </div>
+                                            <div class="d-flex justify-content-center h-100 vertical-center"><img class="img-fluid px-2" src="../art/course/course-ts.png" width="200px"></div>
+                                            <div class="card-body">
+                                                <div class="row px-2"><small class="text-subtitle-dark font-text-title font-weight-bold">Starting with TypeScript</small></div>
+                                                <div class="row px-2"><small class="text-muted">algaworks</small></div>
+                                            </div>
+                                            <div class="card-footer">
+                                                <div class="row d-flex justify-content-end">
+                                                    <small class="text-subtitle-dark font-text-title font-weight-bold pr-2">frontend</small>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="row ml-1"><small class="text-muted text-hover">São Judas Tadeu University</small></div>
-                                        <div class="row no-gutters my-auto mx-auto">
-                                            <div class="row mt-2 p-3">
-                                                <p class="card-text text-describe-dark">
-                                                    Bachelor of Information Systems from São Judas Tadeu University in São Paulo - SP, Brazil. In the work of conclusion of 
-                                                    course, was developed a mobile application for the Android platform that managed chords of songs with diverse functions 
-                                                    and interactivity with the user.
-                                                </p>
+
+                                        <!-- MODAL - modalTypeScriptStarting -->
+                                        <div id="modalTypeScriptStarting" class="modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Frontend</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-ts.png"></div>
+                                                        <div class="row d-flex justify-content-center ml-1 mt-5">
+                                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Starting with TypeScript</h2>
+                                                        </div>
+                                                        <div>
+                                                            <small class="card-text text-describe-dark px-3">
+                                                                A presentation of the powerful TypeScript language, demonstrating the main aspects and their application.
+                                                            </small>
+                                                        </div>
+                                                        <ul>
+                                                            <div class="row mt-3">
+                                                                <div class="col">
+                                                                    <li><small class="text-muted">Duration: <strong>8 hours of video</strong></small></li>
+                                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
+                                                                    <li><small class="text-muted">Conclusion Date: <strong>sep-2019</strong></small></li>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/certs/HOPBUD1TYR/" target="_blank">Certificate of Completion</a></small></li>
+                                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/" target="_blank">Course page</a></small></li>
+                                                                </div>
+                                                            </div>
+                                                        </ul>
+                                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
+                                                        <div>
+                                                            <ul>
+                                                                <li><small class="text-muted">Introduction</small></li>
+                                                                <li><small class="text-muted">TypeScript Fundamentals</small></li>
+                                                                <li><small class="text-muted">Object orientation</small></li>
+                                                                <li><small class="text-muted">Other ES6 Features</small></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div><img src="../art/certificate/certificate-UC-HOPBUD1TYR.png" class="img-fluid" alt="Responsive image"></div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- CARD - JAVASCRIPT STARTING -->
+                                        <div class="card mb-4 cursor-link h-100" data-toggle="modal" data-target="#modalJavaScriptStarting">
+                                            <div class="card-head">
+                                                <div class="row d-flex justify-content-end"><small class="text-muted pt-2 px-4">6 hours - sep-2019</small></div>
+                                            </div>
+                                            <div class="d-flex justify-content-center h-100 vertical-center"><img class="img-fluid px-2" src="../art/course/course-js.png" width="200px"></div>
+                                            <div class="card-body">
+                                                <div class="row px-2"><small class="text-subtitle-dark font-text-title font-weight-bold">Starting with JavaScript</small></div>
+                                                <div class="row px-2"><small class="text-muted">algaworks</small></div>
+                                            </div>
+                                            <div class="card-footer">
+                                                <div class="row d-flex justify-content-end">
+                                                    <small class="text-subtitle-dark font-text-title font-weight-bold pr-2">frontend</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- MODAL - modalJavaScriptStarting -->
+                                    <div id="modalJavaScriptStarting" class="modal fade" tabindex="-1" role="dialog">
+                                        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Frontend</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-js.png"></div>
+                                                    <div class="row d-flex justify-content-center ml-1 mt-5">
+                                                        <h2 class="text-subtitle-dark font-text-title font-weight-bold">Starting with JavaScript</h2>
+                                                    </div>
+                                                    <div>
+                                                        <small class="card-text text-describe-dark px-3">
+                                                            A presentation of the powerful Javascript language, demonstrating the main aspects and their application.
+                                                        </small>
+                                                    </div>
+                                                    <ul>
+                                                        <div class="row mt-3">
+                                                            <div class="col">
+                                                                <li><small class="text-muted">Duration: <strong>6 hours of video</strong></small></li>
+                                                                <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
+                                                                <li><small class="text-muted">Conclusion Date: <strong>sep-2019</strong></small></li>
+                                                            </div>
+                                                            <div class="col">
+                                                                <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/certs/SZ6LX7M5BW/" target="_blank">Certificate of Completion</a></small></li>
+                                                                <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/" target="_blank">Course page</a></small></li>
+                                                            </div>
+                                                        </div>
+                                                    </ul>
+                                                    <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
+                                                    <div>
+                                                        <ul>
+                                                            <li><small class="text-muted">Introduction</small></li>
+                                                            <li><small class="text-muted">Basic concepts</small></li>
+                                                            <li><small class="text-muted">Functions</small></li>
+                                                            <li><small class="text-muted">Objects</small></li>
+                                                            <li><small class="text-muted">Useful Functions</small></li>
+                                                            <li><small class="text-muted">Conclusion</small></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div><img src="../art/certificate/certificate-AW-SZ6LX7M5BW.jpg" class="img-fluid" alt="Responsive image"></div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- CARD - BOOTSTRAP 4 -->
+                                        <div class="card mb-4 cursor-link h-100" data-toggle="modal" data-target="#modalBootstrap4">
+                                            <div class="card-head">
+                                                <div class="row d-flex justify-content-end"><small class="text-muted pt-2 px-4">11.5 hours - apr-2019</small></div>
+                                            </div>
+                                            <div class="d-flex justify-content-center h-100 vertical-center"><img class="img-fluid px-2" src="../art/course/course-bootstrap.png" width="200px"></div>
+                                            <div class="card-body">
+                                                <div class="row px-2"><small class="text-subtitle-dark font-text-title font-weight-bold">Bootstrap 4 - Complete, Practical and Responsive + 2 Projects</small></div>
+                                                <div class="row px-2"><small class="text-muted">udemy</small></div>
+                                            </div>
+                                            <div class="card-footer">
+                                                <div class="row d-flex justify-content-end">
+                                                    <small class="text-subtitle-dark font-text-title font-weight-bold pr-2">frontend</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- MODAL - modalBootstrap4 -->
+                                    <div id="modalBootstrap4" class="modal fade" tabindex="-1" role="dialog">
+                                        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Frontend</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-bootstrap.png"></div>
+                                                    <div class="row d-flex justify-content-center ml-1 mt-5">
+                                                        <h2 class="text-subtitle-dark font-text-title font-weight-bold">Bootstrap 4 - Complete, Practical and Responsive + 2 Projects</h2>
+                                                    </div>
+                                                    <div>
+                                                        <small class="card-text text-describe-dark px-3">
+                                                            Create Responsive Design for dashboards, product marketing, and applications with this hands-on course.
+                                                        </small>
+                                                    </div>
+                                                    <ul>
+                                                        <div class="row mt-3">
+                                                            <div class="col">
+                                                                <li><small class="text-muted">Duration: <strong>11.5 hours of video</strong></small></li>
+                                                                <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
+                                                                <li><small class="text-muted">Conclusion Date: <strong>apr-2019</strong></small></li>
+                                                            </div>
+                                                            <div class="col">
+                                                                <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/certificate/UC-IJPOB9W1/" target="_blank">Certificate of Completion</a></small></li>
+                                                                <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/course/bootstrap-4-completo/" target="_blank">Course page</a></small></li>
+                                                            </div>
+                                                        </div>
+                                                    </ul>
+                                                    <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
+                                                    <div>
+                                                        <ul>
+                                                            <li><small class="text-muted">Introdução</small></li>
+                                                            <li><small class="text-muted">Principais Conteúdos</small></li>
+                                                            <li><small class="text-muted">Componentes</small></li>
+                                                            <li><small class="text-muted">Utilitários</small></li>
+                                                            <li><small class="text-muted">Bibliotecas Externas</small></li>
+                                                            <li><small class="text-muted">Atualização de Versões</small></li>
+                                                            <li><small class="text-muted">Projeto #01 - Criando o Design de um Dashboard</small></li>
+                                                            <li><small class="text-muted">Projeto #02 - Design de um Site Institucional - One Page com Bootstrap 4.1.1</small></li>
+                                                            <li><small class="text-muted">Novos Componentes incluídos no Bootstrap 4.2</small></li>
+                                                            <li><small class="text-muted">Publicando nosso Projeto em um Servidor Comercial</small></li>
+                                                            <li><small class="text-muted">Seção Bônus</small></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div><img src="../art/certificate/certificate-UC-IJPOB9W1.jpg" class="img-fluid" alt="Responsive image"></div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- CARD - SPRING FRAMEWORK EXPERTS -->
+                                        <div class="card mb-4 cursor-link h-100" data-toggle="modal" data-target="#modalSpringExperts">
+                                            <div class="card-head">
+                                                <div class="row d-flex justify-content-end"><small class="text-muted pt-2 px-4">120 hours - aug-2019</small></div>
+                                            </div>
+                                            <div class="d-flex justify-content-center h-100 vertical-center"><img class="img-fluid px-2" src="../art/course/course-spring-experts.png" width="200px"></div>
+                                            <div class="card-body">
+                                                <div class="row px-2"><small class="text-subtitle-dark font-text-title font-weight-bold">Spring Framework Expert</small></div>
+                                                <div class="row px-2"><small class="text-muted">algaworks</small></div>
+                                            </div>
+                                            <div class="card-footer">
+                                                <div class="row d-flex justify-content-end">
+                                                    <small class="text-subtitle-dark font-text-title font-weight-bold pr-2">backend</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <!-- MODAL - modalSpringExperts -->
+                                    <div id="modalSpringExperts" class="modal fade" tabindex="-1" role="dialog">
+                                        <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">Backend</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-spring-experts.png"></div>
+                                                    <div class="row d-flex justify-content-center ml-1 mt-5">
+                                                        <h2 class="text-subtitle-dark font-text-title font-weight-bold">Spring Framework Expert</h2>
+                                                    </div>
+                                                    <div>
+                                                        <small class="card-text text-describe-dark px-3">
+                                                            Development of a beer sales system with Spring MVC, Spring Boot, Thymeleaf and Bootstrap.
+                                                        </small>
+                                                    </div>
+                                                    <ul>
+                                                        <div class="row mt-3">
+                                                            <div class="col">
+                                                                <li><small class="text-muted">Duration: <strong>120 hours of video</strong></small></li>
+                                                                <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
+                                                                <li><small class="text-muted">Conclusion Date: <strong>aug-2019</strong></small></li>
+                                                            </div>
+                                                            <div class="col">
+                                                                <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/certs/FW246DZIH2/" target="_blank">Certificate of Completion</a></small></li>
+                                                                <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/" target="_blank">Course page</a></small></li>
+                                                            </div>
+                                                        </div>
+                                                    </ul>
+                                                    <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
+                                                    <div>
+                                                        <ul>
+                                                            <li><small class="text-muted">Introduction</small></li>
+                                                            <li><small class="text-muted">Spring Introduction</small></li>
+                                                            <li><small class="text-muted">Spring MVC, Thymeleaf and Bean Validation</small></li>
+                                                            <li><small class="text-muted">The Thymeleaf</small></li>
+                                                            <li><small class="text-muted">Responsive Layout with Bootstrap and HTML5</small></li>
+                                                            <li><small class="text-muted">Logging</small></li>
+                                                            <li><small class="text-muted">Dependency Injection with Spring IoC</small></li>
+                                                            <li><small class="text-muted">JPA, Hibernate and Flyway</small></li>
+                                                            <li><small class="text-muted">Spring Data JPA and Default Repository</small></li>
+                                                            <li><small class="text-muted">Custom Validation and Converters</small></li>
+                                                            <li><small class="text-muted">Handling Exceptions, JPA and Ajax Callbacks</small></li>
+                                                            <li><small class="text-muted">Modulating JavaScript</small></li>
+                                                            <li><small class="text-muted">Extending Thymeleaf</small></li>
+                                                            <li><small class="text-muted">Photo upload and asynchronous return</small></li>
+                                                            <li><small class="text-muted">Search, photo resize, pagination, and sort</small></li>
+                                                            <li><small class="text-muted">Registration with masks and dependent combo</small></li>
+                                                            <li><small class="text-muted">Optimizing cached performance</small></li>
+                                                            <li><small class="text-muted">Registration with ManyToMany Relationship</small></li>
+                                                            <li><small class="text-muted">Security with Spring Security</small></li>
+                                                            <li><small class="text-muted">Custom Error Pages</small></li>
+                                                            <li><small class="text-muted">Advanced filter search and multi-line selection</small></li>
+                                                            <li><small class="text-muted">Dialog and autocomplete</small></li>
+                                                            <li><small class="text-muted">Master-Detail Page, Session Scope, and Unit Tests</small></li>
+                                                            <li><small class="text-muted">Sending Asynchronous Emails and Calls</small></li>
+                                                            <li><small class="text-muted">Implementing editing and deleting</small></li>
+                                                            <li><small class="text-muted">Dashboard - Advanced Queries and Charts</small></li>
+                                                            <li><small class="text-muted">Internationalization</small></li>
+                                                            <li><small class="text-muted">Deploy in cloud production</small></li>
+                                                            <li><small class="text-muted">Reporting with JasperReports</small></li>
+                                                            <li><small class="text-muted">Spring boot</small></li>
+                                                            <li><small class="text-muted">Appendix: Upgrading to Spring Framework 5</small></li>
+                                                            <li><small class="text-muted">Appendix: Configuring Spring Boot 2</small></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div><img src="../art/certificate/certificate-AW-FW246DZIH2.jpg" class="img-fluid" alt="Responsive image"></div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- CARD - SPRING BOOT THYMELEAF -->
+                                        <div class="card mb-4 cursor-link h-100" data-toggle="modal" data-target="#modalSpring1">
+                                            <div class="card-head">
+                                                <div class="row d-flex justify-content-end"><small class="text-muted pt-2 px-4">8.5 hours - may-2019</small></div>
+                                            </div>
+                                            <div class="d-flex justify-content-center h-100 vertical-center"><img class="img-fluid px-2" src="../art/course/course-springboot-thymeleaf.png" width="200px"></div>
+                                            <div class="card-body">
+                                                <div class="row px-2"><small class="text-subtitle-dark font-text-title font-weight-bold">Spring Boot & MVC with Thymeleaf</small></div>
+                                                <div class="row px-2"><small class="text-muted">algaworks</small></div>
+                                            </div>
+                                            <div class="card-footer">
+                                                <div class="row d-flex justify-content-end">
+                                                    <small class="text-subtitle-dark font-text-title font-weight-bold pr-2">backend</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- MODAL - modalSpring1 -->
+                                        <div id="modalSpring1" class="modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Backend</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/icon-spring-boot-thymeleaf.svg"></div>
+                                                        <div class="row d-flex justify-content-center ml-1 mt-5">
+                                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Spring Boot & MVC with Thymeleaf</h2>
+                                                        </div>
+                                                        <div>
+                                                            <small class="card-text text-describe-dark px-3">
+                                                                First-step Web development course with Spring-Boot, MVC, JPA, Thymeleaf and Heroku.
+                                                            </small>
+                                                        </div>
+                                                        <ul>
+                                                            <div class="row mt-3">
+                                                                <div class="col">
+                                                                    <li><small class="text-muted">Duration: <strong>8.5 hours of video</strong></small></li>
+                                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
+                                                                    <li><small class="text-muted">Conclusion Date: <strong>may-2019</strong></small></li>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/certificate/UC-H0G0QEEF/" target="_blank">Certificate of Completion</a></small></li>
+                                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/spring-boot-mvc-com-thymeleaf/" target="_blank">Course page</a></small></li>
+                                                                </div>
+                                                            </div>
+                                                        </ul>
+                                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
+                                                        <div>
+                                                            <ul>
+                                                                <li><small class="text-muted">Introduction to Spring Framework Concepts and Features</small></li>
+                                                                <li><small class="text-muted">Inciting the Project Development</small></li>
+                                                                <li><small class="text-muted">Domain Classes</small></li>
+                                                                <li><small class="text-muted">Layer of Persistence</small></li>
+                                                                <li><small class="text-muted">Service Layer</small></li>
+                                                                <li><small class="text-muted">Project Update</small></li>
+                                                                <li><small class="text-muted">Thymeleaf for the Views</small></li>
+                                                                <li><small class="text-muted">Department: Controller & View</small></li>
+                                                                <li><small class="text-muted">Position: Controller & View</small></li>
+                                                                <li><small class="text-muted">Employee: Controller & View</small></li>
+                                                                <li><small class="text-muted">Back-End Validation</small></li>
+                                                                <li><small class="text-muted">Messages via message.properties</small></li>
+                                                                <li><small class="text-muted">Error page</small></li>
+                                                                <li><small class="text-muted">(Extra) Running the application on Heroku</small></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div><img src="../art/certificate/certificate-UC-H0G0QEEF.jpg" class="img-fluid" alt="Responsive image"></div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- CARD - SPRING FRAMEWORK -->
+                                        <div class="card mb-4 cursor-link h-100" data-toggle="modal" data-target="#modalSpring2">
+                                            <div class="card-head">
+                                                <div class="row d-flex justify-content-end"><small class="text-muted pt-2 px-4">7.5 hours - may-2019</small></div>
+                                            </div>
+                                            <div class="d-flex justify-content-center h-100 vertical-center"><img class="img-fluid px-2" src="../art/course/course-spring-framework.svg" width="200px"></div>
+                                            <div class="card-body">
+                                                <div class="row px-2"><small class="text-subtitle-dark font-text-title font-weight-bold">Spring Framework 5 e Spring Boot 2</small></div>
+                                                <div class="row px-2"><small class="text-muted">udemy</small></div>
+                                            </div>
+                                            <div class="card-footer">
+                                                <div class="row d-flex justify-content-end">
+                                                    <small class="text-subtitle-dark font-text-title font-weight-bold pr-2">backend</small>
+                                                </div>
+                                            </div>
+                                        </div>
+            
+                                        <!-- MODAL - modalSpring2 -->
+                                        <div id="modalSpring2" class="modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Backend</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-spring-framework.svg"></div>
+                                                        <div class="row d-flex justify-content-center ml-1 mt-5">
+                                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Spring Framework 5 e Spring Boot 2</h2>
+                                                        </div>
+                                                        <div>
+                                                            <small class="card-text text-describe-dark px-3">
+                                                                Learn Spring Framework 5, Spring Boot 2 with Wildfly 11 (Using Datasource), Spring Data with Mongo and MySQL.
+                                                            </small>
+                                                        </div>
+                                                        <ul>
+                                                            <div class="row mt-3">
+                                                                <div class="col">
+                                                                    <li><small class="text-muted">Duration: <strong>7.5 hours of video</strong></small></li>
+                                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
+                                                                    <li><small class="text-muted">Conclusion Date: <strong>may-2019</strong></small></li>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/certificate/UC-QTC9JIJ0/" target="_blank">Certificate of Completion</a></small></li>
+                                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/spring-framework-5-spring-boot-2/" target="_blank">Course page</a></small></li>
+                                                                </div>
+                                                            </div>
+                                                        </ul>
+                                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
+                                                        <div>
+                                                            <ul>
+                                                                <li><small class="text-muted">Starter module</small></li>
+                                                                <li><small class="text-muted">Spring and STS Web Project Creation Module</small></li>
+                                                                <li><small class="text-muted">Dependency Injection Module</small></li>
+                                                                <li><small class="text-muted">Spring Configuration Module</small></li>
+                                                                <li><small class="text-muted">Spring Boot Internal and External Properties Module</small></li>
+                                                                <li><small class="text-muted">Spring Web Development Module</small></li>
+                                                                <li><small class="text-muted">Spring Data Module Using Hibernate</small></li>
+                                                                <li><small class="text-muted">REST and Intellij Community APIs Building Module</small></li>
+                                                                <li><small class="text-muted">Wildfly and Datasource Module</small></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div><img src="../art/certificate/certificate-UC-QTC9JIJ0.jpg" class="img-fluid" alt="Responsive image"></div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- CARD - JAVA -->
+                                        <div class="card mb-4 cursor-link h-100" data-toggle="modal" data-target="#java1">
+                                            <div class="card-head">
+                                                <div class="row d-flex justify-content-end"><small class="text-muted pt-2 px-4">41.5 hours - apr-2019</small></div>
+                                            </div>
+                                            <div class="d-flex justify-content-center h-100 vertical-center"><img class="img-fluid px-2" src="../art/course/course-java.png" width="200px"></div>
+                                            <div class="card-body">
+                                                <div class="row px-2"><small class="text-subtitle-dark font-text-title font-weight-bold">FULL Java 2019 Object Oriented Programming + Projects</small></div>
+                                                <div class="row px-2"><small class="text-muted">udemy</small></div>
+                                            </div>
+                                            <div class="card-footer">
+                                                <div class="row d-flex justify-content-end">
+                                                    <small class="text-subtitle-dark font-text-title font-weight-bold pr-2">backend</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- MODAL - java1 -->
+                                        <div id="java1" class="modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Backend</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-java.svg"></div>
+                                                        <div class="row d-flex justify-content-center ml-1 mt-5">
+                                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">FULL Java 2019 Object Oriented Programming + Projects</h2>
+                                                        </div>
+                                                        <div>
+                                                            <small class="card-text text-describe-dark px-3">
+                                                                Most didactic and complete course of Java and OO. Projects with UML, JDBC, JavaFX, Spring Boot, MySQL, MongoDB and more.
+                                                            </small>
+                                                        </div>
+                                                        <ul>
+                                                            <div class="row mt-3">
+                                                                <div class="col">
+                                                                    <li><small class="text-muted">Duration: <strong>41.5 hours of video</strong></small></li>
+                                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
+                                                                    <li><small class="text-muted">Conclusion Date: <strong>apr-2019</strong></small></li>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/certificate/UC-Z9BO5PN9/" target="_blank">Certificate of Completion</a></small></li>
+                                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/course/java-curso-completo/" target="_blank">Course page</a></small></li>
+                                                                </div>
+                                                            </div>
+                                                        </ul>
+                                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
+                                                        <div>
+                                                            <ul>
+                                                                <li><small class="text-muted">Introduction</small></li>
+                                                                <li><small class="text-muted">Java language presentation and basic topics</small></li>
+                                                                <li><small class="text-muted">Introduction to Object Oriented Programming</small></li>
+                                                                <li><small class="text-muted">Constructors this word overload encapsulation</small></li>
+                                                                <li><small class="text-muted">Memory Behavior, Arrays, Lists</small></li>
+                                                                <li><small class="text-muted">Special topics in Java</small></li>
+                                                                <li><small class="text-muted">Bonus - Git and Github Leveling</small></li>
+                                                                <li><small class="text-muted">Enumerations, composition</small></li>
+                                                                <li><small class="text-muted">Inheritance and Polymorphism</small></li>
+                                                                <li><small class="text-muted">Exception Handling</small></li>
+                                                                <li><small class="text-muted">Project: Chess Game System</small></li>
+                                                                <li><small class="text-muted">Working with files</small></li>
+                                                                <li><small class="text-muted">Interfaces</small></li>
+                                                                <li><small class="text-muted">Generics, Set, Map</small></li>
+                                                                <li><small class="text-muted">Functional programming and lambda expressions</small></li>
+                                                                <li><small class="text-muted">Database Access with JDBC</small></li>
+                                                                <li><small class="text-muted">JavaFX graphical interface</small></li>
+                                                                <li><small class="text-muted">Project: Desktop Application with JavaFX and MySQL Database with JDBC</small></li>
+                                                                <li><small class="text-muted">Project: Restful web API with Spring Boot and MongoDB Database</small></li>
+                                                                <li><small class="text-muted">Bonus Section</small></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div><img src="../art/certificate/certificate-UC-Z9BO5PN9.jpg" class="img-fluid" alt="Responsive image"></div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- CARD - DOCKER -->
+                                        <div class="card mb-4 cursor-link h-100" data-toggle="modal" data-target="#modalDockerEssentialTool">
+                                            <div class="card-head">
+                                                <div class="row d-flex justify-content-end"><small class="text-muted pt-2 px-4">5.5 hours - oct-2019</small></div>
+                                            </div>
+                                            <div class="d-flex justify-content-center h-100 vertical-center"><img class="img-fluid px-2" src="../art/course/course-docker.png" width="200px"></div>
+                                            <div class="card-body">
+                                                <div class="row px-2"><small class="text-subtitle-dark font-text-title font-weight-bold">Docker: Essential Tool for Developers</small></div>
+                                                <div class="row px-2"><small class="text-muted">udemy</small></div>
+                                            </div>
+                                            <div class="card-footer">
+                                                <div class="row d-flex justify-content-end">
+                                                    <small class="text-subtitle-dark font-text-title font-weight-bold pr-2">devOps</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <!-- MODAL - modalDockerEssentialTool -->
+                                        <div id="modalDockerEssentialTool" class="modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">DevOps</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-docker.png"></div>
+                                                        <div class="row d-flex justify-content-center ml-1 mt-5">
+                                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Docker: Essential Tool for Developers</h2>
+                                                        </div>
+                                                        <div>
+                                                            <small class="card-text text-describe-dark px-3">
+                                                                Learn how to create complete professional environments with Docker, which is the industry's leading container technology!
+                                                            </small>
+                                                        </div>
+                                                        <ul>
+                                                            <div class="row mt-3">
+                                                                <div class="col">
+                                                                    <li><small class="text-muted">Duration: <strong>5.5 hours of video</strong></small></li>
+                                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
+                                                                    <li><small class="text-muted">Conclusion Date: <strong>oct-2019</strong></small></li>
+                                                                </div>
+                                                                <div class="col">
+                                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/certificate/UC-QYLSSW9H/" target="_blank">Certificate of Completion</a></small></li>
+                                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/course/curso-docker/" target="_blank">Course page</a></small></li>
+                                                                </div>
+                                                            </div>
+                                                        </ul>
+                                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
+                                                        <div>
+                                                            <ul>
+                                                                <li><small class="text-muted">Introduction</small></li>
+                                                                <li><small class="text-muted">Concepts</small></li>
+                                                                <li><small class="text-muted">Installation</small></li>
+                                                                <li><small class="text-muted">Basic Docker Usage</small></li>
+                                                                <li><small class="text-muted">No longer just a user</small></li>
+                                                                <li><small class="text-muted">Networks</small></li>
+                                                                <li><small class="text-muted">Coordinating Multiple Containers</small></li>
+                                                                <li><small class="text-muted">Simple Registration Project</small></li>
+                                                                <li><small class="text-muted">Project to Send Email with Workers</small></li>
+                                                            </ul>
+                                                        </div>
+                                                        <div><img src="../art/certificate/certificate-UC-QYLSSW9H.jpg" class="img-fluid" alt="Responsive image"></div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <tr class="table-subject"><td colspan="2"><span class="text-skill text-center"><h6>Language</h6></span></td></tr>
-                        <tr>
-                            <td><span class="text-skill ml-3">Portuguese</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-success w-100" role="progressbar"></div></div></td>
-                            <td data-toggle="modal" data-target="#modalPortuguese"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
+                        <!-- LANGUAGE -->
+                        <div id="content-language" class="tab-pane fade show" role="tabpanel">
+                            <div class="px-4 pt-4 my-2 font-text text-describe-dark">
+                                <div class="row">
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- PORTUGUESE -->
+                                        <div class="d-flex justify-content-center h-100 vertical-center" data-toggle="modal" data-target="#modalPortuguese">
+                                            <img class="cursor-link img-fluid px-2" src="../art/icon/language/language-portuguese.svg" width="200px">
+                                        </div>
 
-                        <!-- MODAL - modalPortuguese -->
-                        <div id="modalPortuguese" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Language</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto"><img class="card-img img-responsive p-3" src="../art/icon/language/language-portuguese.svg" height="200" width="200"></div>
-                                        <div class="row d-flex justify-content-end mr-1"><small class="text-muted text-hover">1989 - Today</small></div>
-                                        <div class="row ml-1">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-globe-americas mr-2"></i>Portuguese</h2>
-                                        </div>
-                                        <div class="row ml-1"><small class="text-muted text-hover">Brazil</small></div>
-                                        <div class="mt-4">
-                                                <h5>Fluence in Brazilian Portuguese</h5> 
-                                                <div class="progress"><div class="progress-bar bg-success w-100" role="progressbar"><strong>100%</strong> </div></div>
+                                        <!-- MODAL - modalPortuguese -->
+                                        <div id="modalPortuguese" class="modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Language</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="mx-auto my-auto"><img class="card-img img-responsive p-3" src="../art/icon/language/language-portuguese.svg" height="200" width="200"></div>
+                                                        <div class="row d-flex justify-content-end mr-1"><small class="text-muted text-hover">1989 - Today</small></div>
+                                                        <div class="row ml-1">
+                                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-globe-americas mr-2"></i>Portuguese</h2>
+                                                        </div>
+                                                        <div class="row ml-1"><small class="text-muted text-hover">Brazil</small></div>
+                                                        <div class="mt-4">
+                                                                <h5>Fluence in Brazilian Portuguese</h5> 
+                                                                <div class="progress"><div class="progress-bar bg-success w-100" role="progressbar"></div></div>
+                                                            </div>
+                                                        <div class="row no-gutters my-auto mx-auto">
+                                                            <div class="row mt-2 p-3">
+                                                                <p class="card-text text-describe-dark">
+                                                                    I was born and raised in Brazil, I'm Brazilian. I lived in this beautiful country until the age of 30, so my mother 
+                                                                    language is Brazilian Portuguese.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                    </div>
+                                                </div>
                                             </div>
-                                        <div class="row no-gutters my-auto mx-auto">
-                                            <div class="row mt-2 p-3">
-                                                <p class="card-text text-describe-dark">
-                                                    I was born and raised in Brazil, I'm Brazilian. I lived in this beautiful country until the age of 30, so my mother 
-                                                    language is Brazilian Portuguese.
-                                                </p>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- ENGLISH -->
+                                        <div class="d-flex justify-content-center h-100 vertical-center" data-toggle="modal" data-target="#modalEnglish">
+                                            <img class="cursor-link img-fluid px-2" src="../art/icon/language/language-english.svg" width="200px">
+                                        </div>
+
+                                        <!-- MODAL - modalEnglish -->
+                                        <div id="modalEnglish" class="modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Language</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="mx-auto my-auto"><img class="card-img img-responsive p-3" src="../art/icon/language/language-english.svg" height="200" width="200"></div>
+                                                        <div class="row d-flex justify-content-end mr-1"><small class="text-muted text-hover">2014 - Today</small></div>
+                                                        <div class="row ml-1">
+                                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-globe-americas mr-2"></i>English</h2>
+                                                        </div>
+                                                        <div class="row ml-1"><small class="text-muted text-hover">United States, England and Canada</small></div>
+                                                        <div class="mt-4">
+                                                                <h5>Fluence in English</h5> 
+                                                                <div class="progress"><div class="progress-bar bg-info w-75"" role="progressbar"></div></div>
+                                                            </div>
+                                                        <div class="row no-gutters my-auto mx-auto">
+                                                            <div class="row mt-2 p-3">
+                                                                <p class="card-text text-describe-dark">
+                                                                    My favorite foreign language. My second language. I am very easy to learn English, easy to understand, listen to, 
+                                                                    speak and write. I took several courses at Cultura Inglesa in São Paulo and also studied online courses at Udemy.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- FRENCH -->
+                                        <div class="d-flex justify-content-center h-100 vertical-center" data-toggle="modal" data-target="#modalFrench">
+                                            <img class="cursor-link img-fluid px-2" src="../art/icon/language/language-french.svg" width="200px">
+                                        </div>
+
+                                        <!-- MODAL - modalFrench -->
+                                        <div id="modalFrench" class="modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Language</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="mx-auto my-auto"><img class="card-img img-responsive p-3" src="../art/icon/language/language-french.svg" height="200" width="200"></div>
+                                                        <div class="row d-flex justify-content-end mr-1"><small class="text-muted text-hover">2018 - Today</small></div>
+                                                        <div class="row ml-1">
+                                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-globe-americas mr-2"></i>French</h2>
+                                                        </div>
+                                                        <div class="row ml-1"><small class="text-muted text-hover">Canada and France</small></div>
+                                                        <div class="mt-4">
+                                                            <h5>Fluence in French</h5> 
+                                                            <div class="progress"><div class="progress-bar bg-danger w-25" role="progressbar"></div></div>
+                                                        </div>
+                                                        <div class="row no-gutters my-auto mx-auto">
+                                                            <div class="row mt-2 p-3">
+                                                                <p class="card-text text-describe-dark">
+                                                                    I started to study French recently, with books and audio-CDs. I also bought an online course and I'm 
+                                                                    excited about the language, it has many similarities with Portuguese.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                         </div>
+                                    </div>
+
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- SPANISH -->
+                                        <div class="d-flex justify-content-center h-100 vertical-center" data-toggle="modal" data-target="#modalSpanish">
+                                            <img class="cursor-link img-fluid px-2" src="../art/icon/language/language-spanish.svg" width="200px">
+                                        </div>
+
+                                        <!-- MODAL - modalSpanish -->
+                                        <div id="modalSpanish" class="modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">Language</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="mx-auto my-auto"><img class="card-img img-responsive p-3" src="../art/icon/language/language-spanish.svg" height="200" width="200"></div>
+                                                        <div class="row d-flex justify-content-end mr-1"><small class="text-muted text-hover">2001 - 2007</small></div>
+                                                        <div class="row ml-1">
+                                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-globe-americas mr-2"></i>Spanish</h2>
+                                                        </div>
+                                                        <div class="row ml-1"><small class="text-muted text-hover">Spain</small></div>
+                                                        <div class="mt-4">
+                                                            <h5>Fluence in Spanish</h5> 
+                                                            <div class="progress"><div class="progress-bar bg-danger w-25" role="progressbar"></div></div>
+                                                        </div>
+                                                        <div class="row no-gutters my-auto mx-auto">
+                                                            <div class="row mt-2 p-3">
+                                                                <p class="card-text text-describe-dark">
+                                                                    This one I studied at school and never practiced much, although living among the Latin people and similarities 
+                                                                    with the Portuguese language, my Spanish is very basic and rusty.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                    </div>
+                                                </div>
+                                            </div>   
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                        </div>
+
+                        <!-- ACADEMIC -->
+                        <div id="content-academic" class="tab-pane fade show" role="tabpanel">
+                            <div class="px-4 pt-4 my-2 font-text text-describe-dark">
+                                <div class="row">
+                                    <div class="col-lg-3 mb-4">
+                                        <!-- CARD - GRADUATION INFORMATION SYSTEMS -->
+                                        <div class="card mb-4 cursor-link" data-toggle="modal" data-target="#modalInformationSystems">
+                                            <div class="card-head">
+                                                <div class="row d-flex justify-content-end"><small class="text-muted pt-2 px-4">2012 - 2016</small></div>
+                                            </div>
+                                            <div class="d-flex justify-content-center"><img class="img-fluid py-3 px-2" src="../art/course/course-saojudas.png" width="200px"></div>
+                                            <div class="card-body">
+                                                <div class="row px-2"><small class="text-subtitle-dark font-text-title font-weight-bold">Information Systems</small></div>
+                                                <div class="row px-2"><small class="text-muted">São Judas Tadeu University</small></div>
+                                            </div>
+                                            <div class="card-footer">
+                                                <div class="row d-flex justify-content-end">
+                                                    <small class="text-subtitle-dark font-text-title font-weight-bold pr-2">graduation</small>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- MODAL - modalInformationSystems -->
+                                        <div id="modalInformationSystems" class="modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title">University Graduate</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <div class="mx-auto my-auto"><img class="card-img img-responsive p-3" src="../art/course/course-saojudas.png" height="200" width="200"></div>
+                                                        <div class="row d-flex justify-content-end mr-1"><small class="text-muted text-hover">2012 - 2016</small></div>
+                                                        <div class="row ml-1">
+                                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-globe-americas mr-2"></i>Information Systems</h2>
+                                                        </div>
+                                                        <div class="row ml-1"><small class="text-muted text-hover">São Judas Tadeu University</small></div>
+                                                        <div class="row no-gutters my-auto mx-auto">
+                                                            <div class="row mt-2 p-3">
+                                                                <p class="card-text text-describe-dark">
+                                                                    Bachelor of Information Systems from São Judas Tadeu University in São Paulo - SP, Brazil. In the work of conclusion of 
+                                                                    course, was developed a mobile application for the Android platform that managed chords of songs with diverse functions 
+                                                                    and interactivity with the user.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <tr>
-                            <td><span class="text-skill ml-3">English</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                            <td data-toggle="modal" data-target="#modalEnglish"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - modalEnglish -->
-                        <div id="modalEnglish" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Language</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto"><img class="card-img img-responsive p-3" src="../art/icon/language/language-english.svg" height="200" width="200"></div>
-                                        <div class="row d-flex justify-content-end mr-1"><small class="text-muted text-hover">2014 - Today</small></div>
-                                        <div class="row ml-1">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-globe-americas mr-2"></i>English</h2>
-                                        </div>
-                                        <div class="row ml-1"><small class="text-muted text-hover">United States, England and Canada</small></div>
-                                        <div class="mt-4">
-                                                <h5>Fluence in English</h5> 
-                                                <div class="progress"><div class="progress-bar bg-info w-75"" role="progressbar"><strong>75%</strong> </div></div>
-                                            </div>
-                                        <div class="row no-gutters my-auto mx-auto">
-                                            <div class="row mt-2 p-3">
-                                                <p class="card-text text-describe-dark">
-                                                    My favorite foreign language. My second language. I am very easy to learn English, easy to understand, listen to, 
-                                                    speak and write. I took several courses at Cultura Inglesa in São Paulo and also studied online courses at Udemy.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <tr>
-                            <td><span class="text-skill ml-3">French</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                            <td data-toggle="modal" data-target="#modalFrench"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - modalFrench -->
-                        <div id="modalFrench" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Language</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto"><img class="card-img img-responsive p-3" src="../art/icon/language/language-french.svg" height="200" width="200"></div>
-                                        <div class="row d-flex justify-content-end mr-1"><small class="text-muted text-hover">2018 - Today</small></div>
-                                        <div class="row ml-1">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-globe-americas mr-2"></i>French</h2>
-                                        </div>
-                                        <div class="row ml-1"><small class="text-muted text-hover">Canada and France</small></div>
-                                        <div class="mt-4">
-                                            <h5>Fluence in French</h5> 
-                                            <div class="progress"><div class="progress-bar bg-danger w-25" role="progressbar"><strong>25%</strong></div></div>
-                                        </div>
-                                        <div class="row no-gutters my-auto mx-auto">
-                                            <div class="row mt-2 p-3">
-                                                <p class="card-text text-describe-dark">
-                                                    I started to study French recently, with books and audio-CDs. I also bought an online course and I'm 
-                                                    excited about the language, it has many similarities with Portuguese.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <tr>
-                            <td><span class="text-skill ml-3">Spanish</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                            <td data-toggle="modal" data-target="#modalSpanish"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - modalSpanish -->
-                        <div id="modalSpanish" class="modal fade" tabindex="-1" role="dialog">
-                        <div class="modal-dialog modal-dialog-scrollable" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title">Language</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="mx-auto my-auto"><img class="card-img img-responsive p-3" src="../art/icon/language/language-spanish.svg" height="200" width="200"></div>
-                                    <div class="row d-flex justify-content-end mr-1"><small class="text-muted text-hover">2001 - 2007</small></div>
-                                    <div class="row ml-1">
-                                        <h2 class="text-subtitle-dark font-text-title font-weight-bold"><i class="fas fa-globe-americas mr-2"></i>Spanish</h2>
-                                    </div>
-                                    <div class="row ml-1"><small class="text-muted text-hover">Spain</small></div>
-                                    <div class="mt-4">
-                                        <h5>Fluence in Spanish</h5> 
-                                        <div class="progress"><div class="progress-bar bg-danger w-25" role="progressbar"><strong>25%</strong></div></div>
-                                    </div>
-                                    <div class="row no-gutters my-auto mx-auto">
-                                        <div class="row mt-2 p-3">
-                                            <p class="card-text text-describe-dark">
-                                                This one I studied at school and never practiced much, although living among the Latin people and similarities 
-                                                with the Portuguese language, my Spanish is very basic and rusty.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <tr class="table-subject"><td colspan="2"><span class="text-skill text-center"><h6>Frontend</h6></span></td></tr>
-
-                        <tr>
-                            <td><span class="text-skill ml-3">Starting with TypeScript</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-success font-weight-bold w-100" role="progressbar">8 hours - Sep-2019</div></div></td>
-                            <td data-toggle="modal" data-target="#modalTypeScriptStarting"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - modalTypeScriptStarting -->
-                        <div id="modalTypeScriptStarting" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Frontend</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-ts.png"></div>
-                                        <div class="row d-flex justify-content-center ml-1 mt-5">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Starting with TypeScript</h2>
-                                        </div>
-                                        <div>
-                                            <small class="card-text text-describe-dark px-3">
-                                                A presentation of the powerful TypeScript language, demonstrating the main aspects and their application.
-                                            </small>
-                                        </div>
-                                        <ul>
-                                            <div class="row mt-3">
-                                                <div class="col">
-                                                    <li><small class="text-muted">Duration: <strong>8 hours of video</strong></small></li>
-                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
-                                                    <li><small class="text-muted">Conclusion Date: <strong>sep-2019</strong></small></li>
-                                                </div>
-                                                <div class="col">
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/certs/HOPBUD1TYR/" target="_blank">Certificate of Completion</a></small></li>
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/" target="_blank">Course page</a></small></li>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
-                                        <div>
-                                            <ul>
-                                                <li><small class="text-muted">Introduction</small></li>
-                                                <li><small class="text-muted">TypeScript Fundamentals</small></li>
-                                                <li><small class="text-muted">Object orientation</small></li>
-                                                <li><small class="text-muted">Other ES6 Features</small></li>
-                                            </ul>
-                                        </div>
-                                        <div><img src="../art/certificate/certificate-UC-HOPBUD1TYR.png" class="img-fluid" alt="Responsive image"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <tr>
-                            <td><span class="text-skill ml-3">Starting with JavaScript</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-success font-weight-bold w-100" role="progressbar">6 hours - Sep-2019</div></div></td>
-                            <td data-toggle="modal" data-target="#modalJavaScriptStarting"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - modalJavaScriptStarting -->
-                        <div id="modalJavaScriptStarting" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Frontend</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-js.png"></div>
-                                        <div class="row d-flex justify-content-center ml-1 mt-5">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Starting with JavaScript</h2>
-                                        </div>
-                                        <div>
-                                            <small class="card-text text-describe-dark px-3">
-                                                A presentation of the powerful Javascript language, demonstrating the main aspects and their application.
-                                            </small>
-                                        </div>
-                                        <ul>
-                                            <div class="row mt-3">
-                                                <div class="col">
-                                                    <li><small class="text-muted">Duration: <strong>6 hours of video</strong></small></li>
-                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
-                                                    <li><small class="text-muted">Conclusion Date: <strong>sep-2019</strong></small></li>
-                                                </div>
-                                                <div class="col">
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/certs/SZ6LX7M5BW/" target="_blank">Certificate of Completion</a></small></li>
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/" target="_blank">Course page</a></small></li>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
-                                        <div>
-                                            <ul>
-                                                <li><small class="text-muted">Introduction</small></li>
-                                                <li><small class="text-muted">Basic concepts</small></li>
-                                                <li><small class="text-muted">Functions</small></li>
-                                                <li><small class="text-muted">Objects</small></li>
-                                                <li><small class="text-muted">Useful Functions</small></li>
-                                                <li><small class="text-muted">Conclusion</small></li>
-                                            </ul>
-                                        </div>
-                                        <div><img src="../art/certificate/certificate-AW-SZ6LX7M5BW.jpg" class="img-fluid" alt="Responsive image"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <tr>
-                            <td><span class="text-skill ml-3">Bootstrap 4 - Complete, Practical and Responsive + 2 Projects</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-success font-weight-bold w-100" role="progressbar">11.5 hours - Apr-2019</div></div></td>
-                            <td data-toggle="modal" data-target="#modalBootstrap4"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - modalBootstrap4 -->
-                        <div id="modalBootstrap4" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Frontend</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-bootstrap.png"></div>
-                                        <div class="row d-flex justify-content-center ml-1 mt-5">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Bootstrap 4 - Complete, Practical and Responsive + 2 Projects</h2>
-                                        </div>
-                                        <div>
-                                            <small class="card-text text-describe-dark px-3">
-                                                Create Responsive Design for dashboards, product marketing, and applications with this hands-on course.
-                                            </small>
-                                        </div>
-                                        <ul>
-                                            <div class="row mt-3">
-                                                <div class="col">
-                                                    <li><small class="text-muted">Duration: <strong>11.5 hours of video</strong></small></li>
-                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
-                                                    <li><small class="text-muted">Conclusion Date: <strong>apr-2019</strong></small></li>
-                                                </div>
-                                                <div class="col">
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/certificate/UC-IJPOB9W1/" target="_blank">Certificate of Completion</a></small></li>
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/course/bootstrap-4-completo/" target="_blank">Course page</a></small></li>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
-                                        <div>
-                                            <ul>
-                                                <li><small class="text-muted">Introdução</small></li>
-                                                <li><small class="text-muted">Principais Conteúdos</small></li>
-                                                <li><small class="text-muted">Componentes</small></li>
-                                                <li><small class="text-muted">Utilitários</small></li>
-                                                <li><small class="text-muted">Bibliotecas Externas</small></li>
-                                                <li><small class="text-muted">Atualização de Versões</small></li>
-                                                <li><small class="text-muted">Projeto #01 - Criando o Design de um Dashboard</small></li>
-                                                <li><small class="text-muted">Projeto #02 - Design de um Site Institucional - One Page com Bootstrap 4.1.1</small></li>
-                                                <li><small class="text-muted">Novos Componentes incluídos no Bootstrap 4.2</small></li>
-                                                <li><small class="text-muted">Publicando nosso Projeto em um Servidor Comercial</small></li>
-                                                <li><small class="text-muted">Seção Bônus</small></li>
-                                            </ul>
-                                        </div>
-                                        <div><img src="../art/certificate/certificate-UC-IJPOB9W1.jpg" class="img-fluid" alt="Responsive image"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <tr class="table-subject"><td colspan="2"><span class="text-skill text-center"><h6>Backend</h6></span></td></tr>
-                        
-                        <tr>
-                            <td><span class="text-skill ml-3">Spring Framework Expert</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-success font-weight-bold w-100" role="progressbar">120 hours - Aug-2019</div></div></td>
-                            <td data-toggle="modal" data-target="#modalSpringExperts"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - modalSpringExperts -->
-                        <div id="modalSpringExperts" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Backend</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-spring-experts.png"></div>
-                                        <div class="row d-flex justify-content-center ml-1 mt-5">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Spring Framework Expert</h2>
-                                        </div>
-                                        <div>
-                                            <small class="card-text text-describe-dark px-3">
-                                                Development of a beer sales system with Spring MVC, Spring Boot, Thymeleaf and Bootstrap.
-                                            </small>
-                                        </div>
-                                        <ul>
-                                            <div class="row mt-3">
-                                                <div class="col">
-                                                    <li><small class="text-muted">Duration: <strong>120 hours of video</strong></small></li>
-                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
-                                                    <li><small class="text-muted">Conclusion Date: <strong>aug-2019</strong></small></li>
-                                                </div>
-                                                <div class="col">
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/certs/FW246DZIH2/" target="_blank">Certificate of Completion</a></small></li>
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.algaworks.com/" target="_blank">Course page</a></small></li>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
-                                        <div>
-                                            <ul>
-                                                <li><small class="text-muted">Introduction</small></li>
-                                                <li><small class="text-muted">Spring Introduction</small></li>
-                                                <li><small class="text-muted">Spring MVC, Thymeleaf and Bean Validation</small></li>
-                                                <li><small class="text-muted">The Thymeleaf</small></li>
-                                                <li><small class="text-muted">Responsive Layout with Bootstrap and HTML5</small></li>
-                                                <li><small class="text-muted">Logging</small></li>
-                                                <li><small class="text-muted">Dependency Injection with Spring IoC</small></li>
-                                                <li><small class="text-muted">JPA, Hibernate and Flyway</small></li>
-                                                <li><small class="text-muted">Spring Data JPA and Default Repository</small></li>
-                                                <li><small class="text-muted">Custom Validation and Converters</small></li>
-                                                <li><small class="text-muted">Handling Exceptions, JPA and Ajax Callbacks</small></li>
-                                                <li><small class="text-muted">Modulating JavaScript</small></li>
-                                                <li><small class="text-muted">Extending Thymeleaf</small></li>
-                                                <li><small class="text-muted">Photo upload and asynchronous return</small></li>
-                                                <li><small class="text-muted">Search, photo resize, pagination, and sort</small></li>
-                                                <li><small class="text-muted">Registration with masks and dependent combo</small></li>
-                                                <li><small class="text-muted">Optimizing cached performance</small></li>
-                                                <li><small class="text-muted">Registration with ManyToMany Relationship</small></li>
-                                                <li><small class="text-muted">Security with Spring Security</small></li>
-                                                <li><small class="text-muted">Custom Error Pages</small></li>
-                                                <li><small class="text-muted">Advanced filter search and multi-line selection</small></li>
-                                                <li><small class="text-muted">Dialog and autocomplete</small></li>
-                                                <li><small class="text-muted">Master-Detail Page, Session Scope, and Unit Tests</small></li>
-                                                <li><small class="text-muted">Sending Asynchronous Emails and Calls</small></li>
-                                                <li><small class="text-muted">Implementing editing and deleting</small></li>
-                                                <li><small class="text-muted">Dashboard - Advanced Queries and Charts</small></li>
-                                                <li><small class="text-muted">Internationalization</small></li>
-                                                <li><small class="text-muted">Deploy in cloud production</small></li>
-                                                <li><small class="text-muted">Reporting with JasperReports</small></li>
-                                                <li><small class="text-muted">Spring boot</small></li>
-                                                <li><small class="text-muted">Appendix: Upgrading to Spring Framework 5</small></li>
-                                                <li><small class="text-muted">Appendix: Configuring Spring Boot 2</small></li>
-                                            </ul>
-                                        </div>
-                                        <div><img src="../art/certificate/certificate-AW-FW246DZIH2.jpg" class="img-fluid" alt="Responsive image"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <tr>
-                            <td><span class="text-skill ml-3">Spring Boot & MVC with Thymeleaf</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-success font-weight-bold w-100" role="progressbar">8.5 hours - May-2019</div></div></td>
-                            <td data-toggle="modal" data-target="#modalSpring1"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - modalSpring1 -->
-                        <div id="modalSpring1" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Backend</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/icon-spring-boot-thymeleaf.svg"></div>
-                                        <div class="row d-flex justify-content-center ml-1 mt-5">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Spring Boot & MVC with Thymeleaf</h2>
-                                        </div>
-                                        <div>
-                                            <small class="card-text text-describe-dark px-3">
-                                                First-step Web development course with Spring-Boot, MVC, JPA, Thymeleaf and Heroku.
-                                            </small>
-                                        </div>
-                                        <ul>
-                                            <div class="row mt-3">
-                                                <div class="col">
-                                                    <li><small class="text-muted">Duration: <strong>8.5 hours of video</strong></small></li>
-                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
-                                                    <li><small class="text-muted">Conclusion Date: <strong>may-2019</strong></small></li>
-                                                </div>
-                                                <div class="col">
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/certificate/UC-H0G0QEEF/" target="_blank">Certificate of Completion</a></small></li>
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/spring-boot-mvc-com-thymeleaf/" target="_blank">Course page</a></small></li>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
-                                        <div>
-                                            <ul>
-                                                <li><small class="text-muted">Introduction to Spring Framework Concepts and Features</small></li>
-                                                <li><small class="text-muted">Inciting the Project Development</small></li>
-                                                <li><small class="text-muted">Domain Classes</small></li>
-                                                <li><small class="text-muted">Layer of Persistence</small></li>
-                                                <li><small class="text-muted">Service Layer</small></li>
-                                                <li><small class="text-muted">Project Update</small></li>
-                                                <li><small class="text-muted">Thymeleaf for the Views</small></li>
-                                                <li><small class="text-muted">Department: Controller & View</small></li>
-                                                <li><small class="text-muted">Position: Controller & View</small></li>
-                                                <li><small class="text-muted">Employee: Controller & View</small></li>
-                                                <li><small class="text-muted">Back-End Validation</small></li>
-                                                <li><small class="text-muted">Messages via message.properties</small></li>
-                                                <li><small class="text-muted">Error page</small></li>
-                                                <li><small class="text-muted">(Extra) Running the application on Heroku</small></li>
-                                            </ul>
-                                        </div>
-                                        <div><img src="../art/certificate/certificate-UC-H0G0QEEF.jpg" class="img-fluid" alt="Responsive image"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <tr>
-                            <td><span class="text-skill ml-3">Spring Framework 5 e Spring Boot 2</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-success font-weight-bold w-100" role="progressbar">7.5 hours - May-2019</div></div></td>
-                            <td data-toggle="modal" data-target="#modalSpring2"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - modalSpring2 -->
-                        <div id="modalSpring2" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Backend</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-spring-framework.svg"></div>
-                                        <div class="row d-flex justify-content-center ml-1 mt-5">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Spring Framework 5 e Spring Boot 2</h2>
-                                        </div>
-                                        <div>
-                                            <small class="card-text text-describe-dark px-3">
-                                                Learn Spring Framework 5, Spring Boot 2 with Wildfly 11 (Using Datasource), Spring Data with Mongo and MySQL.
-                                            </small>
-                                        </div>
-                                        <ul>
-                                            <div class="row mt-3">
-                                                <div class="col">
-                                                    <li><small class="text-muted">Duration: <strong>7.5 hours of video</strong></small></li>
-                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
-                                                    <li><small class="text-muted">Conclusion Date: <strong>may-2019</strong></small></li>
-                                                </div>
-                                                <div class="col">
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/certificate/UC-QTC9JIJ0/" target="_blank">Certificate of Completion</a></small></li>
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/spring-framework-5-spring-boot-2/" target="_blank">Course page</a></small></li>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
-                                        <div>
-                                            <ul>
-                                                <li><small class="text-muted">Starter module</small></li>
-                                                <li><small class="text-muted">Spring and STS Web Project Creation Module</small></li>
-                                                <li><small class="text-muted">Dependency Injection Module</small></li>
-                                                <li><small class="text-muted">Spring Configuration Module</small></li>
-                                                <li><small class="text-muted">Spring Boot Internal and External Properties Module</small></li>
-                                                <li><small class="text-muted">Spring Web Development Module</small></li>
-                                                <li><small class="text-muted">Spring Data Module Using Hibernate</small></li>
-                                                <li><small class="text-muted">REST and Intellij Community APIs Building Module</small></li>
-                                                <li><small class="text-muted">Wildfly and Datasource Module</small></li>
-                                            </ul>
-                                        </div>
-                                        <div><img src="../art/certificate/certificate-UC-QTC9JIJ0.jpg" class="img-fluid" alt="Responsive image"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <tr>
-                            <td><span class="text-skill ml-3">FULL Java 2019 Object Oriented Programming + Projects</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-success font-weight-bold w-100" role="progressbar">41.5 hours - Apr-2019</div></div></td>
-                            <td data-toggle="modal" data-target="#java1"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - java1 -->
-                        <div id="java1" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">Backend</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-java.svg"></div>
-                                        <div class="row d-flex justify-content-center ml-1 mt-5">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">FULL Java 2019 Object Oriented Programming + Projects</h2>
-                                        </div>
-                                        <div>
-                                            <small class="card-text text-describe-dark px-3">
-                                                Most didactic and complete course of Java and OO. Projects with UML, JDBC, JavaFX, Spring Boot, MySQL, MongoDB and more.
-                                            </small>
-                                        </div>
-                                        <ul>
-                                            <div class="row mt-3">
-                                                <div class="col">
-                                                    <li><small class="text-muted">Duration: <strong>41.5 hours of video</strong></small></li>
-                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
-                                                    <li><small class="text-muted">Conclusion Date: <strong>apr-2019</strong></small></li>
-                                                </div>
-                                                <div class="col">
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/certificate/UC-Z9BO5PN9/" target="_blank">Certificate of Completion</a></small></li>
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/course/java-curso-completo/" target="_blank">Course page</a></small></li>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
-                                        <div>
-                                            <ul>
-                                                <li><small class="text-muted">Introduction</small></li>
-                                                <li><small class="text-muted">Java language presentation and basic topics</small></li>
-                                                <li><small class="text-muted">Introduction to Object Oriented Programming</small></li>
-                                                <li><small class="text-muted">Constructors this word overload encapsulation</small></li>
-                                                <li><small class="text-muted">Memory Behavior, Arrays, Lists</small></li>
-                                                <li><small class="text-muted">Special topics in Java</small></li>
-                                                <li><small class="text-muted">Bonus - Git and Github Leveling</small></li>
-                                                <li><small class="text-muted">Enumerations, composition</small></li>
-                                                <li><small class="text-muted">Inheritance and Polymorphism</small></li>
-                                                <li><small class="text-muted">Exception Handling</small></li>
-                                                <li><small class="text-muted">Project: Chess Game System</small></li>
-                                                <li><small class="text-muted">Working with files</small></li>
-                                                <li><small class="text-muted">Interfaces</small></li>
-                                                <li><small class="text-muted">Generics, Set, Map</small></li>
-                                                <li><small class="text-muted">Functional programming and lambda expressions</small></li>
-                                                <li><small class="text-muted">Database Access with JDBC</small></li>
-                                                <li><small class="text-muted">JavaFX graphical interface</small></li>
-                                                <li><small class="text-muted">Project: Desktop Application with JavaFX and MySQL Database with JDBC</small></li>
-                                                <li><small class="text-muted">Project: Restful web API with Spring Boot and MongoDB Database</small></li>
-                                                <li><small class="text-muted">Bonus Section</small></li>
-                                            </ul>
-                                        </div>
-                                        <div><img src="../art/certificate/certificate-UC-Z9BO5PN9.jpg" class="img-fluid" alt="Responsive image"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <tr class="table-subject"><td colspan="2"><span class="text-skill text-center"><h6>DevOps</h6></span></td></tr>
-                        
-                        <tr>
-                            <td><span class="text-skill ml-3">Docker: Essential Tool for Developers</span></td>
-                            <td><div class="progress"><div class="progress-bar bg-success font-weight-bold w-100" role="progressbar">5.5 hours - Oct-2019</div></div></td>
-                            <td data-toggle="modal" data-target="#modalDockerEssentialTool"><h5><i class="image-zoon-icon text-gray fas fa-eye mr-2 mx-auto"></i></h5></td>
-                        </tr>
-
-                        <!-- MODAL - modalDockerEssentialTool -->
-                        <div id="modalDockerEssentialTool" class="modal fade" tabindex="-1" role="dialog">
-                            <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h5 class="modal-title">DevOps</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="mx-auto my-auto d-flex justify-content-center"><img class="card-img img-responsive image-education" src="../art/course/course-docker.png"></div>
-                                        <div class="row d-flex justify-content-center ml-1 mt-5">
-                                            <h2 class="text-subtitle-dark font-text-title font-weight-bold">Docker: Essential Tool for Developers</h2>
-                                        </div>
-                                        <div>
-                                            <small class="card-text text-describe-dark px-3">
-                                                Learn how to create complete professional environments with Docker, which is the industry's leading container technology!
-                                            </small>
-                                        </div>
-                                        <ul>
-                                            <div class="row mt-3">
-                                                <div class="col">
-                                                    <li><small class="text-muted">Duration: <strong>5.5 hours of video</strong></small></li>
-                                                    <li><small class="text-muted">Language: <strong>Brazilian Portuguese</strong></small></li>
-                                                    <li><small class="text-muted">Conclusion Date: <strong>oct-2019</strong></small></li>
-                                                </div>
-                                                <div class="col">
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/certificate/UC-QYLSSW9H/" target="_blank">Certificate of Completion</a></small></li>
-                                                    <li><small><i class="mark-indicator-dark fas fa-link mr-2"></i><a class="text-muted" href="https://www.udemy.com/course/curso-docker/" target="_blank">Course page</a></small></li>
-                                                </div>
-                                            </div>
-                                        </ul>
-                                        <div><small class="font-text-title"><strong>Topics:</strong></small></li></div>
-                                        <div>
-                                            <ul>
-                                                <li><small class="text-muted">Introduction</small></li>
-                                                <li><small class="text-muted">Concepts</small></li>
-                                                <li><small class="text-muted">Installation</small></li>
-                                                <li><small class="text-muted">Basic Docker Usage</small></li>
-                                                <li><small class="text-muted">No longer just a user</small></li>
-                                                <li><small class="text-muted">Networks</small></li>
-                                                <li><small class="text-muted">Coordinating Multiple Containers</small></li>
-                                                <li><small class="text-muted">Simple Registration Project</small></li>
-                                                <li><small class="text-muted">Project to Send Email with Workers</small></li>
-                                            </ul>
-                                        </div>
-                                        <div><img src="../art/certificate/certificate-UC-QYLSSW9H.jpg" class="img-fluid" alt="Responsive image"></div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-outline-dark font-weight-bold" data-dismiss="modal"><i class="fas fa-angle-left mr-2"></i>Back</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </tbody>
-                </table>
+                    </div>
+                </div>
             </div>
         </div>
 
