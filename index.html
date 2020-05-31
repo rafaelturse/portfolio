@@ -27,6 +27,15 @@
     <title>Rafael Turse</title>
 </head>
 <body id="top">
+    <!-- LOADER -->
+    <div class="container">       
+        <div id="overlay-loader" class="overlay">
+            <div class="d-flex justify-content-center h-100 vertical-center">
+                <div class="spinner-grow text-light" role="status"><span class="sr-only">Loading...</span></div>
+            </div>
+        </div>
+    </div>
+
     <!-- HEAD -->
     <div class="background-dark-main-header">
         <div class="container-fluid">
@@ -43,15 +52,6 @@
     <!-- BODY -->
     <div class="body-content">
         <div class="container d-flex justify-content-end">
-            <!-- LOADER -->
-            <div class="container">       
-                <div id="overlay-loader" class="overlay">
-                    <div class="d-flex justify-content-center h-100 vertical-center">
-                        <div class="spinner-grow text-light" role="status"><span class="sr-only">Loading...</span></div>
-                    </div>
-                </div>
-            </div>
-
             <div class="dropdown" data-aos="fade-zoom-in" data-aos-easing="ease-in-sine" data-aos-delay="300" data-aos-offset="0">
                 <button id="dropdownLanguage" class="btn btn-dark btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <span>
@@ -198,52 +198,77 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- POST 5 -->
-                            <div class="mb-3">
-                                <div class="row align-items-center">
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-anchor-placement="center-bottom">
-                                        <a href="#" onclick="setTargetUrl('technical-backend')">
-                                            <div class="card background-dark grow p-3">
-                                                <div class="row font-pills-title text-describe-light align-items-center">
-                                                    <div class="col d-flex justify-content-center"><h5><span class="translate-label.backend"></span></h5></div>
-                                                    <div class="col d-flex justify-content-center"><i class="fas fa-cogs icon-text-light red"></i></div>
-                                                </div>
+                        <!-- FEATURED 1 -->
+                        <div class="container my-5">
+                            <div class="row align-items-center">
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-anchor-placement="center-bottom">
+                                    <a href="#" onclick="setTargetUrl('technical-backend')">
+                                        <div class="card background-dark grow p-3">
+                                            <div class="row font-pills-title text-describe-light align-items-center">
+                                                <div class="col d-flex justify-content-center"><h5><span class="translate-label.backend"></span></h5></div>
+                                                <div class="col d-flex justify-content-center"><i class="fas fa-cogs icon-text-light red"></i></div>
                                             </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-anchor-placement="center-bottom">
-                                        <a href="#" onclick="setTargetUrl('technical-frontend')">
-                                            <div class="card background-dark grow p-3">
-                                                <div class="row font-pills-title text-describe-light align-items-center">
-                                                    <div class="col d-flex justify-content-center "><h5><span class="translate-label.frontend"></span></h5></div>
-                                                    <div class="col d-flex justify-content-center"><i class="fas fa-paint-brush icon-text-light yellow"></i></div>
-                                                </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-anchor-placement="center-bottom">
+                                    <a href="#" onclick="setTargetUrl('technical-frontend')">
+                                        <div class="card background-dark grow p-3">
+                                            <div class="row font-pills-title text-describe-light align-items-center">
+                                                <div class="col d-flex justify-content-center "><h5><span class="translate-label.frontend"></span></h5></div>
+                                                <div class="col d-flex justify-content-center"><i class="fas fa-paint-brush icon-text-light green"></i></div>
                                             </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-anchor-placement="center-bottom">
-                                        <a href="#" onclick="setTargetUrl('technical-database')">
-                                            <div class="card background-dark grow p-3">
-                                                <div class="row font-pills-title text-describe-light align-items-center">
-                                                    <div class="col d-flex justify-content-center"><h5><span class="translate-label.database"></span></h5></div>
-                                                    <div class="col d-flex justify-content-center"><i class="fas fa-database icon-text-light green"></i></div>
-                                                </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-anchor-placement="center-bottom">
+                                    <a href="#" onclick="setTargetUrl('technical-database')">
+                                        <div class="card background-dark grow p-3">
+                                            <div class="row font-pills-title text-describe-light align-items-center">
+                                                <div class="col d-flex justify-content-center"><h5><span class="translate-label.database"></span></h5></div>
+                                                <div class="col d-flex justify-content-center"><i class="fas fa-database icon-text-light yellow"></i></div>
                                             </div>
-                                        </a>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-anchor-placement="center-bottom">
-                                        <a href="#" onclick="setTargetUrl('technical-devops')">
-                                            <div class="card background-dark grow p-3">
-                                                <div class="row font-pills-title text-describe-light align-items-center">
-                                                    <div class="col d-flex justify-content-center"><h5><span class="translate-label.devops"></span></h5></div>
-                                                    <div class="col d-flex justify-content-center"><i class="fas fa-cubes icon-text-light blue"></i></div>
-                                                </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-offset="100" data-aos-easing="ease-in-sine" data-aos-anchor-placement="center-bottom">
+                                    <a href="#" onclick="setTargetUrl('technical-devops')">
+                                        <div class="card background-dark grow p-3">
+                                            <div class="row font-pills-title text-describe-light align-items-center">
+                                                <div class="col d-flex justify-content-center"><h5><span class="translate-label.devops"></span></h5></div>
+                                                <div class="col d-flex justify-content-center"><i class="fas fa-cubes icon-text-light blue"></i></div>
                                             </div>
-                                        </a>
-                                    </div>
+                                        </div>
+                                    </a>
                                 </div>
                             </div>
+                        </div>
+
+                        <!-- FEATURED 2 -->
+                        <div class="container my-5">
+                            <div class="row ">
+                                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                                    <div><h6 class="d-flex justify-content-center text-muted font-title">coded lines</h6></div>
+                                    <div><h1 id="codedLines" class="d-flex justify-content-center font-title blue"><strong>3245874</strong></h1></div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                                    <div><h6 class="d-flex justify-content-center text-muted font-title">coffee cups</h6></div>
+                                    <div><h1 id="coffeeCups" class="d-flex justify-content-center font-title red"><strong>1897</strong></h1></div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                                    <div><h6 class="d-flex justify-content-center text-muted font-title">studied hours</h6></div>
+                                    <div><h1 id="studiedHours" class="d-flex justify-content-center font-title green"><strong>21458</strong></h1></div>
+                                </div>
+
+                                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3">
+                                    <div><h6 class="d-flex justify-content-center text-muted font-title">energy drinks</h6></div>
+                                    <div><h1 id="energyDrinks" class="d-flex justify-content-center font-title yellow"><strong>2731</strong></h1></div>
+                                </div>
+                            </div>                            
                         </div>
                     </div>
 
@@ -502,12 +527,12 @@
 
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=237781377300719&autoLogAppEvents=1"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>AOS.init();</script>
     <script src="js/custom/utils.js"></script>
     <script src="js/custom/translator.js"></script>
     <script src="js/custom/url.js"></script>
+    <script src="js/custom/cron.js"></script>
 </body>
 </html>
