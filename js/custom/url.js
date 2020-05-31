@@ -20,10 +20,15 @@ function translateByText(text) {
     }
 }
 
-function setUrlToEnglish() {
-    window.location.replace("https://www.rafaelturse.ca?lg=en");
+function setLanguageToUrl(language, url) {
+    window.location.replace(urls.get(url) + languages.get(language));
 }
 
-function setUrlToPortuguese() {
-    window.location.replace("https://www.rafaelturse.ca?lg=pt-br");
-}
+var languages = new Map();
+languages.set("english", "?lg=en");
+languages.set("portuguese", "?lg=pt-br");
+
+var urls = new Map();
+urls.set("home", "https://www.rafaelturse.ca");
+urls.set("professional", "https://www.rafaelturse.ca/pgs/professional.html");
+urls.set("technical", "https://www.rafaelturse.ca/pgs/technical.html");

@@ -45,14 +45,6 @@ function setDefaultTranslateBox() {
     }
 }
 
-function setLanguage(i) {
-    if (i === 'english') {
-        setUrlToEnglish();
-    } else if (i === 'portuguese') {
-        setUrlToPortuguese();
-    }
-}
-
 function translateByText(i) {
     if (urlIsPortuguese()) {
         return mapPtBr.get(i)
