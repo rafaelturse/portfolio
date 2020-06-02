@@ -45,3 +45,4 @@ animateValue(document.getElementById('energyDrinks'));
 animateValue(document.getElementById('technologies'));
 animateValue(document.getElementById('animatedKeys'));
 animateValue(document.getElementById('bugsFixed'));
+animateValue(document.getElementById('tagsStylished'));
