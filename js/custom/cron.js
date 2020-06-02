@@ -42,3 +42,4 @@ animateValue(document.getElementById('codedLines'));
 animateValue(document.getElementById('studiedHours'));
 animateValue(document.getElementById('coffeeCups'));
 animateValue(document.getElementById('energyDrinks'));
+animateValue(document.getElementById('technologies'));
