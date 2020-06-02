@@ -44,3 +44,4 @@ animateValue(document.getElementById('coffeeCups'));
 animateValue(document.getElementById('energyDrinks'));
 animateValue(document.getElementById('technologies'));
 animateValue(document.getElementById('animatedKeys'));
+animateValue(document.getElementById('bugsFixed'));
