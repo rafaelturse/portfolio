@@ -53,23 +53,29 @@ function translateByText(i) {
     }
 }
 
-function translate() {
+function translateTargets() {
     var all = document.getElementsByTagName("*");
-    var targets = null;
-
+    var targets = new Array();
+    
     for (var i=0; i < all.length; i++) {
         if (all[i].className.length > 0) {
             if (all[i].className.includes("translate-")) {
-                targets = document.getElementsByClassName(all[i].className);
-
-                for (var j=0; j < targets.length; j++) {
-                    if (urlIsPortuguese()) {
-                        targets[j].innerHTML = mapPtBr.get(targets[j].className);
-                    } else if (urlIsEnglishOrDefault()) {
-                        targets[j].innerHTML = mapEn.get(targets[j].className);
-                    }
-                }
+                targets.push(all[i]);
             }
+        }
+    }
+
+    return targets;
+}
+
+function translate() {
+    var targets = translateTargets();
+
+    for (var i=0; i < targets.length; i++) {
+        if (urlIsPortuguese()) {
+            targets[i].innerHTML = mapPtBr.get(targets[i].className);
+        } else if (urlIsEnglishOrDefault()) {
+            targets[i].innerHTML = mapEn.get(targets[i].className);
         }
     }
 }

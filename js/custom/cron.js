@@ -1,6 +1,5 @@
 function animateValue(obj, start = 0, end = null, duration = 3000) {
     if (obj) {
-
         // save starting text for later (and as a fallback text if JS not running and/or google)
         var textStarting = obj.innerHTML;
 
