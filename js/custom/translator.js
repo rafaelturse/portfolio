@@ -88,15 +88,19 @@ var mapEn = new Map();
 mapEn.set("translate-button.more", "more");
 /* LABEL */
 mapEn.set("translate-label.archive", "ARCHIVE");
-mapEn.set("translate-label.backend", "Backend");
-mapEn.set("translate-label.database", "Database");
+mapEn.set("translate-label.backend", "backend");
+mapEn.set("translate-label.book", "book");
+mapEn.set("translate-label.database", "database");
 mapEn.set("translate-label.developed-by", "Developed by");
-mapEn.set("translate-label.devops", "DevOps");
+mapEn.set("translate-label.devops", "devOps");
 mapEn.set("translate-label.english", "English");
-mapEn.set("translate-label.frontend", "Frontend");
+mapEn.set("translate-label.frontend", "frontend");
+mapEn.set("translate-label.motion", "motion");
+mapEn.set("translate-label.music", "music");
 mapEn.set("translate-label.new", "NEW");
 mapEn.set("translate-label.portuguese", "Portuguese");
 mapEn.set("translate-label.top", "TOP");
+mapEn.set("translate-label.trip", "trip");
 /* TAGS */
 mapEn.set("translate-tags.personal", "Personal");
 mapEn.set("translate-tags.career", "Career");
@@ -141,15 +145,19 @@ var mapPtBr = new Map();
 mapPtBr.set("translate-button.more", "mais");
 /* LABEL */
 mapPtBr.set("translate-label.archive", "ARQUIVO");
-mapPtBr.set("translate-label.backend", "Backend");
-mapPtBr.set("translate-label.database", "Database");
+mapPtBr.set("translate-label.backend", "backend");
+mapPtBr.set("translate-label.book", "livro");
+mapPtBr.set("translate-label.database", "database");
 mapPtBr.set("translate-label.developed-by", "Desenvolvido por");
-mapPtBr.set("translate-label.devops", "DevOps");
+mapPtBr.set("translate-label.devops", "devOps");
 mapPtBr.set("translate-label.english", "Inglês");
-mapPtBr.set("translate-label.frontend", "Frontend");
+mapPtBr.set("translate-label.frontend", "frontend");
+mapPtBr.set("translate-label.motion", "motion");
+mapPtBr.set("translate-label.music", "música");
 mapPtBr.set("translate-label.new", "NOVO");
 mapPtBr.set("translate-label.portuguese", "Português");
 mapPtBr.set("translate-label.top", "TOP");
+mapPtBr.set("translate-label.trip", "viagem");
 /* TAGS */
 mapPtBr.set("translate-tags.personal", "Pessoal");
 mapPtBr.set("translate-tags.career", "Carreira");
