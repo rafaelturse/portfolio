@@ -37,12 +37,15 @@ function animateValue(obj, start = 0, end = null, duration = 3000) {
         run();
     }
 }
+ function startCounting() {
+     animateValue(document.getElementById('codedLines'));
+     animateValue(document.getElementById('studiedHours'));
+     animateValue(document.getElementById('coffeeCups'));
+     animateValue(document.getElementById('energyDrinks'));
+     animateValue(document.getElementById('technologies'));
+     animateValue(document.getElementById('animatedKeys'));
+     animateValue(document.getElementById('bugsFixed'));
+     animateValue(document.getElementById('tagsStylished'));
+ }
 
-animateValue(document.getElementById('codedLines'));
-animateValue(document.getElementById('studiedHours'));
-animateValue(document.getElementById('coffeeCups'));
-animateValue(document.getElementById('energyDrinks'));
-animateValue(document.getElementById('technologies'));
-animateValue(document.getElementById('animatedKeys'));
-animateValue(document.getElementById('bugsFixed'));
-animateValue(document.getElementById('tagsStylished'));
+ document.getElementById("startCounting").addEventListener("click", function() { startCounting(); });
