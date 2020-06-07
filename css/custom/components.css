@@ -295,6 +295,16 @@
     border-style: none;
 }
 
+.card-header.card-course {
+    border-style: none;
+    padding: 0px;
+}
+
+.card-body.card-course {
+    border-style: none;
+    padding: 0px;
+}
+
 .card-shadow:hover {
     box-shadow: 0 8px 17px 0 rgba(17, 17, 17, 0.2),0 6px 20px 0 rgba(17, 17, 17, 0.19);
 }
