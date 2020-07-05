@@ -1,5 +1,13 @@
 function getUrl() { return window.location.href; }
 
+function setLanguageToUrl(language, url) {
+    window.location.href(urls.get(url) + languages.get(language));
+}
+
+function setTargetUrl(i) {
+    window.location.href(urls.get(i) + getUrlLanguage(getUrl()));
+}
+
 function urlIsPortuguese() {
     return getUrl().includes("?lg=pt-br");
 }
@@ -18,14 +26,6 @@ function translateByText(text) {
     } else if (urlIsEnglishOrDefault()) {
         return mapEn.get(text);
     }
-}
-
-function setLanguageToUrl(language, url) {
-    window.location.replace(urls.get(url) + languages.get(language));
-}
-
-function setTargetUrl(i) {
-    window.location.replace(urls.get(i) + getUrlLanguage(getUrl()));
 }
 
 function getUrlLanguage(url) {
