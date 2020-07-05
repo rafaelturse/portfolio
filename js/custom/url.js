@@ -1,6 +1,6 @@
 function getUrl() { return window.location.href; }
 
-function setLanguageToUrl(language, url) {
+function setLanguageToUrl(language, url) { 
     window.location.href(urls.get(url) + languages.get(language));
 }
 
