@@ -65,11 +65,22 @@ thead {
     text-shadow: 0 0 2px rgba(249,249,249,1);
 }
 
-.col-skill {
-    width: 60%;
+/* COLUMNS */
+.col-finish {
+    text-align: center;
+    width: 10%;
+}
+
+.col-hours {
+    text-align: center;
+    width: 10%;
 }
 
 .col-level {
     text-align: center;
-    width: 40%;
+    width: 20%;
+}
+
+.col-skill {
+    width: 80%;
 }
