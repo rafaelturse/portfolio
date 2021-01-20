@@ -123,6 +123,8 @@ mapEn.set("translate-tags.portfolio", "Portfolio");
 /* TEXT */
 mapEn.set("translate-text.articles.describe", "Articles and thoughts almost always about technology and software development, but also about places, music, films, series, books and everything else");
 mapEn.set("translate-text.celebrate-describe", "* don't make fun of me! I can moderate this ... lol");
+mapEn.set("translate-text.motiondesign-describe", "Logo animation and sound design with the professional Adobe After Effects");
+mapEn.set("translate-text.motiondesignprocess-describe", "Process of creating a logo using Adobe After Effects, where the project is extremely organized and developed with professional and modern techniques of animation and sound design");
 mapEn.set("translate-text.professional-education-short-describe", "Education, courses, languages and certificates");
 mapEn.set("translate-text.professional.short-describe", "Information about education, career and profile");
 mapEn.set("translate-text.resume.describe", "Easy to find. > Technical Page, Data Section > Resume. See in the page or download if you want, in .PDF or .DOCX");
@@ -133,6 +135,7 @@ mapEn.set("translate-text.technical.short-describe", "Information about developm
 mapEn.set("translate-text.technical-technology-short-describe", "Techonological level of my systems developer skills");
 /* TITLE */
 mapEn.set("translate-title.celebrate", "Celebrate");
+mapEn.set("translate-title.motiondesign", "Motion Design");
 mapEn.set("translate-title.resume", "Resume");
 mapEn.set("translate-title.tags", "Tags");
 mapEn.set("translate-title.technical", "Technical");
@@ -180,6 +183,8 @@ mapPtBr.set("translate-tags.portfolio", "Portifólio");
 /* TEXT */
 mapPtBr.set("translate-text.articles.describe", "Artigos e pensamento quase sempre sobre técnologia e desenvolvimento de software, mas também sobre lugares, música, filmes, séries, livros e tudo mais");
 mapPtBr.set("translate-text.celebrate-describe", "* não me zoe! Eu posso moderar isso ... lol");
+mapPtBr.set("translate-text.motiondesign-describe", "Animação de logos e sonoplastia com o profissional Adobe After Effects");
+mapPtBr.set("translate-text.motiondesignprocess-describe", "Processo de criação de um logo utilizando o Adobe After Effects, onde o projeto é extremamente organizado e desenvolvido com técnicas profissionais e modernas  de animação e sonoplastia");
 mapPtBr.set("translate-text.professional-education-short-describe", "Educação, cursos, idiomas e certificados");
 mapPtBr.set("translate-text.professional.short-describe", "Informação sobre educação, carreira e perfil");
 mapPtBr.set("translate-text.resume.describe", "Fácil de encontrar. > Página Técnica, Sessão de Dados > Currículo. Veja na página ou baixe se quiser, em .PDF ou .DOCX");
@@ -190,6 +195,7 @@ mapPtBr.set("translate-text.technical.short-describe", "Informação sobre habil
 mapPtBr.set("translate-text.technical-technology-short-describe", "Nível tecnológico das minhas habilidades de desenvolvedor de sistemas");
 /* TITLE */
 mapPtBr.set("translate-title.celebrate", "Comemore");
+mapPtBr.set("translate-title.motiondesign", "Motion Design");
 mapPtBr.set("translate-title.resume", "Currículo");
 mapPtBr.set("translate-title.tags", "Etiquetas");
 mapPtBr.set("translate-title.technical", "Técnico");
