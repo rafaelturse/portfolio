@@ -1,0 +1,20 @@
+.text-describe-dark {
+    color: #444 !important;
+    letter-spacing: 1px;
+}
+
+.text-describe-light {
+    color: #E9E9E9 !important;
+    letter-spacing: 1px;
+}
+
+/* COLOR */
+.text-blue { color: #1db2c9 !important; }
+.text-gray { color: #111 !important; } 
+.text-gray:hover { color: #666 !important; }
+.text-green { color: #28A745 !important; }
+.text-orange { color: #d3850f !important; }
+.text-pink { color: #e05eb9 !important; }
+.text-purple { color: #7b508b !important; }
+.text-red { color: #DC3545 !important; }
+.text-yellow { color: #FFC107 !important; }

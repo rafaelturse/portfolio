@@ -1,0 +1,19 @@
+/* BACKGROUND */
+.background-dark-main-header {
+    background-color: #111;
+}
+
+.background-dark {
+    background-color: #111;
+}
+
+/* LINK */
+a {
+    color: #111;
+    text-decoration: none;
+} 
+
+a:hover {
+    color: #111;
+    text-decoration: none;
+}  
