@@ -10,7 +10,7 @@ class Header extends React.Component {
                     <div className="container-fluid">
                         <div className="container py-5">
                             <a
-                                href="https://www.rafaelturse.ca">
+                                href="https://rafaelturse.ca">
                                 <img
                                     className="img-fluid"
                                     src={logoMainTop}

@@ -8,7 +8,7 @@ class HeadlineFeatured extends React.Component {
                     <div className="col-3 mb-3">
                         <div className="card background-dark p-3">
                             <div className="row font-pills-title text-describe-light text-center">
-                                <div className="col col-md-12 col-lg-12 col-xl-12"><h5>backend</h5></div>
+                                <div className="col"><h5>backend</h5></div>
                                 <div className="col col-md-12 col-lg-12 col-xl-12">
                                     <svg className="bi bi-lightning-fill text-red" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" viewBox="0 0 16 16">
                                         <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z" />
@@ -108,7 +108,7 @@ class HeadlineFeatured extends React.Component {
                         </div>
                     </div>
                     <div>
-                        <p className='text-muted fs-5 lh-sm'>
+                        <p className='text-muted lh-sm'>
                             I have experience in several areas, where with competence and commitment I can work in the development of complex and comprehensive solutions
                         </p>
                         <a href="#"><span className='d-flex justify-content-end fw-bold lh-sm'>more</span></a>

@@ -8,17 +8,21 @@ import HeadlineFeatured from '../components/headlineFeatured';
 
 import '../css/page.css'
 import '../css/text.css'
+import Footer from '../components/footer';
 
 function App() {
   return (
     <div>
       <Header />
+
       <div className="container">
         <HeadlineMainSubjects />
         <HeadlineFeatured />
 
         <SystemRoutes />
       </div>
+      
+      <Footer />
     </div>
   );
 }

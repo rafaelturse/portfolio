@@ -7,6 +7,61 @@
     background-color: #111;
 }
 
+/* BROWSER BARS */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #A9A9A9; 
+}
+   
+::-webkit-scrollbar-thumb {
+    background: #111; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #777; 
+}
+
+/* FACEBOOK */
+.fb_iframe_widget_fluid_desktop, .fb_iframe_widget_fluid_desktop span, .fb_iframe_widget_fluid_desktop iframe {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/* FOOTER */
+.footer-big-page {
+    background-color: #111;
+    box-shadow: 0px 10px 10px 30px #111; 
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    position: relative;
+
+    margin-top: 200px;
+}
+
+.footer-small-page {
+    background-color: #111;
+    
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    position: absolute;
+
+    margin-top: 200px;
+}
+
+.footer {
+    background-color: #111;
+    clear:both;
+    position: relative;
+}
+
 /* LINK */
 a {
     color: #111;
@@ -17,3 +72,71 @@ a:hover {
     color: #111;
     text-decoration: none;
 }  
+
+/* LOADER */
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    background-color:#333;
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* SESSION */
+.background-dark-main-header {
+    background-color: #111;
+
+    height: 500px;
+}
+
+.content-20 {
+    height: 20%;
+}
+
+.content-30 {
+    height: 30%;
+}
+
+.content-70 {
+    height: 70%;
+}
+
+.content-80 {
+    height: 80%;
+}
+
+.full-dark-h {
+    background-color: #111;
+    
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+
+    /* box-shadow: 0px 10px 5px 15px #111; */
+}
+
+.full-gray-h {
+    background-color: #E9E9E9;
+    
+    margin-left: 0rem !important;
+    margin-right: 0rem !important;
+
+    box-shadow: 0px 20px 20px 15px #E9E9E9;
+}
+
+/* UTILS */
+body {
+    background-color: #F9F9F9;    
+    
+    min-height: 100%;    
+    
+    position: relative;
+}
+
+html {
+    scroll-behavior: smooth;
+}
