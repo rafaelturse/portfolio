@@ -5,10 +5,13 @@ import SystemRoutes from './systemRoutes';
 import Header from '../components/header';
 import HeadlineMainSubjects from '../components/headlineMainSubjects';
 import HeadlineFeatured from '../components/headlineFeatured';
+import Footer from '../components/footer';
+import MainComments from '../components/mainComments';
+import MainMotion from '../components/mainMotion';
 
+import '../css/carousel.css'
 import '../css/page.css'
 import '../css/text.css'
-import Footer from '../components/footer';
 
 function App() {
   return (
@@ -18,10 +21,12 @@ function App() {
       <div className="container">
         <HeadlineMainSubjects />
         <HeadlineFeatured />
+        <MainMotion />
 
         <SystemRoutes />
       </div>
       
+      <MainComments />
       <Footer />
     </div>
   );

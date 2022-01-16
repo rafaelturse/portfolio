@@ -3,6 +3,10 @@
     background-color: #111;
 }
 
+.background-prefooter-dark-light {
+    background-color: #F3F3F3;
+}
+
 .background-dark {
     background-color: #111;
 }
@@ -88,12 +92,6 @@ a:hover {
 }
 
 /* SESSION */
-.background-dark-main-header {
-    background-color: #111;
-
-    height: 500px;
-}
-
 .content-20 {
     height: 20%;
 }

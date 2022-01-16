@@ -1,11 +1,3 @@
-/*
- * CSS - Text and Font
- * 
- * By: Rafael Turse
- * Created in: 20180801 14h52
- * 
- */
-
 /* 
     font-family: 'Gloria Hallelujah', cursive;
     font-family: 'Gochi Hand', cursive;
@@ -37,6 +29,15 @@
     letter-spacing: 1px;
 }
 
+/* FONT - TITLE */
+.font-text-title {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* TEXT - ARROW */
+.arrow-dark { color: #111 !important; }
+.arrow-light { color: #F9F9F9 !important; }
+
 /* TEXT - COLOR */
 .text-blue { color: #1db2c9 !important; }
 .text-gray { color: #111 !important; } 
@@ -49,10 +50,10 @@
 .text-yellow { color: #FFC107 !important; }
 
 /* TEXT - FOOTER */
-.text-footer-dark { color: #777; } 
-.text-footer-dark:hover { color: #999; }
-.text-footer-dark-title { color: #999; }
-.text-footer-dark-title:hover { color: #BBB; }
+.text-footer-dark { color: #777 !important; } 
+.text-footer-dark:hover { color: #999 !important; }
+.text-footer-dark-title { color: #999 !important; }
+.text-footer-dark-title:hover { color: #BBB !important; }
 
 .text-describe-dark {
     color: #444 !important;
@@ -64,7 +65,16 @@
     letter-spacing: 1px;
 }
 
+/* TEXT - MARK */
+.mark-indicator-dark { color: #111 !important; }
+.mark-indicator-light { color: #F9F9F9 !important; }
 
+/* TEXT - TITLE */
+.text-title-dark {
+    color: #333 !important;
+    letter-spacing: 2px;
+}
+.text-title-dark:hover { color: #111 !important; }
 
 
 
@@ -128,10 +138,6 @@
     font-family: 'Rubik', sans-serif;
 }
 
-.font-text-title {
-    font-family: 'Open Sans', sans-serif;
-}
-
 .font-title {
     color: #111;
     font-family: 'Gloria Hallelujah', cursive;
@@ -145,23 +151,13 @@
 .font-topic-personal {
     font-family: 'Satisfy', cursive;
     letter-spacing: 3px;
-}*/
-
-
-
-/*
- * CSS de componentes
- * 
- * Criador: Rafael Turse
- * Data de criação: 20190304 22h17
- * 
- */
-/*
-.text-title-dark {
-    color: #333 !important;
-    letter-spacing: 5px;
 }
-.text-title-dark:hover { color: #111 !important; }
+
+
+
+
+
+
 
 .text-title-light {
     color: #F9F9F9 !important;
@@ -197,9 +193,6 @@
 
 .text-light { color: #F9F9F9 !important; }
 .text-light:hover { color: #D9D9D9 !important; }
-
-.mark-indicator-dark { color: #111 !important; }
-.mark-indicator-light { color: #F9F9F9 !important; }
 
 .text-topic-dark { color: #444 !important; }
 
