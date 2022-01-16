@@ -6,7 +6,7 @@ class HeadlineFeatured extends React.Component {
             <section>
                 <div className="row m-5">
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3">
-                        <div className="card background-dark p-3">
+                        <div className="card background-dark p-3 card-link-leak">
                             <div className="row font-pills-title text-describe-light text-center">
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-1"><h5>backend</h5></div>
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-1">
@@ -18,7 +18,7 @@ class HeadlineFeatured extends React.Component {
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3">
-                        <div className="card background-dark p-3">
+                        <div className="card background-dark p-3 card-link-leak">
                             <div className="row font-pills-title text-describe-light text-center">
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-1"><h5>frontend</h5></div>
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-1">
@@ -30,7 +30,7 @@ class HeadlineFeatured extends React.Component {
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3">
-                        <div className="card background-dark p-3">
+                        <div className="card background-dark p-3 card-link-leak">
                             <div className="row font-pills-title text-describe-light text-center">
                                 <div className="col col-md-12 col-lg-12 col-xl-12"><h5>database</h5></div>
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-1">
@@ -44,7 +44,7 @@ class HeadlineFeatured extends React.Component {
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3">
-                        <div className="card background-dark p-3">
+                        <div className="card background-dark p-3 card-link-leak">
                             <div className="row font-pills-title text-describe-light text-center">
                                 <div className="col col-md-12 col-lg-12 col-xl-12"><h5>devOps</h5></div>
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-1">
@@ -56,7 +56,7 @@ class HeadlineFeatured extends React.Component {
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3">
-                        <div className="card background-dark p-3">
+                        <div className="card background-dark p-3 card-link-leak">
                             <div className="row font-pills-title text-describe-light text-center">
                                 <div className="col col-md-12 col-lg-12 col-xl-12"><h5>motion</h5></div>
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-1">
@@ -68,7 +68,7 @@ class HeadlineFeatured extends React.Component {
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3">
-                        <div className="card background-dark p-3">
+                        <div className="card background-dark p-3 card-link-leak">
                             <div className="row font-pills-title text-describe-light text-center">
                                 <div className="col col-md-12 col-lg-12 col-xl-12"><h5>music</h5></div>
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-1">
@@ -82,7 +82,7 @@ class HeadlineFeatured extends React.Component {
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3">
-                        <div className="card background-dark p-3">
+                        <div className="card background-dark p-3 card-link-leak">
                             <div className="row font-pills-title text-describe-light text-center">
                                 <div className="col col-md-12 col-lg-12 col-xl-12"><h5>book</h5></div>
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-1">
@@ -96,7 +96,7 @@ class HeadlineFeatured extends React.Component {
                         </div>
                     </div>
                     <div className="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-3">
-                        <div className="card background-dark p-3">
+                        <div className="card background-dark p-3 card-link-leak">
                             <div className="row font-pills-title text-describe-light text-center">
                                 <div className="col col-md-12 col-lg-12 col-xl-12"><h5>trip</h5></div>
                                 <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-1">
