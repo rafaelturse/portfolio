@@ -1,15 +1,17 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from '../view/main';
+import Technical from '../view/technical';
 
 function SystemRoutes() {
     return (
-        <Router>
-                <Routes>
-                    {/*<Route exact path="/categories" element={<Categories />} />*/}
-                    {/*<Route exact path="/definitions" element={<Definitions />} />*/}
-                </Routes>
-        </Router>
+        <BrowserRouter>
+            <Routes>
+                <Route exact path="/" element={<Main />} />
+                <Route exact path="/technical" element={<Technical />} />
+            </Routes>
+        </BrowserRouter>
     )
 }
 
