@@ -19,9 +19,7 @@ class ChartFocous extends React.Component {
                     position: 'right',
                     offsetY: 0
                 },
-                pie: {
-                    expandOnClick: true
-                },
+                pie: { expandOnClick: true },
             }
         };
     }
