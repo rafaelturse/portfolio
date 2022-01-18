@@ -22,4 +22,4 @@ class Technical extends React.Component {
   }
 }
 
-export default Technical;
+export default Technical
