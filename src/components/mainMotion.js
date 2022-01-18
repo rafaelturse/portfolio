@@ -14,7 +14,7 @@ class MainMotion extends React.Component {
                             <div className="carousel-item active">
                                 <div className="container mb-5">
                                     <iframe width="100%" height="450" src="https://www.youtube.com/embed/NGx7c1io3kc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    <p className="text-muted lh-sm">
+                                    <p className="font-text text-muted lh-sm">
                                         Logo animation and sound design with the professional Adobe After Effects
                                     </p>
                                 </div>

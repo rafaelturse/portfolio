@@ -114,17 +114,6 @@ class HeadlineFeatured extends React.Component {
                         </p>
                         <a href="#"><span className='d-flex justify-content-end fw-bold lh-sm'>more</span></a>
                     </div>
-                    {/* 
-                    <div>
-                        <p>
-                            Buscando ser um profissional completo, tenho vasto conhecimento e experiência nas principais áreas de desenvolvimento de software. Sou capaz de
-                            codificar regras de negócios e utilizar complexos padrões de projetos no backend para fazer com que todo o núcleo do sistema
-
-
-                            condifico e programo backend orientado a objetos e
-                        </p>
-                    </div>
-                    */}
                 </div>
             </section>
         );

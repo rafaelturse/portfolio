@@ -35,6 +35,11 @@
     letter-spacing: 1px;
 }
 
+/* FONT - SPOTLIGHT */
+.font-spotlight {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
 .font-skill-title {
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 3px;
@@ -142,17 +147,9 @@
     letter-spacing: 1px;
 }
 
-.font-spotlight {
-    font-family: 'Gloria Hallelujah', cursive;
-}
-
 .font-subtitle {
     font-family: 'Indie Flower', cursive;
     letter-spacing: 5px;
-}
-
-.font-text {
-    font-family: 'Rubik', sans-serif;
 }
 
 .font-title {
