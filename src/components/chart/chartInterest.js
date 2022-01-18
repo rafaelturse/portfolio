@@ -8,7 +8,7 @@ class ChartInterest extends React.Component {
         var colors = ['#111', '#50345B', '#28A745', '#FFC107', '#DC3545', '#17A2b8', '#999', '#D86E0A']
 
         this.state = {
-            series: [{ data: [10, 10, 9.8, 9.3, 8.2, 7.2, 5.5, 4.6] }],
+            series: [{ data: [10, 10, 10, 9.3, 8.2, 7.2, 5.5, 4.6] }],
             
             options: {
                 colors: colors,
@@ -32,9 +32,9 @@ class ChartInterest extends React.Component {
                 },
                 xaxis: {
                     categories: [
-                          "Clean Code"
+                          "Java"
                         , "Design Patters"
-                        , "Java"
+                        , "Clean Code"
                         , "Javascript"
                         , "DevOps"
                         , "Frontend"

@@ -9,17 +9,22 @@ class ChartFocous extends React.Component {
 
         this.state = {
 
-            series: [10, 10, 10, 20, 50],
+            series: [5, 15, 15, 15, 50],
             options: {
                 chart: { type: 'pie' },
                 colors: colors,
                 dataLabels: { enabled: false },
+                fill: { opacity: .9 },
                 labels: ['Database', 'DevOps', 'Frontend', 'Design Patterns', 'Backend'],
                 legend: {
-                    position: 'right',
-                    offsetY: 0
+                    position: 'bottom',
                 },
                 pie: { expandOnClick: true },
+                stroke: {
+                    show: true,
+                    width: 5,
+                    colors:['#F9F9F9']
+                },
             }
         };
     }
