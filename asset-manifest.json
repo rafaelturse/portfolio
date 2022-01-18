@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.15d752e0.chunk.css",
-    "main.js": "/static/js/main.57e3f3a5.chunk.js",
-    "main.js.map": "/static/js/main.57e3f3a5.chunk.js.map",
+    "main.js": "/static/js/main.673c58dc.chunk.js",
+    "main.js.map": "/static/js/main.673c58dc.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.65d84106.chunk.js": "/static/js/2.65d84106.chunk.js",
     "static/js/2.65d84106.chunk.js.map": "/static/js/2.65d84106.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.95e7cc103840266fb345e1381a91ef98.js": "/precache-manifest.95e7cc103840266fb345e1381a91ef98.js",
+    "precache-manifest.991bd19306079f390341b9ad80f1c014.js": "/precache-manifest.991bd19306079f390341b9ad80f1c014.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.15d752e0.chunk.css.map": "/static/css/main.15d752e0.chunk.css.map",
     "static/media/logo-rafaelturse-horizontal-dark.svg": "/static/media/logo-rafaelturse-horizontal-dark.9c6d8dc3.svg",
