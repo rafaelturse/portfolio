@@ -27,7 +27,7 @@ class ChartInterest extends React.Component {
                     height: 350
                 },
                 stroke: {
-                    show: true,
+                    show: false,
                     width: 2,
                 },
                 xaxis: {

@@ -4,7 +4,7 @@ class HeaderTechcnical extends React.Component {
     render() {
         return (
             <section>
-                <div className="background-dark-main-header pb-5">
+                <div className="background-dark-main-header pb-4">
                     <div className="container px-5">
                         <div className="fs-4 font-text-title font-weight-bold text-title-light d-flex justify-content-end">
                             <span className="align-middle">

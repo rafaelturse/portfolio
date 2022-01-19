@@ -19,13 +19,13 @@ class ChartFocous extends React.Component {
                 legend: {
                     position: 'bottom',
                 },
-                pie: { expandOnClick: true },
+                pie: { expandOnClick: false },
                 stroke: {
                     show: true,
                     width: 5,
                     colors:['#F9F9F9']
                 },
-            }
+            },
         };
     }
 

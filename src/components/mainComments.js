@@ -36,7 +36,7 @@ class MainComments extends React.Component {
                         <div className="fb-comments w-100" data-href="http://www.rafaelturse.ca/" data-numposts="20" data-order-by="reverse_time" data-width="100%"></div>
 
                         <div className="mt-5">
-                            <img className="img-fluid mx-auto d-block mb-2" src={logoPreFooter} width="300px" />
+                            <img className="img-fluid mx-auto d-block mb-2" src={logoPreFooter} width="300px" alt="" />
                         </div>
                     </div>
                 </div>
