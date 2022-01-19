@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.15d752e0.chunk.css",
-    "main.js": "/static/js/main.f08d2745.chunk.js",
-    "main.js.map": "/static/js/main.f08d2745.chunk.js.map",
+    "main.css": "/static/css/main.c75de20d.chunk.css",
+    "main.js": "/static/js/main.a6231837.chunk.js",
+    "main.js.map": "/static/js/main.a6231837.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.65d84106.chunk.js": "/static/js/2.65d84106.chunk.js",
-    "static/js/2.65d84106.chunk.js.map": "/static/js/2.65d84106.chunk.js.map",
+    "static/js/2.1ee97198.chunk.js": "/static/js/2.1ee97198.chunk.js",
+    "static/js/2.1ee97198.chunk.js.map": "/static/js/2.1ee97198.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.af31069c5ede511e9e290010953ec838.js": "/precache-manifest.af31069c5ede511e9e290010953ec838.js",
+    "precache-manifest.0378d4a4904abbd1f6a0a3252400dce3.js": "/precache-manifest.0378d4a4904abbd1f6a0a3252400dce3.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.15d752e0.chunk.css.map": "/static/css/main.15d752e0.chunk.css.map",
+    "static/css/main.c75de20d.chunk.css.map": "/static/css/main.c75de20d.chunk.css.map",
     "static/media/logo-rafaelturse-horizontal-dark.svg": "/static/media/logo-rafaelturse-horizontal-dark.9c6d8dc3.svg",
     "static/media/logo-rafaelturse-horizontal-light.svg": "/static/media/logo-rafaelturse-horizontal-light.95d30e97.svg"
   }
