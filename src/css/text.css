@@ -35,6 +35,8 @@
     letter-spacing: 1px;
 }
 
+.text-skill:hover { font-weight: bold; }
+
 /* FONT - SPOTLIGHT */
 .font-spotlight {
     font-family: 'Gloria Hallelujah', cursive;
@@ -109,6 +111,10 @@
     letter-spacing: 2px;
 }
 .text-subtitle-light:hover { color: #B9B9B9 !important; }
+
+/* TEXT */
+.text-light { color: #F9F9F9 !important; }
+.text-light:hover { color: #D9D9D9 !important; }
 
 
 /*
@@ -191,8 +197,7 @@
 
 
 
-.text-light { color: #F9F9F9 !important; }
-.text-light:hover { color: #D9D9D9 !important; }
+
 
 .text-topic-dark { color: #444 !important; }
 
@@ -205,7 +210,7 @@
 
 .text-social-button { letter-spacing: 5px; }
 
-.text-skill:hover { font-weight: bold; }
+
 
 .letter-spacing-1 { letter-spacing: 1px; }
 .letter-spacing-2 { letter-spacing: 2px; }
