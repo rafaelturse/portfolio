@@ -6,7 +6,7 @@ class Footer extends React.Component {
         return (
             <section>
                 <div className="footer p-2">
-                    <GoTo type="red" to="top" />
+                    <GoTo type="light" to="top" />
 
                     <div className="col">
                         <div className="row px-1">
