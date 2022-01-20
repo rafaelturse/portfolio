@@ -10,3 +10,6 @@ portfolio Web Site with my journey, professional and technical information
   - Adobe Illustrator
   - Adobe After Effects
   - Visual Code Studio
+  - NodeJS
+  - NPM
+  - GitHub
