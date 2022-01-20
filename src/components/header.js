@@ -9,15 +9,7 @@ class Header extends React.Component {
                 <div className="background-dark-main-header">
                     <div className="container-fluid">
                         <div className="container py-5">
-                            <a
-                                href="https://rafaelturse.ca">
-                                <img
-                                    className="img-fluid"
-                                    src={logoMainTop}
-                                    width="400px"
-                                    alt="logo-rafaelturse-horizontal-light"
-                                />
-                            </a>
+                            <a href="/"><img className="img-fluid" src={logoMainTop} width="400px" alt="logo-rafaelturse-horizontal-light"/></a>
                         </div>
                     </div>
                 </div>
