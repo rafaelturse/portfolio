@@ -5,6 +5,7 @@ import Footer from '../components/footer';
 import HeaderTechcnical from '../components/headerTechnical';
 import Data from '../components/data';
 import Technology from '../components/technology';
+import TechnicalComments from '../components/technicalComments'
 
 class Technical extends React.Component {
   render() {
@@ -18,6 +19,7 @@ class Technical extends React.Component {
           <Technology />
         </div>
 
+        <TechnicalComments />
         <Footer />
       </div>
     )

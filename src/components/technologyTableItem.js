@@ -10,9 +10,8 @@ function pickBar(i) {
                 return 'bg-warning w-50';
         case 'danger':
             return 'bg-danger w-25';
-
         default:
-            return 'combat';
+            return 'bg-success w-0';
     }
 }
 

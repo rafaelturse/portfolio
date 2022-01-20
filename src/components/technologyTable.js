@@ -3,6 +3,7 @@ import LocalStorageService from '../service/localStorageService'
 import TechnologyTableHead from './technologyTableHead';
 import TechnologyTableSubject from './technologyTableSubject';
 import TechnologyTableItem from './technologyTableItem';
+import GoTo from './goTo';
 
 class TechnologyTable extends React.Component {
     doClick(doClickComponent) { document.getElementById(doClickComponent).click(); }
@@ -71,626 +72,228 @@ class TechnologyTable extends React.Component {
                                     <TechnologyTableItem title="Express" bar="success" />
 
                                     <TechnologyTableSubject title="Mobile" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Android</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Swift</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Kotlin</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Cordova</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Ionic 3</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Dart Lang</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Google Firebase</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Android" bar="warning" />
+                                    <TechnologyTableItem title="Swift" bar="danger" />
+                                    <TechnologyTableItem title="Kotlin" bar="danger" />
+                                    <TechnologyTableItem title="Cordova" bar="danger" />
+                                    <TechnologyTableItem title="Ionic" bar="danger" />
+                                    <TechnologyTableItem title="Dart Lang" bar="danger" />
+                                    <TechnologyTableItem title="Google Firebase" bar="danger" />
+
                                     <TechnologyTableSubject title="Dependency" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">CDI</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">EJB</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Apache Maven</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">NPM</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Gradle</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">JFrog</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="CDI" bar="success" />
+                                    <TechnologyTableItem title="EJB" bar="success" />
+                                    <TechnologyTableItem title="Apache Maven" bar="success" />
+                                    <TechnologyTableItem title="NPM" bar="success" />
+                                    <TechnologyTableItem title="Gradle" bar="info" />
+                                    <TechnologyTableItem title="JFrog" bar="warning" />
+
                                     <TechnologyTableSubject title="Log" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Log4j</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Log4J" bar="success" />
+
                                     <TechnologyTableSubject title="Scheduler" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Quartz</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Cron</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Quartz" bar="success" />
+                                    <TechnologyTableItem title="Cron" bar="success" />
+
                                     <TechnologyTableSubject title="Security" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">OAuth2</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Spring Security</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">JavaCV</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Apache Shiro</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">JWT</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Hibernate Envers</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="JWT" bar="success" />
+                                    <TechnologyTableItem title="OAuth2" bar="success" />
+                                    <TechnologyTableItem title="Spring Security" bar="success" />
+                                    <TechnologyTableItem title="Apache Shiro" bar="danger" />
+                                    <TechnologyTableItem title="Hibernate Envers" bar="success" />
+
                                     <TechnologyTableSubject title="Report" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Apache POI</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Jasper - iReport</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Apache POI" bar="success" />
+                                    <TechnologyTableItem title="Jasper - iReport" bar="success" />
+
                                     <TechnologyTableSubject title="Database - ORM" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">JPA - Hibernate</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Spring Data-JPA</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Criteria</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">HQL - JPQL</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Named - Native Query</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="JPA - Hibernate" bar="success" />
+                                    <TechnologyTableItem title="Spring Data-JPA" bar="success" />
+                                    <TechnologyTableItem title="Criteria" bar="success" />
+                                    <TechnologyTableItem title="HQL - JPQL" bar="success" />
+                                    <TechnologyTableItem title="Named - Native Query" bar="success" />
+
                                     <TechnologyTableSubject title="Data" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">HTTP</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">API REST - RESTFul</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">End Point</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">JSON</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">XML</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">YAML</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Soap</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">WSDL</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">XSD Schema</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">SoapUI</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Swagger</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Postman</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Microservices</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Webservices</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="HTTP" bar="success" />
+                                    <TechnologyTableItem title="API REST - RESTFul" bar="success" />
+                                    <TechnologyTableItem title="End Point" bar="success" />
+                                    <TechnologyTableItem title="Postman" bar="success" />
+                                    <TechnologyTableItem title="JSON" bar="success" />
+                                    <TechnologyTableItem title="XML" bar="success" />
+                                    <TechnologyTableItem title="YAML" bar="warning" />
+                                    <TechnologyTableItem title="Soap" bar="warning" />
+                                    <TechnologyTableItem title="Swagger" bar="warning" />
+                                    <TechnologyTableItem title="Webservices" bar="success" />
+
+                                    <TechnologyTableSubject title="Microservices" />
+                                    <TechnologyTableItem title="Zuul API" bar="success" />
+                                    <TechnologyTableItem title="Netflix Eureka Server" bar="success" />
+                                    <TechnologyTableItem title="Postman" bar="success" />
+
                                     <TechnologyTableSubject title="Application Server" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">TomCat</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">WildFly</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Websphere</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Xampp</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="TomCat" bar="success" />
+                                    <TechnologyTableItem title="WildFly" bar="success" />
+                                    <TechnologyTableItem title="Websphere" bar="success" />
+                                    <TechnologyTableItem title="Xampp" bar="success" />
+
                                     <TechnologyTableSubject title="IDE" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Eclipse</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Spring Tool Suite</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">NetBeans</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Android Studio</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">IntelliJ IDEA</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="STS - Spring Tool Suite" bar="success" />
+                                    <TechnologyTableItem title="Eclipse" bar="success" />
+                                    <TechnologyTableItem title="NetBeans" bar="success" />
+                                    <TechnologyTableItem title="Android Studio" bar="success" />
+                                    <TechnologyTableItem title="IntelliJ IDEA" bar="success" />
+                                    <TechnologyTableItem title="Visual Studio Code" bar="success" />
+
                                     <TechnologyTableSubject title="Other" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Visual Basic 6 (VB)</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Visual Basic Application (VBA)</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Delphi 4, 7, 2007</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Go - Golang</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Python 3</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">PHP 7 - POO</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Visual Basic 6 (VB)" bar="warning" />
+                                    <TechnologyTableItem title="Visual Basic Application (VBA)" bar="info" />
+                                    <TechnologyTableItem title="Delphi 4, 7, 2007" bar="success" />
+                                    <TechnologyTableItem title="Go - Golang" bar="danger" />
+                                    <TechnologyTableItem title="Python 3" bar="danger" />
+                                    <TechnologyTableItem title="PHP 7 - POO" bar="danger" />
                                 </tbody>
                             </table>
-
-                            <div className="d-flex justify-content-end mt-3"><a href="#technology"><i className="mark-indicator-dark fas fa-angle-up"></i></a></div>
+                            <GoTo type="dark" to="technology" />
                         </div>
                     </div>
 
                     {/* <!-- FRONTEND SKILLS --> */}
-                    <div id="content-frontend" className="tab-pane fade show" role="tabpanel">
+                    <div id="content-frontend" className="tab-pane fade show px-2" role="tabpanel">
                         <div className="table-responsive">
                             <table className="table table-sm table-borderless table-hover thead-dark text-content-dark">
                                 <TechnologyTableHead />
                                 <tbody>
                                     <TechnologyTableSubject title="Template" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">HTML5</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">PUG</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Responsive</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Thymeleaf</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">EJS</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Primefaces 3</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">XHTML</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Regex</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Javascript</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">JQuery</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Ajax</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <TechnologyTableSubject title="CSS" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">CSS3</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">SCCS</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">SASS</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">GRID</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Flexbox</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Bootstrap</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Material Design - Materialize</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="HTML" bar="success" />
+                                    <TechnologyTableItem title="Responsive" bar="success" />
+                                    <TechnologyTableItem title="Thymeleaf" bar="success" />
+                                    <TechnologyTableItem title="Primefaces 3" bar="success" />
+                                    <TechnologyTableItem title="XHTML" bar="success" />
+                                    <TechnologyTableItem title="XML" bar="success" />
+                                    <TechnologyTableItem title="Regex" bar="info" />
+                                    <TechnologyTableItem title="Javascript" bar="success" />
+                                    <TechnologyTableItem title="JQuery" bar="warning" />
+                                    <TechnologyTableItem title="Ajax" bar="warning" />
+                                    <TechnologyTableItem title="CSS" bar="success" />
+                                    <TechnologyTableItem title="GRID" bar="info" />
+                                    <TechnologyTableItem title="Flexbox" bar="info" />
+                                    <TechnologyTableItem title="Bootstrap" bar="success" />
+                                    <TechnologyTableItem title="Material Design - Materialize" bar="info" />
+                                    <TechnologyTableItem title="TypeScript" bar="info" />
+
                                     <TechnologyTableSubject title="SPA" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Angular</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">React</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">React Native</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Vue</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">TypeScript</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">React</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Redux</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Angular" bar="info" />
+                                    <TechnologyTableItem title="React" bar="success" />
+                                    <TechnologyTableItem title="React Native" bar="info" />
+                                    <TechnologyTableItem title="Redux" bar="success" />
+                                    <TechnologyTableItem title="NextJS" bar="success" />
+                                    <TechnologyTableItem title="Vue" bar="warning" />
+
                                     <TechnologyTableSubject title="Chart" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">ApexCharts.js</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Chart.js</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="ApexCharts.js" bar="success" />
+                                    <TechnologyTableItem title="Chart.js" bar="success" />
+
                                     <TechnologyTableSubject title="Design" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Corel Draw</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Inkscape</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Adobe Illustrator</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Adobe Photoshop</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <TechnologyTableSubject title="Motion" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Adobe After Effects</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Adobe Premier</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Corel Draw" bar="info" />
+                                    <TechnologyTableItem title="Inkscape" bar="info" />
+                                    <TechnologyTableItem title="Adobe Illustrator" bar="info" />
+                                    <TechnologyTableItem title="Adobe Photoshop" bar="info" />
+                                    <TechnologyTableItem title="Adobe After Effects" bar="info" />
+                                    <TechnologyTableItem title="Adobe Premier" bar="info" />
+
                                     <TechnologyTableSubject title="Management" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Google Analytics</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">SEO</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Chrome Developer Tools</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Google Analytics" bar="info" />
+                                    <TechnologyTableItem title="SEO" bar="info" />
+                                    <TechnologyTableItem title="Chrome Developer Tools" bar="info" />
+
                                     <TechnologyTableSubject title="IDE" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Visual Studio Code</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Sublime</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Atom</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Notepad++</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Visual Studio Code" bar="success" />
+                                    <TechnologyTableItem title="Sublime" bar="info" />
+                                    <TechnologyTableItem title="Atom" bar="info" />
+                                    <TechnologyTableItem title="Notepad++" bar="success" />
+
                                     <TechnologyTableSubject title="CMS" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Joomla</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">WordPress</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Joomla" bar="warning" />
+                                    <TechnologyTableItem title="WordPress" bar="warning" />
                                 </tbody>
                             </table>
-
-                            <div className="d-flex justify-content-end mt-3"><a href="#technology"><i className="mark-indicator-dark fas fa-angle-up"></i></a></div>
+                            <GoTo type="dark" to="technology" />
                         </div>
                     </div>
 
                     {/* <!-- DATABASE SKILLS --> */}
-                    <div id="content-database" className="tab-pane fade show" role="tabpanel">
+                    <div id="content-database" className="tab-pane fade show px-2" role="tabpanel">
                         <div className="table-responsive">
                             <table className="table table-sm table-borderless table-hover thead-dark text-content-dark">
                                 <TechnologyTableHead />
                                 <tbody>
-                                    <TechnologyTableSubject title="RDBMS" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">SQL Server</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">MySQL</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Oracle SQL Developer</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">PostgreSQL</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">SQLite</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">DBeaver</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">SQuirreL</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Apache Derby</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableSubject title="RDBMS - NoSQL" />
+                                    <TechnologyTableItem title="SQL Server" bar="success" />
+                                    <TechnologyTableItem title="MySQL WorkBench" bar="success" />
+                                    <TechnologyTableItem title="Oracle SQL Developer" bar="success" />
+                                    <TechnologyTableItem title="PostgreSQL" bar="success" />
+                                    <TechnologyTableItem title="SQLite" bar="success" />
+                                    <TechnologyTableItem title="DBeaver" bar="success" />
+                                    <TechnologyTableItem title="HeidiSQL" bar="success" />
+                                    <TechnologyTableItem title="SQuirreL" bar="success" />
+                                    <TechnologyTableItem title="Apache Derby" bar="success" />
+                                    <TechnologyTableItem title="MongoDB" bar="info" />
+                                    
                                     <TechnologyTableSubject title="SQL" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Stored Procedure</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Function</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Trigger</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">View</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Complexes Selects </span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Join</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Subquery</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Count - Sum - AVG</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Group - Having</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-
-                                    <TechnologyTableSubject title="NoSQL" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">MongoDB</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">MongoDB Compass</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Stored Procedure" bar="success" />
+                                    <TechnologyTableItem title="Function" bar="success" />
+                                    <TechnologyTableItem title="Trigger" bar="success" />
+                                    <TechnologyTableItem title="View" bar="success" />
+                                    <TechnologyTableItem title="Complexes Selects" bar="success" />
+                                    <TechnologyTableItem title="Join" bar="success" />
+                                    <TechnologyTableItem title="Subquery" bar="success" />
+                                    <TechnologyTableItem title="Count - Sum - AVG" bar="success" />
+                                    <TechnologyTableItem title="Group - Having" bar="success" />
+                                    
                                     <TechnologyTableSubject title="ETL" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">SQL Server Integration Services</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="SQL Server Integration Services" bar="success" />
+
                                     <TechnologyTableSubject title="Big Data" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Hadoop</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Apache Spark</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Python 3</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Hadoop" bar="danger" />
+                                    <TechnologyTableItem title="Apache Spark" bar="danger" />
+                                    <TechnologyTableItem title="Python 3" bar="danger" />
                                 </tbody>
                             </table>
-
-                            <div className="d-flex justify-content-end mt-3"><a href="#technology"><i className="mark-indicator-dark fas fa-angle-up"></i></a></div>
+                            <GoTo type="dark" to="technology" />
                         </div>
                     </div>
 
                     {/* <!-- DEVOPS SKILLS --> */}
-                    <div id="content-devops" className="tab-pane fade show" role="tabpanel">
+                    <div id="content-devops" className="tab-pane fade show px-2" role="tabpanel">
                         <div className="table-responsive">
                             <table className="table table-sm table-borderless table-hover thead-dark text-content-dark">
                                 <TechnologyTableHead />
                                 <tbody>
                                     <TechnologyTableSubject title="Automation" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Jenkins</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Kubernetes</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Elasticsearch</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-danger w-25" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Docker</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Jenkins" bar="warning" />
+                                    <TechnologyTableItem title="Kubernetes" bar="danger" />
+                                    <TechnologyTableItem title="Elasticsearch" bar="danger" />
+                                    <TechnologyTableItem title="Docker" bar="warning" />
+                                    
                                     <TechnologyTableSubject title="Tests" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">JUnit</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Selenium</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Mockito</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">TDD</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="JUnit" bar="info" />
+                                    <TechnologyTableItem title="Selenium" bar="warning" />
+                                    <TechnologyTableItem title="Mockito" bar="warning" />
+                                    <TechnologyTableItem title="TDD" bar="danger" />
+                                    
                                     <TechnologyTableSubject title="Repository" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">GitLab</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">GitHub</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Bitbucket</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Tortoise SVN</span></td>
-                                        <td><div className="progress"><div className="progress-bar success" role="progressbar"></div></div></td>
-                                    </tr>
-                                    <tr>
-                                        <td><span className="text-skill ml-3">JFrog</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-warning w-50" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="GitLab" bar="success" />
+                                    <TechnologyTableItem title="GitHub" bar="success" />
+                                    <TechnologyTableItem title="Bitbucket" bar="success" />
+                                    <TechnologyTableItem title="Tortoise SVN" bar="success" />
+                                    <TechnologyTableItem title="JFrog" bar="warning" />
+                                    
                                     <TechnologyTableSubject title="Cloud" />
-                                    <tr>
-                                        <td><span className="text-skill ml-3">Heroku</span></td>
-                                        <td><div className="progress"><div className="progress-bar bg-info w-75" role="progressbar"></div></div></td>
-                                    </tr>
+                                    <TechnologyTableItem title="Heroku" bar="success" />
+                                    <TechnologyTableItem title="Spring Cloud" bar="success" />
                                 </tbody>
                             </table>
-
-                            <div className="d-flex justify-content-end mt-3"><a href="#technology"><i className="mark-indicator-dark fas fa-angle-up"></i></a></div>
+                            <GoTo type="dark" to="technology" />
                         </div>
                     </div>
                 </div>

@@ -17,9 +17,9 @@ class Main extends React.Component {
                     <HeadlineMainSubjects />
                     <HeadlineFeatured />
                     <MainMotion />
-                    <MainComments />
                 </div>
-
+                
+                <MainComments />
                 <Footer />
             </div>
         )
