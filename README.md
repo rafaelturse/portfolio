@@ -1,7 +1,7 @@
 # :horse_racing: Rafael Turse
 portfolio Web Site with my journey, professional and technical information
 
-# :guitar: Stack
+# :gem: Stack
 - React
   - HTML
   - CSS
