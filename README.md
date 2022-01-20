@@ -7,9 +7,10 @@ portfolio Web Site with my journey, professional and technical information
   - CSS
   - Bootstrap
   - Javascript
-  - Adobe Illustrator
-  - Adobe After Effects
-  - Visual Code Studio
-  - NodeJS
+- Adobe 
+  - Illustrator
+  - After Effects
+- Visual Code Studio
+- NodeJS
   - NPM
-  - GitHub
+- GitHub
