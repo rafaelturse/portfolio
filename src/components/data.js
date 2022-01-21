@@ -14,7 +14,7 @@ class Data extends React.Component {
 
     render() {
         return (
-            <section>
+            <section id="data">
                 <div className="container my-5">
                     <div className="row text-center">
                         <div className="fs-1 text-title-dark font-text-title fw-bold">

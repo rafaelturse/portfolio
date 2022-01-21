@@ -1,11 +1,13 @@
 import React from 'react';
 import LandscapeItem from '../components/landscapeItem'
+import GoTo from './goTo';
 
 import Iconjava from '../art/icon/technology/icon-java.svg'
 import Iconjavafx from '../art/icon/technology/icon-javafx.svg'
 import Iconjsp from '../art/icon/technology/icon-jsp.png'
 import Iconstruts from '../art/icon/technology/icon-struts.png'
 import Iconjsf from '../art/icon/technology/icon-jsf.png'
+import Iconaws from '../art/icon/technology/icon-aws.png'
 import Iconspring from '../art/icon/technology/icon-spring.png'
 import Iconspringcloud from '../art/icon/technology/icon-springcloud.png'
 import IconspringFrameW from '../art/icon/technology/icon-springframew.svg'
@@ -22,6 +24,7 @@ import Iconnode from '../art/icon/technology/icon-node.png'
 import Iconjs from '../art/icon/technology/icon-js.png'
 import Iconts from '../art/icon/technology/icon-ts.png'
 import Iconjquery from '../art/icon/technology/icon-jquery.png'
+import IconApex from '../art/icon/technology/icon-apex.png'
 import Iconpoi from '../art/icon/technology/icon-poi.png'
 import Iconjasper from '../art/icon/technology/icon-jasper.png'
 import Iconcordova from '../art/icon/technology/icon-cordova.png'
@@ -116,128 +119,134 @@ class Landscape extends React.Component {
     render() {
         return (
             <section>
-                <div id="technology" className="row text-center mt-5">
-                    <div className="fs-1 text-title-dark font-text-title fw-bold">
-                        <svg className="bi bi-pie-chart-fill mx-2" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" viewBox="0 0 16 16">
-                            <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
-                            <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z" />
-                        </svg>
-                        Landscape
+                <div className="container-fluid">
+                    <div id="landscape" className="row text-center mt-5">
+                        <div className="fs-1 text-title-dark font-text-title fw-bold">
+                            <svg className="bi bi-pie-chart-fill mx-2" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" viewBox="0 0 16 16">
+                                <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                                <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z" />
+                            </svg>
+                            Landscape
+                        </div>
                     </div>
-                </div>
-                <span className="underline underline-dark mx-auto"></span>
+                    <span className="underline underline-dark mx-auto"></span>
 
-                <div class="flex-wrap d-flex justify-content-center mx-1 mt-5">
-                    <LandscapeItem path={Iconjava} />
-                    <LandscapeItem path={Iconjavafx} />
-                    <LandscapeItem path={Iconjsp} />
-                    <LandscapeItem path={Iconstruts} />
-                    <LandscapeItem path={Iconjsf} />
-                    <LandscapeItem path={Iconspring} />
-                    <LandscapeItem path={Iconspringcloud} />
-                    <LandscapeItem path={IconspringFrameW} />
-                    <LandscapeItem path={IconspringBoot} />
-                    <LandscapeItem path={Iconspringbatch} />
-                    <LandscapeItem path={Iconspringdata} />
-                    <LandscapeItem path={Iconspringsecurity} />
-                    <LandscapeItem path={Iconzuul} />
-                    <LandscapeItem path={Iconexpress} />
-                    <LandscapeItem path={Iconant} />
-                    <LandscapeItem path={Iconmaven} />
-                    <LandscapeItem path={Iconnpm} />
-                    <LandscapeItem path={Iconnode} />
-                    <LandscapeItem path={Iconjs} />
-                    <LandscapeItem path={Iconts} />
-                    <LandscapeItem path={Iconjquery} />
-                    <LandscapeItem path={Iconpoi} />
-                    <LandscapeItem path={Iconjasper} />
-                    <LandscapeItem path={Iconcordova} />
-                    <LandscapeItem path={Iconandroid} />
-                    <LandscapeItem path={Icongradle} />
-                    <LandscapeItem path={Icondart} />
-                    <LandscapeItem path={Iconkotlin} />
-                    <LandscapeItem path={Iconswift} />
-                    <LandscapeItem path={Iconionic} />
-                    <LandscapeItem path={Iconfirebase} />
-                    <LandscapeItem path={Iconjpa} />
-                    <LandscapeItem path={Iconhibernate} />
-                    <LandscapeItem path={Iconrest} />
-                    <LandscapeItem path={Iconrestful} />
-                    <LandscapeItem path={Iconxml} />
-                    <LandscapeItem path={Iconyml} />
-                    <LandscapeItem path={Iconjson} />
-                    <LandscapeItem path={Iconxsd} />
-                    <LandscapeItem path={Iconsoap} />
-                    <LandscapeItem path={Iconswagger} />
-                    <LandscapeItem path={Iconpostman} />
-                    <LandscapeItem path={Icontomcat} />
-                    <LandscapeItem path={Iconwildfly} />
-                    <LandscapeItem path={Iconwebsphere} />
-                    <LandscapeItem path={Iconxampp} />
-                    <LandscapeItem path={Iconsts} />
-                    <LandscapeItem path={Iconeclipse} />
-                    <LandscapeItem path={Iconnetbeans} />
-                    <LandscapeItem path={Iconandroidstudio} />
-                    <LandscapeItem path={Iconintelij} />
-                    <LandscapeItem path={Iconvscode} />
-                    <LandscapeItem path={Iconsublime} />
-                    <LandscapeItem path={Iconatom} />
-                    <LandscapeItem path={Iconnotepadpp} />
-                    <LandscapeItem path={Iconjoomla} />
-                    <LandscapeItem path={Iconwordpress} />
-                    <LandscapeItem path={Icongo} />
-                    <LandscapeItem path={Iconpython} />
-                    <LandscapeItem path={Iconphp} />
-                    <LandscapeItem path={Icondelphi} />
-                    <LandscapeItem path={Iconhtml} />
-                    <LandscapeItem path={Iconcss} />
-                    <LandscapeItem path={Iconbootstrap} />
-                    <LandscapeItem path={Iconmaterialize} />
-                    <LandscapeItem path={Iconanalytics} />
-                    <LandscapeItem path={Iconseo} />
-                    <LandscapeItem path={Iconchromedev} />
-                    <LandscapeItem path={Iconprimefaces} />
-                    <LandscapeItem path={Iconprimereact} />
-                    <LandscapeItem path={Iconxhtml} />
-                    <LandscapeItem path={Iconajax} />
-                    <LandscapeItem path={Iconregex} />
-                    <LandscapeItem path={IconejsIcon} />
-                    <LandscapeItem path={Iconthymeleaf} />
-                    <LandscapeItem path={Icon_mentawai} />
-                    <LandscapeItem path={Iconreact} />
-                    <LandscapeItem path={Iconredux} />
-                    <LandscapeItem path={Iconangular} />
-                    <LandscapeItem path={Iconvue} />
-                    <LandscapeItem path={Iconcorel} />
-                    <LandscapeItem path={IconInkscape} />
-                    <LandscapeItem path={Iconillustrator} />
-                    <LandscapeItem path={Iconphotoshop} />
-                    <LandscapeItem path={Iconaftereffects} />
-                    <LandscapeItem path={Iconsqlserver} />
-                    <LandscapeItem path={Iconmysql} />
-                    <LandscapeItem path={Iconoraclesql} />
-                    <LandscapeItem path={Iconpostgre} />
-                    <LandscapeItem path={Iconsqlite} />
-                    <LandscapeItem path={Iconmongodb} />
-                    <LandscapeItem path={Icondbeaver} />
-                    <LandscapeItem path={Iconsquirel} />
-                    <LandscapeItem path={Iconhadoop} />
-                    <LandscapeItem path={Iconspark} />
-                    <LandscapeItem path={Iconejb} />
-                    <LandscapeItem path={Iconjenkins} />
-                    <LandscapeItem path={Iconkubernets} />
-                    <LandscapeItem path={Iconelasticsearch} />
-                    <LandscapeItem path={Icondocker} />
-                    <LandscapeItem path={Iconselenium} />
-                    <LandscapeItem path={Iconjunit} />
-                    <LandscapeItem path={Iconmokito} />
-                    <LandscapeItem path={Icontdd} />
-                    <LandscapeItem path={Icongitlab} />
-                    <LandscapeItem path={Icongithub} />
-                    <LandscapeItem path={Iconbitbucket} />
-                    <LandscapeItem path={Icontortoise} />
-                    <LandscapeItem path={Iconjfrog} />
-                    <LandscapeItem path={Iconheroku} />
+                    <div class="flex-wrap d-flex justify-content-center mx-1 mt-5">
+                        <LandscapeItem path={Iconjava} />
+                        <LandscapeItem path={Iconjavafx} />
+                        <LandscapeItem path={Iconjsp} />
+                        <LandscapeItem path={Iconstruts} />
+                        <LandscapeItem path={Iconjsf} />
+                        <LandscapeItem path={Iconaws} />
+                        <LandscapeItem path={Iconspring} />
+                        <LandscapeItem path={Iconspringcloud} />
+                        <LandscapeItem path={IconspringFrameW} />
+                        <LandscapeItem path={IconspringBoot} />
+                        <LandscapeItem path={Iconspringbatch} />
+                        <LandscapeItem path={Iconspringdata} />
+                        <LandscapeItem path={Iconspringsecurity} />
+                        <LandscapeItem path={Iconzuul} />
+                        <LandscapeItem path={Iconexpress} />
+                        <LandscapeItem path={Iconant} />
+                        <LandscapeItem path={Iconmaven} />
+                        <LandscapeItem path={Iconnpm} />
+                        <LandscapeItem path={Iconnode} />
+                        <LandscapeItem path={Iconjs} />
+                        <LandscapeItem path={Iconts} />
+                        <LandscapeItem path={Iconjquery} />
+                        <LandscapeItem path={IconApex} />
+                        <LandscapeItem path={Iconpoi} />
+                        <LandscapeItem path={Iconjasper} />
+                        <LandscapeItem path={Iconcordova} />
+                        <LandscapeItem path={Iconandroid} />
+                        <LandscapeItem path={Icongradle} />
+                        <LandscapeItem path={Icondart} />
+                        <LandscapeItem path={Iconkotlin} />
+                        <LandscapeItem path={Iconswift} />
+                        <LandscapeItem path={Iconionic} />
+                        <LandscapeItem path={Iconfirebase} />
+                        <LandscapeItem path={Iconjpa} />
+                        <LandscapeItem path={Iconhibernate} />
+                        <LandscapeItem path={Iconrest} />
+                        <LandscapeItem path={Iconrestful} />
+                        <LandscapeItem path={Iconxml} />
+                        <LandscapeItem path={Iconyml} />
+                        <LandscapeItem path={Iconjson} />
+                        <LandscapeItem path={Iconxsd} />
+                        <LandscapeItem path={Iconsoap} />
+                        <LandscapeItem path={Iconswagger} />
+                        <LandscapeItem path={Iconpostman} />
+                        <LandscapeItem path={Icontomcat} />
+                        <LandscapeItem path={Iconwildfly} />
+                        <LandscapeItem path={Iconwebsphere} />
+                        <LandscapeItem path={Iconxampp} />
+                        <LandscapeItem path={Iconsts} />
+                        <LandscapeItem path={Iconeclipse} />
+                        <LandscapeItem path={Iconnetbeans} />
+                        <LandscapeItem path={Iconandroidstudio} />
+                        <LandscapeItem path={Iconintelij} />
+                        <LandscapeItem path={Iconvscode} />
+                        <LandscapeItem path={Iconsublime} />
+                        <LandscapeItem path={Iconatom} />
+                        <LandscapeItem path={Iconnotepadpp} />
+                        <LandscapeItem path={Iconjoomla} />
+                        <LandscapeItem path={Iconwordpress} />
+                        <LandscapeItem path={Icongo} />
+                        <LandscapeItem path={Iconpython} />
+                        <LandscapeItem path={Iconphp} />
+                        <LandscapeItem path={Icondelphi} />
+                        <LandscapeItem path={Iconhtml} />
+                        <LandscapeItem path={Iconcss} />
+                        <LandscapeItem path={Iconbootstrap} />
+                        <LandscapeItem path={Iconmaterialize} />
+                        <LandscapeItem path={Iconanalytics} />
+                        <LandscapeItem path={Iconseo} />
+                        <LandscapeItem path={Iconchromedev} />
+                        <LandscapeItem path={Iconprimefaces} />
+                        <LandscapeItem path={Iconprimereact} />
+                        <LandscapeItem path={Iconxhtml} />
+                        <LandscapeItem path={Iconajax} />
+                        <LandscapeItem path={Iconregex} />
+                        <LandscapeItem path={IconejsIcon} />
+                        <LandscapeItem path={Iconthymeleaf} />
+                        <LandscapeItem path={Icon_mentawai} />
+                        <LandscapeItem path={Iconreact} />
+                        <LandscapeItem path={Iconredux} />
+                        <LandscapeItem path={Iconangular} />
+                        <LandscapeItem path={Iconvue} />
+                        <LandscapeItem path={Iconcorel} />
+                        <LandscapeItem path={IconInkscape} />
+                        <LandscapeItem path={Iconillustrator} />
+                        <LandscapeItem path={Iconphotoshop} />
+                        <LandscapeItem path={Iconaftereffects} />
+                        <LandscapeItem path={Iconsqlserver} />
+                        <LandscapeItem path={Iconmysql} />
+                        <LandscapeItem path={Iconoraclesql} />
+                        <LandscapeItem path={Iconpostgre} />
+                        <LandscapeItem path={Iconsqlite} />
+                        <LandscapeItem path={Iconmongodb} />
+                        <LandscapeItem path={Icondbeaver} />
+                        <LandscapeItem path={Iconsquirel} />
+                        <LandscapeItem path={Iconhadoop} />
+                        <LandscapeItem path={Iconspark} />
+                        <LandscapeItem path={Iconejb} />
+                        <LandscapeItem path={Iconjenkins} />
+                        <LandscapeItem path={Iconkubernets} />
+                        <LandscapeItem path={Iconelasticsearch} />
+                        <LandscapeItem path={Icondocker} />
+                        <LandscapeItem path={Iconselenium} />
+                        <LandscapeItem path={Iconjunit} />
+                        <LandscapeItem path={Iconmokito} />
+                        <LandscapeItem path={Icontdd} />
+                        <LandscapeItem path={Icongitlab} />
+                        <LandscapeItem path={Icongithub} />
+                        <LandscapeItem path={Iconbitbucket} />
+                        <LandscapeItem path={Icontortoise} />
+                        <LandscapeItem path={Iconjfrog} />
+                        <LandscapeItem path={Iconheroku} />
+                    </div>
+
+                    <GoTo type="dark" to="top" />
                 </div>
             </section >
         )

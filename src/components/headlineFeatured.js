@@ -112,7 +112,7 @@ class HeadlineFeatured extends React.Component {
                             I have experience in several areas, where with competence and commitment I can work in the development 
                             of complex and comprehensive solutions
                         </p>
-                        <a href="#"><span className='d-flex justify-content-end fw-bold lh-sm'>more</span></a>
+                        <a href="/"><span className='d-flex justify-content-end fw-bold lh-sm'>more</span></a>
                     </div>
                 </div>
             </section>
