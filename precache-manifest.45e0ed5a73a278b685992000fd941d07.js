@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f216b1c14e09da94edfb8cf69795470",
+    "revision": "95fe91cfee0f811356545cd92c463c40",
     "url": "/index.html"
   },
   {
-    "revision": "677797eaf5d438e4ab15",
+    "revision": "79d2d0c4c5981253edf3",
     "url": "/static/css/main.9acdad7b.chunk.css"
   },
   {
-    "revision": "4421b2996ec2885d9b4e",
-    "url": "/static/js/2.06340379.chunk.js"
+    "revision": "a3da095f94aed6403aeb",
+    "url": "/static/js/2.463efb0a.chunk.js"
   },
   {
-    "revision": "677797eaf5d438e4ab15",
-    "url": "/static/js/main.e8736226.chunk.js"
+    "revision": "79d2d0c4c5981253edf3",
+    "url": "/static/js/main.98df461c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "70451a13365f85fb97f1fef5d1626fd9",
     "url": "/static/media/icon-atom.70451a13.png"
+  },
+  {
+    "revision": "45bbb88d4eaeb43e6e11d74479687b7c",
+    "url": "/static/media/icon-aws.45bbb88d.png"
   },
   {
     "revision": "7cb20cfca08733f94812b3ead4280b95",
