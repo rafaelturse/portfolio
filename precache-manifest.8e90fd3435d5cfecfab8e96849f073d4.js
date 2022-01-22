@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8cdabf87fdbcbd0ba70befde098c995f",
+    "revision": "d744e77d0183fe06135ca9e493ddacb5",
     "url": "/index.html"
   },
   {
-    "revision": "0ad019898dfc308cba1c",
-    "url": "/static/css/main.21f3a907.chunk.css"
+    "revision": "4bcb7b412d1284366303",
+    "url": "/static/css/main.9d9be80c.chunk.css"
   },
   {
-    "revision": "803bd3206f27ef8efa2a",
-    "url": "/static/js/2.b624c975.chunk.js"
+    "revision": "a993dc15092b0e3d4ad1",
+    "url": "/static/js/2.3e3026ac.chunk.js"
   },
   {
-    "revision": "0ad019898dfc308cba1c",
-    "url": "/static/js/main.c14025d9.chunk.js"
+    "revision": "4bcb7b412d1284366303",
+    "url": "/static/js/main.2efce53f.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -382,6 +382,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "732a460a96c94750494ad8a86dc4f400",
     "url": "/static/media/icon_mentawai.732a460a.png"
+  },
+  {
+    "revision": "e5564902e2642c5e6e2e98e68a7d41f5",
+    "url": "/static/media/language-english.e5564902.svg"
+  },
+  {
+    "revision": "968aaa24eeffdd779e4fc9c27c5cb730",
+    "url": "/static/media/language-french.968aaa24.svg"
+  },
+  {
+    "revision": "a102e5631626f71ddbc427003063dc0a",
+    "url": "/static/media/language-portuguese.a102e563.svg"
+  },
+  {
+    "revision": "a9914a14a0bcc100711b9ba706b99597",
+    "url": "/static/media/language-spanish.a9914a14.svg"
   },
   {
     "revision": "9c6d8dc3c1cf5f654c653054d1181c27",
