@@ -41,8 +41,8 @@ class MainComments extends React.Component {
                     </div>
                 </div>
             </section>
-        );
+        )
     }
 }
 
-export default MainComments;
+export default MainComments

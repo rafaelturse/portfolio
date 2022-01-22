@@ -11,8 +11,8 @@ class HeaderTechcnical extends React.Component {
                 subtitle="Technical"
                 subtitleDescription="information about development skills and programming languages"
             />
-        );
+        )
     }
 }
 
-export default HeaderTechcnical;
+export default HeaderTechcnical

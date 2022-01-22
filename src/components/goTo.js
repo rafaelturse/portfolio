@@ -21,7 +21,7 @@ function GoTo({ ...props }) {
                 </svg>
             </Link>
         </div>
-    );
+    )
 }
 
-export default GoTo;
+export default GoTo

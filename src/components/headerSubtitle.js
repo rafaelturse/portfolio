@@ -22,4 +22,4 @@ function HeaderSubtitle({ ...props }) {
     )
 }
 
-export default HeaderSubtitle;
+export default HeaderSubtitle

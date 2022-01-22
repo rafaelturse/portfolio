@@ -9,7 +9,7 @@ function GoToPage({ ...props }) {
                 {props.title}
             </span>
         </Link>
-    );
+    )
 }
 
-export default GoToPage;
+export default GoToPage

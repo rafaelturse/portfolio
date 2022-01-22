@@ -116,8 +116,8 @@ class HeadlineFeatured extends React.Component {
                     </div>
                 </div>
             </section>
-        );
+        )
     }
 }
 
-export default HeadlineFeatured;
+export default HeadlineFeatured

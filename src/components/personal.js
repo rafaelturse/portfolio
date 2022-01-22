@@ -135,7 +135,7 @@ class Personal extends React.Component {
                     {/* CONTACT */}
                     <div id="content-contact" className="tab-pane fade show m-5" role="tabpanel">
                         <div className="d-flex justify-content-center mt-3">
-                            <img class="img-fluid mx-auto d-block mb-2" src={ContactLogo} width="300px" />
+                            <img class="img-fluid mx-auto d-block mb-2" src={ContactLogo} width="300px" alt="..." />
                         </div>
                         <div className="d-flex justify-content-center mt-4">
                             <Contacts size="52" />

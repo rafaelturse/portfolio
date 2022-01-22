@@ -26,7 +26,7 @@ class ChartFocous extends React.Component {
                     colors:['#F9F9F9']
                 },
             },
-        };
+        }
     }
 
     render() {
@@ -34,7 +34,7 @@ class ChartFocous extends React.Component {
             <div>
                 <Chart options={this.state.options} series={this.state.series} type="pie" width="500" />
             </div>
-        );
+        )
     }
 }
 

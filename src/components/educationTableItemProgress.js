@@ -15,10 +15,10 @@ function pickBar(i) {
     }
 }
 
-function TechnologyTableItem({ ...props }) {
+function EducationTableItemProgress({ ...props }) {
     return (
         (
-            <tr>
+            <tr class="cursor-link" data-bs-toggle="modal" data-bs-target={`#${props.target}`}>
                 <td><span className="text-skill mx-1">{props.title}</span></td>
                 <td><div className="progress"><div className={`progress-bar ${pickBar({ props })}`} role="progressbar"></div></div></td>
             </tr>
@@ -26,4 +26,4 @@ function TechnologyTableItem({ ...props }) {
     )
 }
 
-export default TechnologyTableItem
+export default EducationTableItemProgress

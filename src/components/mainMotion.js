@@ -34,8 +34,8 @@ class MainMotion extends React.Component {
                     </div>
                 </div>
             </section>
-        );
+        )
     }
 }
 
-export default MainMotion;
+export default MainMotion

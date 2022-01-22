@@ -12,8 +12,8 @@ class Technology extends React.Component {
                 />
                 <TechnologyTable />
             </section >
-        );
+        )
     }
 }
 
-export default Technology;
+export default Technology

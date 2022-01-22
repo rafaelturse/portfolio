@@ -5,6 +5,7 @@ import Footer from '../components/footer';
 import HeaderProfessional from '../components/headerProfessional';
 import ProfessionalComments from '../components/professionalComments';
 import Personal from '../components/personal';
+import Education from '../components/education';
 
 class Professional extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class Professional extends React.Component {
 
         <div className="container">
           <Personal />
+          <Education />
         </div>
 
         <ProfessionalComments />

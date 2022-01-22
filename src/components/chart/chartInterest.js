@@ -61,7 +61,7 @@ class ChartInterest extends React.Component {
             <div>
                 <Chart options={this.state.options} series={this.state.series} type="bar" height={350} />
             </div>
-        );
+        )
     }
 }
 

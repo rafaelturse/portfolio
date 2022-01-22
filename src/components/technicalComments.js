@@ -41,7 +41,7 @@ class TechnicalComments extends React.Component {
                     </div>
                 </div>
             </section>
-        );
+        )
     }
 }
 

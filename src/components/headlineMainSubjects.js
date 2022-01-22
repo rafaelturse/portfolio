@@ -2,7 +2,7 @@ import React from 'react';
 import LocalStorageService from '../service/localStorageService';
 
 class HeadlineMainSubjects extends React.Component {
-    
+
     setDoClickComponent(component) { LocalStorageService.setItem('doClickComponent', component) }
 
     componentDidMount() { LocalStorageService.setItem('doClickComponent', '') }
@@ -24,8 +24,7 @@ class HeadlineMainSubjects extends React.Component {
                     <div className="col card-link text-center p-5">
                         <a href="#/professional">
                             <svg className="bi bi-person-circle mb-4" xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
-                                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
+                                <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1z" />
                             </svg>
                             <div className='fs-2'>Professional</div>
                             <p>contact information, education, career, profile and some curiosities about me</p>
@@ -42,8 +41,8 @@ class HeadlineMainSubjects extends React.Component {
                     </div>
                 </div>
             </section>
-        );
+        )
     }
 }
 
-export default HeadlineMainSubjects;
+export default HeadlineMainSubjects

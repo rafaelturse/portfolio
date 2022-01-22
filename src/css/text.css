@@ -113,6 +113,8 @@
 .text-subtitle-light:hover { color: #B9B9B9 !important; }
 
 /* TEXT */
+.text-hover:hover { font-weight: bold; }
+
 .text-light { color: #F9F9F9 !important; }
 .text-light:hover { color: #D9D9D9 !important; }
 
@@ -206,7 +208,7 @@
     text-shadow: 0 0 2px rgba(0,0,0,0.50);
 }
 
-.text-hover:hover { font-weight: bold; }
+
 
 .text-social-button { letter-spacing: 5px; }
 

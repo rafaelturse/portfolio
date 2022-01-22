@@ -298,8 +298,8 @@ class TechnologyTable extends React.Component {
                     </div>
                 </div>
             </div>
-        );
+        )
     }
 }
 
-export default TechnologyTable;
+export default TechnologyTable

@@ -85,8 +85,8 @@ class Data extends React.Component {
                     </div>
                 </div>
             </section>
-        );
+        )
     }
 }
 
-export default Data;
+export default Data
