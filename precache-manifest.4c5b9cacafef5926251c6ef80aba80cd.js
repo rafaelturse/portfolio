@@ -1,27 +1,99 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0fac01c638864fd27b7cefd8c2d8aba",
+    "revision": "383a6bebfc44a3bece2a8683a68de04d",
     "url": "/index.html"
   },
   {
-    "revision": "1feb1922cdf6857168ba",
+    "revision": "afc608cc3042d1237c3b",
     "url": "/static/css/main.9d9be80c.chunk.css"
   },
   {
-    "revision": "3fa4db56147e3f47dcce",
-    "url": "/static/js/2.4e39fd51.chunk.js"
+    "revision": "c5de85db1cd747896358",
+    "url": "/static/js/2.df229f7e.chunk.js"
   },
   {
-    "revision": "1feb1922cdf6857168ba",
-    "url": "/static/js/main.db94d0f2.chunk.js"
+    "revision": "afc608cc3042d1237c3b",
+    "url": "/static/js/main.d7d971ae.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
+    "revision": "72de3deff679e0982ab1fcc5b5236a6b",
+    "url": "/static/media/certificate-AW-FW246DZIH2.72de3def.jpg"
+  },
+  {
+    "revision": "4109bb9e9b755a676d616f35a1615ebf",
+    "url": "/static/media/certificate-AW-SZ6LX7M5BW.4109bb9e.jpg"
+  },
+  {
+    "revision": "e535ef79206608c027c12e732e9ee4a2",
+    "url": "/static/media/certificate-UC-112c43d1-b059-4e18-ae02-60ad73a5b0ba.e535ef79.jpg"
+  },
+  {
+    "revision": "3cbe7393969c0c8686ed00ec89517e1e",
+    "url": "/static/media/certificate-UC-5bbc35ec-9846-43b8-aba6-ca4b88c91bff.3cbe7393.jpg"
+  },
+  {
+    "revision": "a107ca5f7ffc90659d8857a4f59e587c",
+    "url": "/static/media/certificate-UC-9f4ffc10-ba3c-480c-8ae8-99e483a61dcc.a107ca5f.jpg"
+  },
+  {
+    "revision": "2b1c461d83f6c2e93fdf8ff22357acc2",
+    "url": "/static/media/certificate-UC-H0G0QEEF.2b1c461d.jpg"
+  },
+  {
     "revision": "efd3dfdcdd18782a38dede2408f35a47",
     "url": "/static/media/certificate-UC-HOPBUD1TYR.efd3dfdc.png"
+  },
+  {
+    "revision": "9a5ed52f5fbfe415eb4c464ef54796f0",
+    "url": "/static/media/certificate-UC-IJPOB9W1.9a5ed52f.jpg"
+  },
+  {
+    "revision": "f17ce361959e86a98dd8aa276c1f1857",
+    "url": "/static/media/certificate-UC-QTC9JIJ0.f17ce361.jpg"
+  },
+  {
+    "revision": "418cf7ad4edf6f45b4d585f2a55877e6",
+    "url": "/static/media/certificate-UC-QYLSSW9H.418cf7ad.jpg"
+  },
+  {
+    "revision": "1fd1fbde6d7cb841704fff6104363e61",
+    "url": "/static/media/certificate-UC-Z9BO5PN9.1fd1fbde.jpg"
+  },
+  {
+    "revision": "7384412324c769e447d3c4f86e9ff068",
+    "url": "/static/media/course-bootstrap.73844123.png"
+  },
+  {
+    "revision": "ebd984a3a7d6b0e6c1a03f0ac6f3dc76",
+    "url": "/static/media/course-docker.ebd984a3.png"
+  },
+  {
+    "revision": "08ec57224f5d2a9929ead8a51b22e6f8",
+    "url": "/static/media/course-git.08ec5722.png"
+  },
+  {
+    "revision": "101c3ee466a991248c931ccd3959dc26",
+    "url": "/static/media/course-java.101c3ee4.svg"
+  },
+  {
+    "revision": "7f130501681cb3d0129f266820c78b24",
+    "url": "/static/media/course-js.7f130501.png"
+  },
+  {
+    "revision": "9c4ab2032a71589bb23347e9f9f0564a",
+    "url": "/static/media/course-nodejs.9c4ab203.png"
+  },
+  {
+    "revision": "58cb4729bc3de5f8cafc02d90fbc6e5b",
+    "url": "/static/media/course-spring-experts.58cb4729.png"
+  },
+  {
+    "revision": "e7aef24d75012d07fb7de5b6d5ed80ae",
+    "url": "/static/media/course-spring-framework.e7aef24d.svg"
   },
   {
     "revision": "26cc95f255ccb936d154b43614f61602",
@@ -298,6 +370,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3daecf3b5bfb6c0348ec2f9e1cc4bf3d",
     "url": "/static/media/icon-spark.3daecf3b.png"
+  },
+  {
+    "revision": "0a5dc749c4f128fa2c303e42842731e5",
+    "url": "/static/media/icon-spring-boot-thymeleaf.0a5dc749.svg"
   },
   {
     "revision": "f4cc778b75b810234d4a5d2c17d37597",
