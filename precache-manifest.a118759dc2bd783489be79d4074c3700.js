@@ -1,23 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d744e77d0183fe06135ca9e493ddacb5",
+    "revision": "301aa39fa515ced0da7d46c49e060536",
     "url": "/index.html"
   },
   {
-    "revision": "4bcb7b412d1284366303",
+    "revision": "3d4f6283c2ea47db6a3c",
     "url": "/static/css/main.9d9be80c.chunk.css"
   },
   {
-    "revision": "a993dc15092b0e3d4ad1",
-    "url": "/static/js/2.3e3026ac.chunk.js"
+    "revision": "3fa4db56147e3f47dcce",
+    "url": "/static/js/2.4e39fd51.chunk.js"
   },
   {
-    "revision": "4bcb7b412d1284366303",
-    "url": "/static/js/main.2efce53f.chunk.js"
+    "revision": "3d4f6283c2ea47db6a3c",
+    "url": "/static/js/main.ea672df8.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "efd3dfdcdd18782a38dede2408f35a47",
+    "url": "/static/media/certificate-UC-HOPBUD1TYR.efd3dfdc.png"
+  },
+  {
+    "revision": "26cc95f255ccb936d154b43614f61602",
+    "url": "/static/media/course-ts.26cc95f2.png"
   },
   {
     "revision": "26340504e9e2d6bc29a5cf0a69e9ec2c",
