@@ -2,23 +2,46 @@ import React from 'react';
 import LocalStorageService from '../../service/localStorageService'
 
 import PageTitle from '../general/pageTitle'
+import GoTo from '../link/goTo';
 
 import EducationTableHead from './educationTableHead'
 import EducationTableSubject from './educationTableSubject'
 import EducationTableItem from './educationTableItem'
 import EducationTableItemProgress from './educationTableItemProgress'
 
+import ModalCollege from '../modal/modalCollege'
+import ModalLanguage from '../modal/modalLanguage'
+import ModalCourse from '../modal/modalCourse'
+
 import CourseSaojudas from '../../art/course/course-saojudas.png'
 import LanguagePortuguese from '../../art/icon/language/language-portuguese.svg'
 import LanguageEnglish from '../../art/icon/language/language-english.svg'
 import LanguageFrench from '../../art/icon/language/language-french.svg'
 import LanguageSpanish from '../../art/icon/language/language-spanish.svg'
-import CourseTypeScriptStarting from '../../art/course/course-ts.png'
-import CertificateTypeScriptStarting from '../../art/certificate/certificate-UC-HOPBUD1TYR.png'
 
-import ModalCollege from '../modal/modalCollege'
-import ModalLanguage from '../modal/modalLanguage'
-import ModalCourse from '../modal/modalCourse'
+import CourseTypeScriptStarting from '../../art/course/course-ts.png'
+import CourseJavaScriptStarting from '../../art/course/course-js.png'
+import CourseBootstrap4 from '../../art/course/course-bootstrap.png'
+import CourseJavaScriptNinja from '../../art/course/course-js.png'
+import CourseNodeJSMongoDB from '../../art/course/course-nodejs.png'
+import CourseSpringExperts from '../../art/course/course-spring-experts.png'
+import CourseSpring1 from '../../art/course/icon-spring-boot-thymeleaf.svg'
+import CourseSpring2 from '../../art/course/course-spring-framework.svg'
+import CourseJava1 from '../../art/course/course-java.svg'
+import CourseDockerEssentialTool from '../../art/course/course-docker.png'
+import CourseModalGitNinja from '../../art/course/course-git.png'
+
+import CertificateTypeScriptStarting from '../../art/certificate/certificate-UC-HOPBUD1TYR.png'
+import CertificateJavaScriptStarting from '../../art/certificate/certificate-AW-SZ6LX7M5BW.jpg'
+import CertificateBootstrap4 from '../../art/certificate/certificate-UC-IJPOB9W1.jpg'
+import CertificateJavaScriptNinja from '../../art/certificate/certificate-UC-5bbc35ec-9846-43b8-aba6-ca4b88c91bff.jpg'
+import CertificateNodeJSMongoDB from '../../art/certificate/certificate-UC-112c43d1-b059-4e18-ae02-60ad73a5b0ba.jpg'
+import CertificateSpringExperts from '../../art/certificate/certificate-AW-FW246DZIH2.jpg'
+import CertificateSpring1 from '../../art/certificate/certificate-UC-H0G0QEEF.jpg'
+import CertificateSpring2 from '../../art/certificate/certificate-UC-QTC9JIJ0.jpg'
+import CertificateJava1 from '../../art/certificate/certificate-UC-Z9BO5PN9.jpg'
+import CertificateDockerEssentialTool from '../../art/certificate/certificate-UC-QYLSSW9H.jpg'
+import CertificateModalGitNinja from '../../art/certificate/certificate-UC-9f4ffc10-ba3c-480c-8ae8-99e483a61dcc.jpg'
 
 class Education extends React.Component {
     doClick(doClickComponent) { document.getElementById(doClickComponent).click(); }
@@ -31,7 +54,7 @@ class Education extends React.Component {
 
     render() {
         return (
-            <section id="data" className="my-5">
+            <section id="education" className="my-5">
                 <PageTitle
                     icon={
                         <>
@@ -58,23 +81,26 @@ class Education extends React.Component {
 
                                 <EducationTableSubject title="Frontend" />
                                 <EducationTableItem title="Starting with TypeScript" duration="8 Hours" target="modalTypeScriptStarting" />
-                                <EducationTableItem title="Starting with JavasSript" duration="6 Hours" target="" />
-                                <EducationTableItem title="Bootstrap 4" duration="11.5 Hours" target="" />
-                                <EducationTableItem title="Javascript Ninja" duration="42.5 Hours" target="" />
+                                <EducationTableItem title="Starting with JavasSript" duration="6 Hours" target="modalJavaScriptStarting" />
+                                <EducationTableItem title="Bootstrap 4" duration="11.5 Hours" target="modalBootstrap4" />
+                                <EducationTableItem title="Javascript Ninja" duration="42.5 Hours" target="modalJSNinja" />
 
                                 <EducationTableSubject title="Backend" />
-                                <EducationTableItem title="NodeJS and MongoDB" duration="15.5 Hours" target="" />
-                                <EducationTableItem title="Spring Framework Expert" duration="120 Hours" target="" />
-                                <EducationTableItem title="Spring Boot and MVC with Thymeleaf" duration="8.5 Hours" target="" />
-                                <EducationTableItem title="Spring Framework 5 and Spring Boot 2" duration="7.5 Hours" target="" />
-                                <EducationTableItem title="Full Java 2019" duration="41.5 Hours" target="" />
+                                <EducationTableItem title="NodeJS and MongoDB" duration="15.5 Hours" target="modalNodeJSMongoDB" />
+                                <EducationTableItem title="Spring Framework Expert" duration="120 Hours" target="modalSpringExperts" />
+                                <EducationTableItem title="Spring Boot and MVC with Thymeleaf" duration="8.5 Hours" target="modalSpring1" />
+                                <EducationTableItem title="Spring Framework 5 and Spring Boot 2" duration="7.5 Hours" target="modalSpring2" />
+                                <EducationTableItem title="Full Java" duration="41.5 Hours" target="modalJava1" />
 
                                 <EducationTableSubject title="DevOps" />
-                                <EducationTableItem title="Docker: Essential Tool for Developers" duration="5.5 Hours" target="" />
-                                <EducationTableItem title="Git and GitHub Ninja" duration="9 Hours" target="" />
+                                <EducationTableItem title="Docker: Essential Tool for Developers" duration="5.5 Hours" target="modalDockerEssentialTool" />
+                                <EducationTableItem title="Git and GitHub Ninja" duration="9 Hours" target="modalGitNinja" />
                             </tbody>
                         </table>
+
                     </div>
+
+                    <GoTo type="dark" to="education" />
                 </div>
 
                 {/* MODAL COLLEGE*/}
@@ -166,10 +192,150 @@ class Education extends React.Component {
                     description="A presentation of the powerful TypeScript language, demonstrating the main aspects and their application."
                     duration="8"
                     language="Brazilian Portuguese"
-                    conclusion="sep 2019"
+                    conclusion="sep-2019"
                     urlCertificate="https://www.algaworks.com/certs/HOPBUD1TYR/"
                     urlSchool="https://www.algaworks.com/"
                     certificate={CertificateTypeScriptStarting}
+                />
+
+                <ModalCourse
+                    id="modalJavaScriptStarting"
+                    title="Frontend"
+                    icon={CourseJavaScriptStarting}
+                    course="Starting with JavaScript"
+                    description="A presentation of the powerful Javascript language, demonstrating the main aspects and their application."
+                    duration="6"
+                    language="Brazilian Portuguese"
+                    conclusion="sep-2019"
+                    urlCertificate="https://www.algaworks.com/certs/SZ6LX7M5BW/"
+                    urlSchool="https://www.algaworks.com/"
+                    certificate={CertificateJavaScriptStarting}
+                />
+
+                <ModalCourse
+                    id="modalBootstrap4"
+                    title="Frontend"
+                    icon={CourseBootstrap4}
+                    course="Bootstrap 4 - Complete, Practical and Responsive + 2 Projects"
+                    description="Create Responsive Design for dashboards, product marketing, and applications with this hands-on course."
+                    duration="11.5"
+                    language="Brazilian Portuguese"
+                    conclusion="apr-2019"
+                    urlCertificate="https://www.udemy.com/certificate/UC-IJPOB9W1/"
+                    urlSchool="https://www.udemy.com/course/bootstrap-4-completo/"
+                    certificate={CertificateBootstrap4}
+                />
+
+                <ModalCourse
+                    id="modalJSNinja"
+                    title="Frontend"
+                    icon={CourseJavaScriptNinja}
+                    course="Javascript Ninja"
+                    description="The course to learn REAL JavaScript!"
+                    duration="42.5"
+                    language="Brazilian Portuguese"
+                    conclusion="jul-2020"
+                    urlCertificate="https://www.udemy.com/certificate/UC-5bbc35ec-9846-43b8-aba6-ca4b88c91bff/"
+                    urlSchool="https://www.udemy.com/course/curso-javascript-ninja/"
+                    certificate={CertificateJavaScriptNinja}
+                />
+
+                <ModalCourse
+                    id="modalNodeJSMongoDB"
+                    title="Backend"
+                    icon={CourseNodeJSMongoDB}
+                    course="NodeJS and MongoDB"
+                    description="Learn how to create websites and web systems using the NodeJS platform and the MongoDB database."
+                    duration="15.5"
+                    language="Brazilian Portuguese"
+                    conclusion="feb-2021"
+                    urlCertificate="https://www.udemy.com/certificate/UC-112c43d1-b059-4e18-ae02-60ad73a5b0ba/"
+                    urlSchool="https://www.udemy.com/course/curso-completo-do-desenvolvedor-nodejs/"
+                    certificate={CertificateNodeJSMongoDB}
+                />
+
+                <ModalCourse
+                    id="modalSpringExperts"
+                    title="Backend"
+                    icon={CourseSpringExperts}
+                    course="Spring Framework Expert"
+                    description="Development of a beer sales system with Spring MVC, Spring Boot, Thymeleaf and Bootstrap."
+                    duration="120"
+                    language="Brazilian Portuguese"
+                    conclusion="aug-2019"
+                    urlCertificate="https://www.algaworks.com/certs/FW246DZIH2/"
+                    urlSchool="https://www.algaworks.com/"
+                    certificate={CertificateSpringExperts}
+                />
+
+                <ModalCourse
+                    id="modalSpring1"
+                    title="Backend"
+                    icon={CourseSpring1}
+                    course="Spring Boot and MVC with Thymeleaf"
+                    description="First-step Web development course with Spring-Boot, MVC, JPA, Thymeleaf and Heroku."
+                    duration="8.5"
+                    language="Brazilian Portuguese"
+                    conclusion="may-2019"
+                    urlCertificate="https://www.udemy.com/certificate/UC-H0G0QEEF/"
+                    urlSchool="https://www.udemy.com/spring-boot-mvc-com-thymeleaf/"
+                    certificate={CertificateSpring1}
+                />
+
+                <ModalCourse
+                    id="modalSpring2"
+                    title="Backend"
+                    icon={CourseSpring2}
+                    course="Spring Framework 5 e Spring Boot 2"
+                    description="Learn Spring Framework 5, Spring Boot 2 with Wildfly 11 (Using Datasource), Spring Data with Mongo and MySQL."
+                    duration="7.5"
+                    language="Brazilian Portuguese"
+                    conclusion="may-2019"
+                    urlCertificate="https://www.udemy.com/certificate/UC-QTC9JIJ0/"
+                    urlSchool="https://www.udemy.com/spring-framework-5-spring-boot-2/"
+                    certificate={CertificateSpring2}
+                />
+
+                <ModalCourse
+                    id="modalJava1"
+                    title="Backend"
+                    icon={CourseJava1}
+                    course="Full Java Object Oriented Programming + Projects"
+                    description="Most didactic and complete course of Java and OO. Projects with UML, JDBC, JavaFX, Spring Boot, MySQL, MongoDB and more."
+                    duration="41.5"
+                    language="Brazilian Portuguese"
+                    conclusion="apr-2019"
+                    urlCertificate="https://www.udemy.com/certificate/UC-Z9BO5PN9/"
+                    urlSchool="https://www.udemy.com/course/java-curso-completo/"
+                    certificate={CertificateJava1}
+                />
+
+                <ModalCourse
+                    id="modalDockerEssentialTool"
+                    title="DevOps"
+                    icon={CourseDockerEssentialTool}
+                    course="Docker: Essential Tool for Developers"
+                    description="Learn how to create complete professional environments with Docker, which is the industry's leading container technology!"
+                    duration="5.5"
+                    language="Brazilian Portuguese"
+                    conclusion="oct-2019"
+                    urlCertificate="https://www.udemy.com/certificate/UC-QYLSSW9H/"
+                    urlSchool="https://www.udemy.com/course/curso-docker/"
+                    certificate={CertificateDockerEssentialTool}
+                />
+
+                <ModalCourse
+                    id="modalGitNinja"
+                    title="DevOps"
+                    icon={CourseModalGitNinja}
+                    course="Git and GitHub Ninja"
+                    description="Learn how to use git to version your projects and work as a team!"
+                    duration="9"
+                    language="Brazilian Portuguese"
+                    conclusion="apr-2020"
+                    urlCertificate="https://www.udemy.com/certificate/UC-9f4ffc10-ba3c-480c-8ae8-99e483a61dcc/"
+                    urlSchool="https://www.udemy.com/course/git-e-github-ninja/"
+                    certificate={CertificateModalGitNinja}
                 />
             </section>
         )

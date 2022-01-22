@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 function HeaderSubtitle({ ...props }) {
     return (
@@ -14,7 +14,7 @@ function HeaderSubtitle({ ...props }) {
                         </span>
                     </div>
                     <div className="fs-6 font-text-title text-subtitle-light d-flex justify-content-end mt-1">
-                        {props.subtitleDescription}
+                        <small>{props.subtitleDescription}</small>
                     </div>
                 </div>
             </div>
