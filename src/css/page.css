@@ -11,6 +11,11 @@
     background-color: #111;
 }
 
+/* BADGE */
+.bg-dark {
+    background-color: #111 !important;
+}
+
 /* BROWSER BARS */
 ::-webkit-scrollbar {
     width: 10px;

@@ -1,6 +1,7 @@
 import React from 'react';
 import LandscapeItem from '../components/landscapeItem'
 import GoTo from './goTo';
+import PageTitle from './pageTitle';
 
 import Iconjava from '../art/icon/technology/icon-java.svg'
 import Iconjavafx from '../art/icon/technology/icon-javafx.svg'
@@ -118,18 +119,17 @@ import Iconheroku from '../art/icon/technology/icon-heroku.svg'
 class Landscape extends React.Component {
     render() {
         return (
-            <section>
+            <section id="landscape">
                 <div className="container-fluid">
-                    <div id="landscape" className="row text-center mt-5">
-                        <div className="fs-1 text-title-dark font-text-title fw-bold">
-                            <svg className="bi bi-pie-chart-fill mx-2" xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" viewBox="0 0 16 16">
+                    <PageTitle
+                        icon={
+                            <>
                                 <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
                                 <path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z" />
-                            </svg>
-                            Landscape
-                        </div>
-                    </div>
-                    <span className="underline underline-dark mx-auto"></span>
+                            </>
+                        }
+                        title="Landscape"
+                    />
 
                     <div class="flex-wrap d-flex justify-content-center mx-1 mt-5">
                         <LandscapeItem path={Iconjava} />
