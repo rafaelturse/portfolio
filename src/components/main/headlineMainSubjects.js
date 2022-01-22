@@ -1,5 +1,5 @@
 import React from 'react';
-import LocalStorageService from '../service/localStorageService';
+import LocalStorageService from '../../service/localStorageService';
 
 class HeadlineMainSubjects extends React.Component {
 

@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-import Header from '../components/header';
-import Footer from '../components/footer';
-import HeadlineMainSubjects from '../components/headlineMainSubjects';
-import HeadlineFeatured from '../components/headlineFeatured';
-import MainComments from '../components/mainComments';
-import MainMotion from '../components/mainMotion';
+import Header from '../components/general/header'
+import Footer from '../components/general/footer'
+import HeadlineMainSubjects from '../components/main/headlineMainSubjects'
+import HeadlineFeatured from '../components/main/headlineFeatured'
+import MainComments from '../components/comments/mainComments'
+import MainMotion from '../components/main/mainMotion'
 
 class Main extends React.Component {
     render() {

@@ -1,8 +1,8 @@
 import React from 'react'
-import LocalStorageService from '../service/localStorageService';
-import GoTo from './goTo';
-import GoToPage from './goToPage';
-import Contacts from './contacts'
+import LocalStorageService from '../../service/localStorageService'
+import GoTo from '../link/goTo'
+import GoToPage from '../link/goToPage'
+import Contacts from '../general/contacts'
 
 class Footer extends React.Component {
 

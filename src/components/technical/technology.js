@@ -1,6 +1,7 @@
-import React from 'react';
-import TechnologyTable from './technologyTable';
-import PageTitle from './pageTitle';
+import React from 'react'
+
+import TechnologyTable from './technologyTable'
+import PageTitle from '../general/pageTitle'
 
 class Technology extends React.Component {
     render() {

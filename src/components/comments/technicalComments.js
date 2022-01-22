@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logoPreFooter from '../art/logo/logo-rafaelturse-horizontal-dark.svg'
+import logoPreFooter from '../../art/logo/logo-rafaelturse-horizontal-dark.svg'
 
 class TechnicalComments extends React.Component {
     render() {

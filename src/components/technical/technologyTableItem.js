@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 function pickBar(i) {
     switch (i.props.bar) {

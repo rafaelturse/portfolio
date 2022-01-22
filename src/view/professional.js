@@ -1,11 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-import Header from '../components/header';
-import Footer from '../components/footer';
-import HeaderProfessional from '../components/headerProfessional';
-import ProfessionalComments from '../components/professionalComments';
-import Personal from '../components/personal';
-import Education from '../components/education';
+import Header from '../components/general/header'
+import Footer from '../components/general/footer'
+import HeaderProfessional from '../components/professional/headerProfessional'
+import ProfessionalComments from '../components/comments/professionalComments'
+import Personal from '../components/professional/personal'
+import Education from '../components/professional/education'
 
 class Professional extends React.Component {
   render() {

@@ -1,8 +1,11 @@
 import React from 'react';
-import LocalStorageService from '../service/localStorageService'
-import PageTitle from './pageTitle'
-import ContactLogo from '../art/logo/logo-rafaelturse-vertical.svg'
-import Contacts from './contacts';
+
+import LocalStorageService from '../../service/localStorageService'
+
+import ContactLogo from '../../art/logo/logo-rafaelturse-vertical.svg'
+
+import PageTitle from '../general/pageTitle'
+import Contacts from '../general/contacts'
 
 class Personal extends React.Component {
     doClick(doClickComponent) { document.getElementById(doClickComponent).click(); }

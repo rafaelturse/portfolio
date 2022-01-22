@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logoMainTop from '../art/logo/logo-rafaelturse-horizontal-light.svg'
+import logoMainTop from '../../art/logo/logo-rafaelturse-horizontal-light.svg'
 
 class Header extends React.Component {
     render() {

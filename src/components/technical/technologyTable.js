@@ -1,9 +1,12 @@
-import React from 'react';
-import LocalStorageService from '../service/localStorageService'
-import TechnologyTableHead from './technologyTableHead';
-import TechnologyTableSubject from './technologyTableSubject';
-import TechnologyTableItem from './technologyTableItem';
-import GoTo from './goTo';
+import React from 'react'
+
+import LocalStorageService from '../../service/localStorageService'
+
+import GoTo from '../link/goTo'
+
+import TechnologyTableHead from './technologyTableHead'
+import TechnologyTableSubject from './technologyTableSubject'
+import TechnologyTableItem from './technologyTableItem'
 
 class TechnologyTable extends React.Component {
     doClick(doClickComponent) { document.getElementById(doClickComponent).click(); }

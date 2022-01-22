@@ -1,8 +1,11 @@
-import React from 'react';
-import ChartInterest from '../components/chart/chartInterest'
-import ChartFocous from '../components/chart/chartFocous'
-import LocalStorageService from '../service/localStorageService'
-import PageTitle from './pageTitle';
+import React from 'react'
+
+import LocalStorageService from '../../service/localStorageService'
+
+import ChartInterest from '../chart/chartInterest'
+import ChartFocous from '../chart/chartFocous'
+
+import PageTitle from '../general/pageTitle'
 
 class Data extends React.Component {
     doClick(doClickComponent) { document.getElementById(doClickComponent).click(); }

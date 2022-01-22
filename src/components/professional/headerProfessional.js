@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderSubtitle from './headerSubtitle';
+import HeaderSubtitle from '../general/headerSubtitle';
 
 class HeaderProfessional extends React.Component {
     render() {

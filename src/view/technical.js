@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 
-import Header from '../components/header';
-import Footer from '../components/footer';
-import HeaderTechcnical from '../components/headerTechnical';
-import Data from '../components/data';
-import Technology from '../components/technology';
-import TechnicalComments from '../components/technicalComments'
-import Landscape from '../components/landscape';
+import Header from '../components/general/header'
+import Footer from '../components/general/footer'
+import HeaderTechcnical from '../components/technical/headerTechnical'
+import Data from '../components/technical/data'
+import Technology from '../components/technical/technology'
+import TechnicalComments from '../components/comments/technicalComments'
+import Landscape from '../components/technical/landscape'
 
 class Technical extends React.Component {
   render() {

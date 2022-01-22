@@ -1,19 +1,24 @@
 import React from 'react';
-import LocalStorageService from '../service/localStorageService'
+import LocalStorageService from '../../service/localStorageService'
+
+import PageTitle from '../general/pageTitle'
+
 import EducationTableHead from './educationTableHead'
-import PageTitle from './pageTitle'
 import EducationTableSubject from './educationTableSubject'
 import EducationTableItem from './educationTableItem'
 import EducationTableItemProgress from './educationTableItemProgress'
 
-import CourseSaojudas from '../art/course/course-saojudas.png'
-import LanguagePortuguese from '../art/icon/language/language-portuguese.svg'
-import LanguageEnglish from '../art/icon/language/language-english.svg'
-import LanguageFrench from '../art/icon/language/language-french.svg'
-import LanguageSpanish from '../art/icon/language/language-spanish.svg'
+import CourseSaojudas from '../../art/course/course-saojudas.png'
+import LanguagePortuguese from '../../art/icon/language/language-portuguese.svg'
+import LanguageEnglish from '../../art/icon/language/language-english.svg'
+import LanguageFrench from '../../art/icon/language/language-french.svg'
+import LanguageSpanish from '../../art/icon/language/language-spanish.svg'
+import CourseTypeScriptStarting from '../../art/course/course-ts.png'
+import CertificateTypeScriptStarting from '../../art/certificate/certificate-UC-HOPBUD1TYR.png'
 
-import ModalCollege from './modal/modalCollege'
-import ModalLanguage from './modal/modalLanguage'
+import ModalCollege from '../modal/modalCollege'
+import ModalLanguage from '../modal/modalLanguage'
+import ModalCourse from '../modal/modalCourse'
 
 class Education extends React.Component {
     doClick(doClickComponent) { document.getElementById(doClickComponent).click(); }
@@ -52,21 +57,21 @@ class Education extends React.Component {
                                 <EducationTableItemProgress title="Spanish" bar="danger" target="modalSpanish" />
 
                                 <EducationTableSubject title="Frontend" />
-                                <EducationTableItem title="Starting with TypeScript" duration="8 Hours" target="modalInformationSystems" />
-                                <EducationTableItem title="Starting with JavasSript" duration="6 Hours" target="modalInformationSystems" />
-                                <EducationTableItem title="Bootstrap 4" duration="11.5 Hours" target="modalInformationSystems" />
-                                <EducationTableItem title="Javascript Ninja" duration="42.5 Hours" target="modalInformationSystems" />
+                                <EducationTableItem title="Starting with TypeScript" duration="8 Hours" target="modalTypeScriptStarting" />
+                                <EducationTableItem title="Starting with JavasSript" duration="6 Hours" target="" />
+                                <EducationTableItem title="Bootstrap 4" duration="11.5 Hours" target="" />
+                                <EducationTableItem title="Javascript Ninja" duration="42.5 Hours" target="" />
 
                                 <EducationTableSubject title="Backend" />
-                                <EducationTableItem title="NodeJS and MongoDB" duration="15.5 Hours" target="modalInformationSystems" />
-                                <EducationTableItem title="Spring Framework Expert" duration="120 Hours" target="modalInformationSystems" />
-                                <EducationTableItem title="Spring Boot and MVC with Thymeleaf" duration="8.5 Hours" target="modalInformationSystems" />
-                                <EducationTableItem title="Spring Framework 5 and Spring Boot 2" duration="7.5 Hours" target="modalInformationSystems" />
-                                <EducationTableItem title="Full Java 2019" duration="41.5 Hours" target="modalInformationSystems" />
+                                <EducationTableItem title="NodeJS and MongoDB" duration="15.5 Hours" target="" />
+                                <EducationTableItem title="Spring Framework Expert" duration="120 Hours" target="" />
+                                <EducationTableItem title="Spring Boot and MVC with Thymeleaf" duration="8.5 Hours" target="" />
+                                <EducationTableItem title="Spring Framework 5 and Spring Boot 2" duration="7.5 Hours" target="" />
+                                <EducationTableItem title="Full Java 2019" duration="41.5 Hours" target="" />
 
                                 <EducationTableSubject title="DevOps" />
-                                <EducationTableItem title="Docker: Essential Tool for Developers" duration="5.5 Hours" target="modalInformationSystems" />
-                                <EducationTableItem title="Git and GitHub Ninja" duration="9 Hours" target="modalInformationSystems" />
+                                <EducationTableItem title="Docker: Essential Tool for Developers" duration="5.5 Hours" target="" />
+                                <EducationTableItem title="Git and GitHub Ninja" duration="9 Hours" target="" />
                             </tbody>
                         </table>
                     </div>
@@ -153,7 +158,19 @@ class Education extends React.Component {
                 />
 
                 {/* MODAL TECHNICAL*/}
-                
+                <ModalCourse
+                    id="modalTypeScriptStarting"
+                    title="Frontend"
+                    icon={CourseTypeScriptStarting}
+                    course="Starting with TypeScript"
+                    description="A presentation of the powerful TypeScript language, demonstrating the main aspects and their application."
+                    duration="8"
+                    language="Brazilian Portuguese"
+                    conclusion="sep 2019"
+                    urlCertificate="https://www.algaworks.com/certs/HOPBUD1TYR/"
+                    urlSchool="https://www.algaworks.com/"
+                    certificate={CertificateTypeScriptStarting}
+                />
             </section>
         )
     }

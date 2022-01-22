@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TechnologyTableSubject({ ...props }) {
+function ModalCollege({ ...props }) {
     return (
         <div id={props.id} className="modal fade" tabindex="-1" role="dialog">
             <div className="modal-dialog modal-dialog-scrollable" role="document">
@@ -38,4 +38,4 @@ function TechnologyTableSubject({ ...props }) {
     )
 }
 
-export default TechnologyTableSubject
+export default ModalCollege
