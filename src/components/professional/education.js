@@ -80,21 +80,21 @@ class Education extends React.Component {
                                 <EducationTableItemProgress title="Spanish" bar="danger" target="modalSpanish" />
 
                                 <EducationTableSubject title="Frontend" />
-                                <EducationTableItem title="Starting with TypeScript" duration="8 Hours" target="modalTypeScriptStarting" />
-                                <EducationTableItem title="Starting with JavasSript" duration="6 Hours" target="modalJavaScriptStarting" />
-                                <EducationTableItem title="Bootstrap 4" duration="11.5 Hours" target="modalBootstrap4" />
-                                <EducationTableItem title="Javascript Ninja" duration="42.5 Hours" target="modalJSNinja" />
+                                <EducationTableItem title="Starting with TypeScript" duration="8h" target="modalTypeScriptStarting" />
+                                <EducationTableItem title="Starting with JavasSript" duration="6h" target="modalJavaScriptStarting" />
+                                <EducationTableItem title="Bootstrap 4" duration="11.5h" target="modalBootstrap4" />
+                                <EducationTableItem title="Javascript Ninja" duration="42.5h" target="modalJSNinja" />
 
                                 <EducationTableSubject title="Backend" />
-                                <EducationTableItem title="NodeJS and MongoDB" duration="15.5 Hours" target="modalNodeJSMongoDB" />
-                                <EducationTableItem title="Spring Framework Expert" duration="120 Hours" target="modalSpringExperts" />
-                                <EducationTableItem title="Spring Boot and MVC with Thymeleaf" duration="8.5 Hours" target="modalSpring1" />
-                                <EducationTableItem title="Spring Framework 5 and Spring Boot 2" duration="7.5 Hours" target="modalSpring2" />
-                                <EducationTableItem title="Full Java" duration="41.5 Hours" target="modalJava1" />
+                                <EducationTableItem title="NodeJS and MongoDB" duration="15.5h" target="modalNodeJSMongoDB" />
+                                <EducationTableItem title="Spring Framework Expert" duration="120h" target="modalSpringExperts" />
+                                <EducationTableItem title="Spring Boot and MVC with Thymeleaf" duration="8.5h" target="modalSpring1" />
+                                <EducationTableItem title="Spring Framework 5 and Spring Boot 2" duration="7.5h" target="modalSpring2" />
+                                <EducationTableItem title="Full Java" duration="41.5h" target="modalJava1" />
 
                                 <EducationTableSubject title="DevOps" />
-                                <EducationTableItem title="Docker: Essential Tool for Developers" duration="5.5 Hours" target="modalDockerEssentialTool" />
-                                <EducationTableItem title="Git and GitHub Ninja" duration="9 Hours" target="modalGitNinja" />
+                                <EducationTableItem title="Docker: Essential Tool for Developers" duration="5.5h" target="modalDockerEssentialTool" />
+                                <EducationTableItem title="Git and GitHub Ninja" duration="9h" target="modalGitNinja" />
                             </tbody>
                         </table>
 

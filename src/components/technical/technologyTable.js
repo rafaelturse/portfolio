@@ -89,6 +89,7 @@ class TechnologyTable extends React.Component {
                                     <TechnologyTableItem title="Apache Maven" bar="success" />
                                     <TechnologyTableItem title="NPM" bar="success" />
                                     <TechnologyTableItem title="Gradle" bar="info" />
+                                    <TechnologyTableItem title="Composer" bar="warning" />
                                     <TechnologyTableItem title="JFrog" bar="warning" />
 
                                     <TechnologyTableSubject title="Log" />

@@ -6,6 +6,7 @@ import HeaderProfessional from '../components/professional/headerProfessional'
 import ProfessionalComments from '../components/comments/professionalComments'
 import Personal from '../components/professional/personal'
 import Education from '../components/professional/education'
+import Career from '../components/professional/career'
 
 class Professional extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class Professional extends React.Component {
         <div className="container">
           <Personal />
           <Education />
+          <Career />
         </div>
 
         <ProfessionalComments />

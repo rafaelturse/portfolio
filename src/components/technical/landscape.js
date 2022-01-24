@@ -20,6 +20,8 @@ import Iconspringsecurity from '../../art/icon/technology/icon-springsecurity.pn
 import Iconzuul from '../../art/icon/technology/icon-zuul.png'
 import Iconexpress from '../../art/icon/technology/icon-express.png'
 import Iconant from '../../art/icon/technology/icon-ant.png'
+import Icongradle from '../../art/icon/technology/icon-gradle.png'
+import Iconcomposer from '../../art/icon/technology/icon-composer.png'
 import Iconmaven from '../../art/icon/technology/icon-maven.png'
 import Iconnpm from '../../art/icon/technology/icon-npm.png'
 import Iconnode from '../../art/icon/technology/icon-node.png'
@@ -31,7 +33,6 @@ import Iconpoi from '../../art/icon/technology/icon-poi.png'
 import Iconjasper from '../../art/icon/technology/icon-jasper.png'
 import Iconcordova from '../../art/icon/technology/icon-cordova.png'
 import Iconandroid from '../../art/icon/technology/icon-android.png'
-import Icongradle from '../../art/icon/technology/icon-gradle.png'
 import Icondart from '../../art/icon/technology/icon-dart.png'
 import Iconkotlin from '../../art/icon/technology/icon-kotlin.png'
 import Iconswift from '../../art/icon/technology/icon-swift.png'
@@ -149,6 +150,8 @@ class Landscape extends React.Component {
                         <LandscapeItem path={Iconzuul} />
                         <LandscapeItem path={Iconexpress} />
                         <LandscapeItem path={Iconant} />
+                        <LandscapeItem path={Icongradle} />
+                        <LandscapeItem path={Iconcomposer} />
                         <LandscapeItem path={Iconmaven} />
                         <LandscapeItem path={Iconnpm} />
                         <LandscapeItem path={Iconnode} />
@@ -160,7 +163,6 @@ class Landscape extends React.Component {
                         <LandscapeItem path={Iconjasper} />
                         <LandscapeItem path={Iconcordova} />
                         <LandscapeItem path={Iconandroid} />
-                        <LandscapeItem path={Icongradle} />
                         <LandscapeItem path={Icondart} />
                         <LandscapeItem path={Iconkotlin} />
                         <LandscapeItem path={Iconswift} />
