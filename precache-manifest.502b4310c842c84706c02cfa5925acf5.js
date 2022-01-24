@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "383a6bebfc44a3bece2a8683a68de04d",
+    "revision": "03f1ff904509b873933df4bea2275121",
     "url": "/index.html"
   },
   {
-    "revision": "afc608cc3042d1237c3b",
-    "url": "/static/css/main.9d9be80c.chunk.css"
+    "revision": "e80a2d1d4efca2d1329a",
+    "url": "/static/css/main.9953f878.chunk.css"
   },
   {
-    "revision": "c5de85db1cd747896358",
-    "url": "/static/js/2.df229f7e.chunk.js"
+    "revision": "0f6cd82629b6785baaf3",
+    "url": "/static/js/2.0a3f45ac.chunk.js"
   },
   {
-    "revision": "afc608cc3042d1237c3b",
-    "url": "/static/js/main.d7d971ae.chunk.js"
+    "revision": "e80a2d1d4efca2d1329a",
+    "url": "/static/js/main.23d14018.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -62,6 +62,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1fd1fbde6d7cb841704fff6104363e61",
     "url": "/static/media/certificate-UC-Z9BO5PN9.1fd1fbde.jpg"
+  },
+  {
+    "revision": "8bb7e443a7ea4c7b2fc2ee51113a6395",
+    "url": "/static/media/company-advanta.8bb7e443.png"
+  },
+  {
+    "revision": "2487aeb5f3c6e409ae753b3675deb9db",
+    "url": "/static/media/company-fcc.2487aeb5.png"
+  },
+  {
+    "revision": "0a51d8b8c1ad1915a7b424ce68650b14",
+    "url": "/static/media/company-lvrariacultura.0a51d8b8.png"
+  },
+  {
+    "revision": "5ac91b6fa8a8855ca4085f2439ea7e46",
+    "url": "/static/media/company-magna.5ac91b6f.jpg"
+  },
+  {
+    "revision": "d85fe2cd9e585ebf4a43dc939e563f47",
+    "url": "/static/media/company-mmcs.d85fe2cd.png"
+  },
+  {
+    "revision": "48fe2c34933448df2437847582a331b7",
+    "url": "/static/media/company-samsung.48fe2c34.png"
+  },
+  {
+    "revision": "fcf5ef5b214cc7bbfbdbed23a42a7270",
+    "url": "/static/media/company-siscart.fcf5ef5b.jpg"
   },
   {
     "revision": "7384412324c769e447d3c4f86e9ff068",
@@ -146,6 +174,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b4002e70b6cb73b1093d83e2b8e6c733",
     "url": "/static/media/icon-chromedev.b4002e70.png"
+  },
+  {
+    "revision": "8705f7b64fc009268c500671074309ee",
+    "url": "/static/media/icon-composer.8705f7b6.png"
   },
   {
     "revision": "c47ee964aa81dcd1f144dbd632138e4f",
