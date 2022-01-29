@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79d8a27631e707f123dc30a6b98fc987",
+    "revision": "cd951f8085c4f74a64dd6b1a10402a84",
     "url": "/index.html"
   },
   {
-    "revision": "016acc2cc773337d1f90",
+    "revision": "74f9e43ea7b90dd179ee",
     "url": "/static/css/main.9953f878.chunk.css"
   },
   {
-    "revision": "0f6cd82629b6785baaf3",
-    "url": "/static/js/2.0a3f45ac.chunk.js"
+    "revision": "04d30941830e331edc1f",
+    "url": "/static/js/2.a8940c6a.chunk.js"
   },
   {
-    "revision": "016acc2cc773337d1f90",
-    "url": "/static/js/main.9a675f3f.chunk.js"
+    "revision": "74f9e43ea7b90dd179ee",
+    "url": "/static/js/main.d25e6d9c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e535ef79206608c027c12e732e9ee4a2",
     "url": "/static/media/certificate-UC-112c43d1-b059-4e18-ae02-60ad73a5b0ba.e535ef79.jpg"
+  },
+  {
+    "revision": "001bd77e96d626a9d9e02c5992797950",
+    "url": "/static/media/certificate-UC-435170f3-07dd-4409-a310-c9effe13c613.001bd77e.jpg"
   },
   {
     "revision": "3cbe7393969c0c8686ed00ec89517e1e",
@@ -122,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e7aef24d75012d07fb7de5b6d5ed80ae",
     "url": "/static/media/course-spring-framework.e7aef24d.svg"
+  },
+  {
+    "revision": "cd7bb6bec60f6799aa174b4e07b92ea4",
+    "url": "/static/media/course-springboot-react.cd7bb6be.png"
   },
   {
     "revision": "26cc95f255ccb936d154b43614f61602",
