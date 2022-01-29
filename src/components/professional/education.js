@@ -1,5 +1,4 @@
 import React from 'react';
-import LocalStorageService from '../../service/localStorageService'
 
 import PageTitle from '../general/pageTitle'
 import GoTo from '../link/goTo';
@@ -30,6 +29,7 @@ import CourseSpring2 from '../../art/course/course-spring-framework.svg'
 import CourseJava1 from '../../art/course/course-java.svg'
 import CourseDockerEssentialTool from '../../art/course/course-docker.png'
 import CourseModalGitNinja from '../../art/course/course-git.png'
+import CourseSpringBootReact from '../../art/course/course-springboot-react.png'
 
 import CertificateTypeScriptStarting from '../../art/certificate/certificate-UC-HOPBUD1TYR.png'
 import CertificateJavaScriptStarting from '../../art/certificate/certificate-AW-SZ6LX7M5BW.jpg'
@@ -42,16 +42,9 @@ import CertificateSpring2 from '../../art/certificate/certificate-UC-QTC9JIJ0.jp
 import CertificateJava1 from '../../art/certificate/certificate-UC-Z9BO5PN9.jpg'
 import CertificateDockerEssentialTool from '../../art/certificate/certificate-UC-QYLSSW9H.jpg'
 import CertificateModalGitNinja from '../../art/certificate/certificate-UC-9f4ffc10-ba3c-480c-8ae8-99e483a61dcc.jpg'
+import CertificateSpringBootReact from '../../art/certificate/certificate-UC-435170f3-07dd-4409-a310-c9effe13c613.jpg'
 
 class Education extends React.Component {
-    doClick(doClickComponent) { document.getElementById(doClickComponent).click(); }
-
-    componentDidMount() {
-        var doClickComponent = LocalStorageService.getItem('doClickComponent')
-
-        if (doClickComponent) { this.doClick(doClickComponent) }
-    }
-
     render() {
         return (
             <section id="education" className="my-5">
@@ -91,6 +84,7 @@ class Education extends React.Component {
                                 <EducationTableItem title="Spring Boot and MVC with Thymeleaf" duration="8.5h" target="modalSpring1" />
                                 <EducationTableItem title="Spring Framework 5 and Spring Boot 2" duration="7.5h" target="modalSpring2" />
                                 <EducationTableItem title="Full Java" duration="41.5h" target="modalJava1" />
+                                <EducationTableItem title="Spring Boot + React JS" duration="21h" target="modalSpringBootReactJS" />
 
                                 <EducationTableSubject title="DevOps" />
                                 <EducationTableItem title="Docker: Essential Tool for Developers" duration="5.5h" target="modalDockerEssentialTool" />
@@ -308,6 +302,20 @@ class Education extends React.Component {
                     urlCertificate="https://www.udemy.com/certificate/UC-Z9BO5PN9/"
                     urlSchool="https://www.udemy.com/course/java-curso-completo/"
                     certificate={CertificateJava1}
+                />
+                
+                <ModalCourse
+                    id="modalSpringBootReactJS"
+                    title="Backend"
+                    icon={CourseSpringBootReact}
+                    course="Spring Boot + React JS: Develop Complete Web Applications"
+                    description="Full Stack course with Spring Boot and React JS, from scratch to cloud."
+                    duration="21"
+                    language="Brazilian Portuguese"
+                    conclusion="jan-2022"
+                    urlCertificate="https://www.udemy.com/certificate/UC-435170f3-07dd-4409-a310-c9effe13c613/"
+                    urlSchool="https://www.udemy.com/course/desenvolva-aplicacoes-completas-com-spring-boot-e-react-js/"
+                    certificate={CertificateSpringBootReact}
                 />
 
                 <ModalCourse

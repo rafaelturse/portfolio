@@ -1,21 +1,11 @@
 import React from 'react';
 
-import LocalStorageService from '../../service/localStorageService'
-
 import ContactLogo from '../../art/logo/logo-rafaelturse-vertical.svg'
 
 import PageTitle from '../general/pageTitle'
 import Contacts from '../general/contacts'
 
 class Personal extends React.Component {
-    doClick(doClickComponent) { document.getElementById(doClickComponent).click(); }
-
-    componentDidMount() {
-        var doClickComponent = LocalStorageService.getItem('doClickComponent')
-
-        if (doClickComponent) { this.doClick(doClickComponent) }
-    }
-
     render() {
         return (
             <section id="personal" className="my-5">

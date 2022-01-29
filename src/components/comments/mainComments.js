@@ -23,7 +23,7 @@ class MainComments extends React.Component {
 
                         <div
                             className="fb-like d-flex justify-content-end my-3 mr-3"
-                            data-href="https://www.rafaelturse.ca/"
+                            data-href="https://www.rafaelturse.ca"
                             data-width=""
                             data-layout="box_count"
                             data-action="like"
@@ -31,9 +31,9 @@ class MainComments extends React.Component {
                             data-share="true">
                         </div>
 
-                        <div className="fb-save d-flex justify-content-center mb-3" data-uri="https://www.rafaelturse.ca/" data-size="large"></div>
+                        <div className="fb-save d-flex justify-content-center mb-3" data-uri="https://www.rafaelturse.ca" data-size="large"></div>
 
-                        <div className="fb-comments w-100" data-href="https://www.rafaelturse.ca/" data-numposts="20" data-order-by="reverse_time" data-width="100%"></div>
+                        <div className="fb-comments w-100" data-href="https://www.rafaelturse.ca" data-numposts="20" data-order-by="reverse_time" data-width="100%"></div>
 
                         <div className="mt-5">
                             <img className="img-fluid mx-auto d-block mb-2" src={logoPreFooter} width="300px" alt="" />
