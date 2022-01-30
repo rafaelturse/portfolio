@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cd951f8085c4f74a64dd6b1a10402a84",
+    "revision": "96e6b2ccfd299f66f0061b70626732f9",
     "url": "/index.html"
   },
   {
-    "revision": "74f9e43ea7b90dd179ee",
+    "revision": "a42c0cd7130622ec63b6",
     "url": "/static/css/main.9953f878.chunk.css"
   },
   {
-    "revision": "04d30941830e331edc1f",
-    "url": "/static/js/2.a8940c6a.chunk.js"
+    "revision": "630eca2e4b66ff5ffe46",
+    "url": "/static/js/2.0add6949.chunk.js"
   },
   {
-    "revision": "74f9e43ea7b90dd179ee",
-    "url": "/static/js/main.d25e6d9c.chunk.js"
+    "revision": "a42c0cd7130622ec63b6",
+    "url": "/static/js/main.798df0ac.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1fd1fbde6d7cb841704fff6104363e61",
     "url": "/static/media/certificate-UC-Z9BO5PN9.1fd1fbde.jpg"
+  },
+  {
+    "revision": "652b9631758b8c4f43bb4a2933016409",
+    "url": "/static/media/certificate-UC-e2c4bf89-8c74-442e-a837-f01b3a766103.652b9631.jpg"
   },
   {
     "revision": "8bb7e443a7ea4c7b2fc2ee51113a6395",
@@ -134,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "26cc95f255ccb936d154b43614f61602",
     "url": "/static/media/course-ts.26cc95f2.png"
+  },
+  {
+    "revision": "7c70186646a80270fd840b7d8971942f",
+    "url": "/static/media/course-wordpress.7c701866.png"
   },
   {
     "revision": "26340504e9e2d6bc29a5cf0a69e9ec2c",
