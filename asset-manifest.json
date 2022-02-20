@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9953f878.chunk.css",
-    "main.js": "/static/js/main.798df0ac.chunk.js",
-    "main.js.map": "/static/js/main.798df0ac.chunk.js.map",
+    "main.js": "/static/js/main.e84f13fc.chunk.js",
+    "main.js.map": "/static/js/main.e84f13fc.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.0add6949.chunk.js": "/static/js/2.0add6949.chunk.js",
     "static/js/2.0add6949.chunk.js.map": "/static/js/2.0add6949.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.841d5554acaf37b0540161679c349594.js": "/precache-manifest.841d5554acaf37b0540161679c349594.js",
+    "precache-manifest.e95b29e63d12625ec754d4f6b6aa68ac.js": "/precache-manifest.e95b29e63d12625ec754d4f6b6aa68ac.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.9953f878.chunk.css.map": "/static/css/main.9953f878.chunk.css.map",
     "static/media/certificate-AW-FW246DZIH2.jpg": "/static/media/certificate-AW-FW246DZIH2.72de3def.jpg",
@@ -140,7 +140,7 @@
     "static/media/language-portuguese.svg": "/static/media/language-portuguese.a102e563.svg",
     "static/media/language-spanish.svg": "/static/media/language-spanish.a9914a14.svg",
     "static/media/logo-rafaelturse-horizontal-dark.svg": "/static/media/logo-rafaelturse-horizontal-dark.9c6d8dc3.svg",
-    "static/media/logo-rafaelturse-horizontal-light.svg": "/static/media/logo-rafaelturse-horizontal-light.95d30e97.svg",
-    "static/media/logo-rafaelturse-vertical.svg": "/static/media/logo-rafaelturse-vertical.3ee7e94d.svg"
+    "static/media/logo-rafaelturse-vertical.svg": "/static/media/logo-rafaelturse-vertical.3ee7e94d.svg",
+    "static/media/rafaelturse-logo-inverted.svg": "/static/media/rafaelturse-logo-inverted.16ee10f2.svg"
   }
 }

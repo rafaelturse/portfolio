@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="200" height="120" viewBox="0 0 200 120" xml:space="preserve">
+<desc>Created with Fabric.js 4.6.0</desc>
+<defs>
+</defs>
+<g transform="matrix(0.65 0 0 0.91 91.26 38.84)" id="JQau-3JD1kQrHdafknyD2"  >
+<path style="stroke: rgb(238,238,238); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -56.16009 37.73421 L -56.190419999999996 37.12251 L -56.215329999999994 30.804599999999997 L -56.223229999999994 28.800959999999996 L -56.485549999999996 -37.73420000000001 C -56.485549999999996 -37.73420000000001 -21.38937 31.781529999999997 6.1686400000000035 15.730489999999989 C 33.72665000000001 -0.32055000000001144 34.36913 2.1096499999999896 56.48556000000001 17.09854999999999" stroke-linecap="round" />
+</g>
+<g transform="matrix(-0.76 0 0 0.76 100 65.2)" id="AVq6oBS9fW22aFUCMSY67"  >
+<path style="stroke: rgb(238,238,238); stroke-width: 2; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(0, 0)" d="M -105.18977 0 C -105.18977 0 43.692449999999994 0 105.18978 0" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 100 88.91)" style="" id="S6SgKlnb2lVdOr2YUfSBW"  >
+		<text xml:space="preserve" font-family="Open Sans" font-size="15" font-style="normal" font-weight="300" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(238,238,238); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-41.31" y="4.71" >Rafael Turse</tspan></text>
+</g>
+<g transform="matrix(1 0 0 1 100 106.45)" style="" id="uybA9lehshBouDnWWetZi"  >
+		<text xml:space="preserve" font-family="Open Sans" font-size="16" font-style="normal" font-weight="300" line-height="1" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(238,238,238); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-81.97" y="5.03" >Software Development</tspan></text>
+</g>
+</svg>
