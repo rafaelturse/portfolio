@@ -18,6 +18,7 @@ import LanguageEnglish from '../../art/icon/language/language-english.svg'
 import LanguageFrench from '../../art/icon/language/language-french.svg'
 import LanguageSpanish from '../../art/icon/language/language-spanish.svg'
 
+import CourseDesignWordPress from '../../art/course/course-wordpress.png'
 import CourseTypeScriptStarting from '../../art/course/course-ts.png'
 import CourseJavaScriptStarting from '../../art/course/course-js.png'
 import CourseBootstrap4 from '../../art/course/course-bootstrap.png'
@@ -31,6 +32,7 @@ import CourseDockerEssentialTool from '../../art/course/course-docker.png'
 import CourseModalGitNinja from '../../art/course/course-git.png'
 import CourseSpringBootReact from '../../art/course/course-springboot-react.png'
 
+import CertificateDesignWordPress from '../../art/certificate/certificate-UC-e2c4bf89-8c74-442e-a837-f01b3a766103.jpg'
 import CertificateTypeScriptStarting from '../../art/certificate/certificate-UC-HOPBUD1TYR.png'
 import CertificateJavaScriptStarting from '../../art/certificate/certificate-AW-SZ6LX7M5BW.jpg'
 import CertificateBootstrap4 from '../../art/certificate/certificate-UC-IJPOB9W1.jpg'
@@ -71,6 +73,9 @@ class Education extends React.Component {
                                 <EducationTableItemProgress title="English" bar="info" target="modalEnglish" />
                                 <EducationTableItemProgress title="French" bar="danger" target="modalFrench" />
                                 <EducationTableItemProgress title="Spanish" bar="danger" target="modalSpanish" />
+
+                                <EducationTableSubject title="CMS" />
+                                <EducationTableItem title="Design with WordPress" duration="5h" target="modalDesignWordPress" />
 
                                 <EducationTableSubject title="Frontend" />
                                 <EducationTableItem title="Starting with TypeScript" duration="8h" target="modalTypeScriptStarting" />
@@ -177,7 +182,22 @@ class Education extends React.Component {
                     }
                 />
 
+
                 {/* MODAL TECHNICAL*/}
+                <ModalCourse
+                    id="modalDesignWordPress"
+                    title="CMS"
+                    icon={CourseDesignWordPress}
+                    course="Complete Course - Create Websites with Professional Design WordPress"
+                    description="Learn how to Create Websites, Blogs and Stores with Professional Design. Web Development with Wordpress from Basic to Advanced."
+                    duration="5"
+                    language="Brazilian Portuguese"
+                    conclusion="jan-2022"
+                    urlCertificate="https://www.udemy.com/certificate/UC-e2c4bf89-8c74-442e-a837-f01b3a766103/"
+                    urlSchool="https://www.udemy.com/course/aprenda-como-criar-um-site-com-design-profissional-do-zero/"
+                    certificate={CertificateDesignWordPress}
+                />
+
                 <ModalCourse
                     id="modalTypeScriptStarting"
                     title="Frontend"

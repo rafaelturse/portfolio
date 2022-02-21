@@ -1,6 +1,6 @@
 import React from 'react';
 
-import logoPreFooter from '../../art/logo/logo-rafaelturse-horizontal-dark.svg'
+import logoPreFooter from '../../art/logo/rafaelturse-logo.svg'
 
 class MainComments extends React.Component {
     render() {
@@ -36,7 +36,7 @@ class MainComments extends React.Component {
                         <div className="fb-comments w-100" data-href="https://www.rafaelturse.ca" data-numposts="20" data-order-by="reverse_time" data-width="100%"></div>
 
                         <div className="mt-5">
-                            <img className="img-fluid mx-auto d-block mb-2" src={logoPreFooter} width="300px" alt="" />
+                            <img className="img-fluid mx-auto d-block mb-2" src={logoPreFooter} alt="" />
                         </div>
                     </div>
                 </div>
