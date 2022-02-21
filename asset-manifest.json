@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9953f878.chunk.css",
-    "main.js": "/static/js/main.e84f13fc.chunk.js",
-    "main.js.map": "/static/js/main.e84f13fc.chunk.js.map",
+    "main.css": "/static/css/main.7e0e681a.chunk.css",
+    "main.js": "/static/js/main.37fda55c.chunk.js",
+    "main.js.map": "/static/js/main.37fda55c.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.0add6949.chunk.js": "/static/js/2.0add6949.chunk.js",
-    "static/js/2.0add6949.chunk.js.map": "/static/js/2.0add6949.chunk.js.map",
+    "static/js/2.9fbbb3cd.chunk.js": "/static/js/2.9fbbb3cd.chunk.js",
+    "static/js/2.9fbbb3cd.chunk.js.map": "/static/js/2.9fbbb3cd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e95b29e63d12625ec754d4f6b6aa68ac.js": "/precache-manifest.e95b29e63d12625ec754d4f6b6aa68ac.js",
+    "precache-manifest.ccf99d80944ca37f98df15febffb684b.js": "/precache-manifest.ccf99d80944ca37f98df15febffb684b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.9953f878.chunk.css.map": "/static/css/main.9953f878.chunk.css.map",
+    "static/css/main.7e0e681a.chunk.css.map": "/static/css/main.7e0e681a.chunk.css.map",
     "static/media/certificate-AW-FW246DZIH2.jpg": "/static/media/certificate-AW-FW246DZIH2.72de3def.jpg",
     "static/media/certificate-AW-SZ6LX7M5BW.jpg": "/static/media/certificate-AW-SZ6LX7M5BW.4109bb9e.jpg",
     "static/media/certificate-UC-112c43d1-b059-4e18-ae02-60ad73a5b0ba.jpg": "/static/media/certificate-UC-112c43d1-b059-4e18-ae02-60ad73a5b0ba.e535ef79.jpg",
@@ -141,6 +141,7 @@
     "static/media/language-spanish.svg": "/static/media/language-spanish.a9914a14.svg",
     "static/media/logo-rafaelturse-horizontal-dark.svg": "/static/media/logo-rafaelturse-horizontal-dark.9c6d8dc3.svg",
     "static/media/logo-rafaelturse-vertical.svg": "/static/media/logo-rafaelturse-vertical.3ee7e94d.svg",
-    "static/media/rafaelturse-logo-inverted.svg": "/static/media/rafaelturse-logo-inverted.16ee10f2.svg"
+    "static/media/rafaelturse-logo-inverted.svg": "/static/media/rafaelturse-logo-inverted.15f057f3.svg",
+    "static/media/rafaelturse-logo.svg": "/static/media/rafaelturse-logo.a55d11cb.svg"
   }
 }

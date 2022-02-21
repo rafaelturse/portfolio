@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "040287f4d9f00fe4ff502c4648af3a69",
+    "revision": "c659ec74eff125b0921098753c838e7b",
     "url": "/index.html"
   },
   {
-    "revision": "3f019539776e04eca566",
-    "url": "/static/css/main.9953f878.chunk.css"
+    "revision": "3284755535e43abe1f4d",
+    "url": "/static/css/main.7e0e681a.chunk.css"
   },
   {
-    "revision": "630eca2e4b66ff5ffe46",
-    "url": "/static/js/2.0add6949.chunk.js"
+    "revision": "c7f4ccfa74b086f50a2e",
+    "url": "/static/js/2.9fbbb3cd.chunk.js"
   },
   {
-    "revision": "3f019539776e04eca566",
-    "url": "/static/js/main.e84f13fc.chunk.js"
+    "revision": "3284755535e43abe1f4d",
+    "url": "/static/js/main.37fda55c.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -540,7 +540,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo-rafaelturse-vertical.3ee7e94d.svg"
   },
   {
-    "revision": "16ee10f29622a06a6f1dc8ae730dcc14",
-    "url": "/static/media/rafaelturse-logo-inverted.16ee10f2.svg"
+    "revision": "15f057f3eaf51098a4475b553abcd252",
+    "url": "/static/media/rafaelturse-logo-inverted.15f057f3.svg"
+  },
+  {
+    "revision": "a55d11cb47febd05fd901fa3bc96bb81",
+    "url": "/static/media/rafaelturse-logo.a55d11cb.svg"
   }
 ]);
