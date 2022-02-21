@@ -23,7 +23,7 @@ class ChartFocous extends React.Component {
                 stroke: {
                     show: true,
                     width: 5,
-                    colors:['#F9F9F9']
+                    colors:['#FFF']
                 },
             },
         }
