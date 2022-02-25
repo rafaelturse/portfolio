@@ -3,6 +3,8 @@ import React from 'react'
 import PageTitle from '../general/pageTitle'
 import Job from './job';
 
+import CompanyXAU from '../../art/company/company-egr.png'
+import CompanyGDI from '../../art/company/company-gdi.png'
 import CompanyFCC from '../../art/company/company-fcc.png'
 import CompanySamsung from '../../art/company/company-samsung.png'
 import CompanyMagna from '../../art/company/company-magna.jpg'
@@ -28,6 +30,47 @@ class Career extends React.Component {
                 />
 
                 <Job
+                    path={CompanyXAU}
+                    range="jan/2022 - currently"
+                    roleIcon={<path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />}
+                    role="Software Developer"
+                    company="Express Gold Refining Ltd."
+                    description={
+                        <span>
+                            In this challenge, I lead the company's website improvements project, doing frontend customization, implementation of new features, and 
+                            bug fixing in templates and environments of 
+                            <span class="badge bg-dark m-1">WordPress</span>and 
+                            <span class="badge bg-dark m-1">WooCommerce</span>, through
+                            <span class="badge bg-dark m-1">HTML</span>,
+                            <span class="badge bg-dark m-1">CSS</span>,
+                            <span class="badge bg-dark m-1">Javascript</span>,
+                            <span class="badge bg-dark m-1">PHP</span>,
+                            <span class="badge bg-dark m-1">MySQL</span>,
+                            <span class="badge bg-dark m-1">Git</span>,
+                            <span class="badge bg-dark m-1">UX/UI</span>,
+                            <span class="badge bg-dark m-1">SEO</span>,
+                            <span class="badge bg-dark m-1">Google Analytics</span>.
+                        </span>
+                    }
+                    mapTitle="mapXAU"
+                    map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.6710636131497!2d-79.38101738450219!3d43.655011579121194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb34d6967d53%3A0xd87607794638b22e!2sExpress%20Gold%20Refining%20Ltd.!5e0!3m2!1spt-BR!2sca!4v1645748338773!5m2!1spt-BR!2sca"
+                />
+
+                <Job
+                    path={CompanyGDI}
+                    range="jun/2020 - jan/2022"
+                    roleIcon={<path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z" />}
+                    role="Operation Supervisor"
+                    company="GDI Integrated Facility Services · Full-time"
+                    description="I guided the cleaning team as an operation supervisor, delegating daily functions and overseeing day-to-day operations 
+                                within the building. Moreover, it facilitated the distribution of chemical products and the process of cleaning machines, 
+                                blowers, and robots for flooding areas containment. I Provided cleaning, stocking, and supplying for designated facility 
+                                areas (dusting, sweeping, vacuuming, mopping, cleaning ceiling vents, washroom cleaning)."
+                    mapTitle="mapGDI"
+                    map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.6986270210255!2d-79.38288808338073!3d43.6544381791211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34cb510746bd%3A0x8b89147b8cbbc837!2sToronto%20Eaton%20Centre!5e0!3m2!1spt-BR!2sca!4v1645747889194!5m2!1spt-BR!2sca"
+                />
+
+                <Job
                     path={CompanyFCC}
                     range="apr/2019 - dec/2019"
                     roleIcon={<path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />}
@@ -35,8 +78,8 @@ class Career extends React.Component {
                     company="Fundação Carlos Chagas"
                     description={
                         <span>
-                            I acted as a backend development of WEB applications, create news classes according to documentation to improve the system, 
-                            bug fix and sync the code with team, build and improve databases to fit new features and solve merging and commit reviewed 
+                            I acted as a backend development of WEB applications, create news classes according to documentation to improve the system,
+                            bug fix and sync the code with team, build and improve databases to fit new features and solve merging and commit reviewed
                             codes for approval on DevOps Mat.
 
                             <div className="fs-5 fw-bold mt-3 ">Main Projects</div>
@@ -46,36 +89,36 @@ class Career extends React.Component {
                                         Implementation of Public Tender Systems and Portals to consultation test scores and miscellaneous information
                                     </div>
                                     <p>
-                                        Where I was always developing legacy systems in 
+                                        Where I was always developing legacy systems in
                                         <span class="badge bg-dark m-1">Java 7</span>
                                         <span class="badge bg-dark m-1">JSP</span>
                                         <span class="badge bg-dark m-1">Mentawai</span>
                                         <span class="badge bg-dark m-1">Javascript</span>
                                         <span class="badge bg-dark m-1">Hibernate</span>
-                                        <span class="badge bg-dark m-1">MySQL</span>and 
-                                        <span class="badge bg-dark m-1">Eclipse</span>. 
-                                        The architecture required that new codes be made to meet the demand for new public tenders. My team started the renewal of 
-                                        this system using 
-                                        <span class="badge bg-dark m-1">Java 8</span>with 
-                                        <span class="badge bg-dark m-1">Spring Boot</span>on 
-                                        <span class="badge bg-dark m-1">STS</span>with 
+                                        <span class="badge bg-dark m-1">MySQL</span>and
+                                        <span class="badge bg-dark m-1">Eclipse</span>.
+                                        The architecture required that new codes be made to meet the demand for new public tenders. My team started the renewal of
+                                        this system using
+                                        <span class="badge bg-dark m-1">Java 8</span>with
+                                        <span class="badge bg-dark m-1">Spring Boot</span>on
+                                        <span class="badge bg-dark m-1">STS</span>with
                                         <span class="badge bg-dark m-1">Microservices</span>
                                         <span class="badge bg-dark m-1">Spring Cloud</span>
-                                        <span class="badge bg-dark m-1">Eureka server</span> to register and balance microservices, 
+                                        <span class="badge bg-dark m-1">Eureka server</span> to register and balance microservices,
                                         <span class="badge bg-dark m-1">Zuul API Gateway</span>
                                         <span class="badge bg-dark m-1">JSON</span>
                                         <span class="badge bg-dark m-1">REST / Restful API</span>
                                         <span class="badge bg-dark m-1">Postman</span>
                                         <span class="badge bg-dark m-1">MySQL</span>
                                         <span class="badge bg-dark m-1">Jenkins</span>
-                                        <span class="badge bg-dark m-1">GitLab</span>and 
+                                        <span class="badge bg-dark m-1">GitLab</span>and
                                         <span class="badge bg-dark m-1">Tomcat</span>.
                                     </p>
                                 </li>
                                 <li className="mt-1">
                                     <div className="fs-6 fw-bold">Billing generation Systems, file remittance and handling of return bank files</div>
                                     <p>
-                                        where I worked on systems analysis, generation of reports using 
+                                        where I worked on systems analysis, generation of reports using
                                         <span class="badge bg-dark m-1">SQL Server</span>
                                         and bug fixes to process batch files, identify payment and registration problems.
                                     </p>
