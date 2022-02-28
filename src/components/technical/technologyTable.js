@@ -205,20 +205,23 @@ class TechnologyTable extends React.Component {
                                     <TechnologyTableItem title="Adobe After Effects" bar="info" />
                                     <TechnologyTableItem title="Adobe Premier" bar="info" />
 
-                                    <TechnologyTableSubject title="Management" />
-                                    <TechnologyTableItem title="Google Analytics" bar="info" />
-                                    <TechnologyTableItem title="SEO" bar="info" />
-                                    <TechnologyTableItem title="Chrome Developer Tools" bar="info" />
-
                                     <TechnologyTableSubject title="IDE" />
                                     <TechnologyTableItem title="Visual Studio Code" bar="success" />
                                     <TechnologyTableItem title="Sublime" bar="info" />
                                     <TechnologyTableItem title="Atom" bar="info" />
                                     <TechnologyTableItem title="Notepad++" bar="success" />
+                                    <TechnologyTableItem title="Chrome Developer Tools" bar="info" />
 
-                                    <TechnologyTableSubject title="CMS" />
+                                    <TechnologyTableSubject title="Digital Marketing" />
+                                    <TechnologyTableItem title="Google Analytics" bar="info" />
+                                    <TechnologyTableItem title="Google Tag Manager" bar="info" />
+                                    <TechnologyTableItem title="Google Optimizer" bar="info" />
+                                    <TechnologyTableItem title="SEO" bar="info" />
+
+                                    <TechnologyTableSubject title="CMS - ECOMMERCE" />
                                     <TechnologyTableItem title="Joomla" bar="warning" />
-                                    <TechnologyTableItem title="WordPress" bar="warning" />
+                                    <TechnologyTableItem title="WordPress" bar="success" />
+                                    <TechnologyTableItem title="Woocommerce" bar="success" />
                                 </tbody>
                             </table>
                             <GoTo type="dark" to="technology" />

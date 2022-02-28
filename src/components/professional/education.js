@@ -18,6 +18,7 @@ import LanguageEnglish from '../../art/icon/language/language-english.svg'
 import LanguageFrench from '../../art/icon/language/language-french.svg'
 import LanguageSpanish from '../../art/icon/language/language-spanish.svg'
 
+import CourseWordPressWooCommerce from '../../art/course/course-woocommerce.png'
 import CourseDesignWordPress from '../../art/course/course-wordpress.png'
 import CourseTypeScriptStarting from '../../art/course/course-ts.png'
 import CourseJavaScriptStarting from '../../art/course/course-js.png'
@@ -32,6 +33,7 @@ import CourseDockerEssentialTool from '../../art/course/course-docker.png'
 import CourseModalGitNinja from '../../art/course/course-git.png'
 import CourseSpringBootReact from '../../art/course/course-springboot-react.png'
 
+import CertificateWordPressWooCommerce from '../../art/certificate/certificate-UC-52e50109-cb0f-4dc9-8619-991ad866ec13.jpg'
 import CertificateDesignWordPress from '../../art/certificate/certificate-UC-e2c4bf89-8c74-442e-a837-f01b3a766103.jpg'
 import CertificateTypeScriptStarting from '../../art/certificate/certificate-UC-HOPBUD1TYR.png'
 import CertificateJavaScriptStarting from '../../art/certificate/certificate-AW-SZ6LX7M5BW.jpg'
@@ -76,6 +78,7 @@ class Education extends React.Component {
 
                                 <EducationTableSubject title="CMS" />
                                 <EducationTableItem title="Design with WordPress" duration="5h" target="modalDesignWordPress" />
+                                <EducationTableItem title="WordPress and WooCommerce" duration="3h" target="modalWordPressWooCommerce" />
 
                                 <EducationTableSubject title="Frontend" />
                                 <EducationTableItem title="Starting with TypeScript" duration="8h" target="modalTypeScriptStarting" />
@@ -182,8 +185,21 @@ class Education extends React.Component {
                     }
                 />
 
-
                 {/* MODAL TECHNICAL*/}
+                <ModalCourse
+                    id="modalWordPressWooCommerce"
+                    title="CMS"
+                    icon={CourseWordPressWooCommerce}
+                    course="Create an Online Store with WordPress and WooCommerce"
+                    description="The easiest and fastest way to create a virtual store to sell your products online."
+                    duration="3"
+                    language="Brazilian Portuguese"
+                    conclusion="feb-2022"
+                    urlCertificate="https://www.udemy.com/certificate/UC-52e50109-cb0f-4dc9-8619-991ad866ec13/"
+                    urlSchool="https://www.udemy.com/course/lojavirtual/"
+                    certificate={CertificateWordPressWooCommerce}
+                />
+
                 <ModalCourse
                     id="modalDesignWordPress"
                     title="CMS"

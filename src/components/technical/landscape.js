@@ -62,8 +62,13 @@ import Iconvscode from '../../art/icon/technology/icon-vscode.png'
 import Iconsublime from '../../art/icon/technology/icon-sublime.png'
 import Iconatom from '../../art/icon/technology/icon-atom.png'
 import Iconnotepadpp from '../../art/icon/technology/icon-notepadpp.png'
+import Iconanalytics from '../../art/icon/technology/icon-analytics.png'
+import Icontagmanager from '../../art/icon/technology/icon-googletagmanager.png'
+import Iconoptimizer from '../../art/icon/technology/icon-googleoptimizer.png'
+import Iconseo from '../../art/icon/technology/icon-seo.png'
 import Iconjoomla from '../../art/icon/technology/icon-joomla.png'
 import Iconwordpress from '../../art/icon/technology/icon-wordpress.png'
+import Iconwoocommerce from '../../art/icon/technology/icon-woocommerce.svg'
 import Icongo from '../../art/icon/technology/icon-go.png'
 import Iconpython from '../../art/icon/technology/icon-python.png'
 import Iconphp from '../../art/icon/technology/icon-php.png'
@@ -72,8 +77,6 @@ import Iconhtml from '../../art/icon/technology/icon-html.png'
 import Iconcss from '../../art/icon/technology/icon-css.png'
 import Iconbootstrap from '../../art/icon/technology/icon-bootstrap.png'
 import Iconmaterialize from '../../art/icon/technology/icon-materialize.png'
-import Iconanalytics from '../../art/icon/technology/icon-analytics.png'
-import Iconseo from '../../art/icon/technology/icon-seo.png'
 import Iconchromedev from '../../art/icon/technology/icon-chromedev.png'
 import Iconprimefaces from '../../art/icon/technology/icon-primefaces.png'
 import Iconprimereact from '../../art/icon/technology/icon-primereact.png'
@@ -192,8 +195,13 @@ class Landscape extends React.Component {
                         <LandscapeItem path={Iconsublime} />
                         <LandscapeItem path={Iconatom} />
                         <LandscapeItem path={Iconnotepadpp} />
+                        <LandscapeItem path={Iconanalytics} />
+                        <LandscapeItem path={Icontagmanager} />
+                        <LandscapeItem path={Iconoptimizer} />
+                        <LandscapeItem path={Iconseo} />
                         <LandscapeItem path={Iconjoomla} />
                         <LandscapeItem path={Iconwordpress} />
+                        <LandscapeItem path={Iconwoocommerce} />
                         <LandscapeItem path={Icongo} />
                         <LandscapeItem path={Iconpython} />
                         <LandscapeItem path={Iconphp} />
@@ -202,8 +210,6 @@ class Landscape extends React.Component {
                         <LandscapeItem path={Iconcss} />
                         <LandscapeItem path={Iconbootstrap} />
                         <LandscapeItem path={Iconmaterialize} />
-                        <LandscapeItem path={Iconanalytics} />
-                        <LandscapeItem path={Iconseo} />
                         <LandscapeItem path={Iconchromedev} />
                         <LandscapeItem path={Iconprimefaces} />
                         <LandscapeItem path={Iconprimereact} />
