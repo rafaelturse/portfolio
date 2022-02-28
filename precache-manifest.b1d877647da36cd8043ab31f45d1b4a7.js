@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6efe66ab35670e54a19be86c0d70d9c4",
+    "revision": "8cea671ff71c829be4c1314d5e1d5cd6",
     "url": "/index.html"
   },
   {
-    "revision": "cb00f22160af1df65547",
+    "revision": "0d6229340d5ee0750991",
     "url": "/static/css/main.7e0e681a.chunk.css"
   },
   {
-    "revision": "5bef77765661c5e802a6",
-    "url": "/static/js/2.bf9842db.chunk.js"
+    "revision": "7885607878daff505d90",
+    "url": "/static/js/2.42650a0b.chunk.js"
   },
   {
-    "revision": "cb00f22160af1df65547",
-    "url": "/static/js/main.b09310ea.chunk.js"
+    "revision": "0d6229340d5ee0750991",
+    "url": "/static/js/main.6c0f3c21.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "001bd77e96d626a9d9e02c5992797950",
     "url": "/static/media/certificate-UC-435170f3-07dd-4409-a310-c9effe13c613.001bd77e.jpg"
+  },
+  {
+    "revision": "b48a6e24227dba5718dfa5c875391e2b",
+    "url": "/static/media/certificate-UC-52e50109-cb0f-4dc9-8619-991ad866ec13.b48a6e24.jpg"
   },
   {
     "revision": "3cbe7393969c0c8686ed00ec89517e1e",
@@ -144,6 +148,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/course-ts.26cc95f2.png"
   },
   {
+    "revision": "16b3e617b522e1204e9575bd891d0897",
+    "url": "/static/media/course-woocommerce.16b3e617.png"
+  },
+  {
     "revision": "7c70186646a80270fd840b7d8971942f",
     "url": "/static/media/course-wordpress.7c701866.png"
   },
@@ -250,6 +258,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e675c2d8342e8bb7a862e55b5aad52f8",
     "url": "/static/media/icon-go.e675c2d8.png"
+  },
+  {
+    "revision": "4e4ab261044ddded4880324e14332bae",
+    "url": "/static/media/icon-googleoptimizer.4e4ab261.png"
   },
   {
     "revision": "6cf07fa699c955d001f9ccea22dab9d9",
@@ -490,6 +502,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0cbec494430bbcd8dd196cd074c1f12d",
     "url": "/static/media/icon-wildfly.0cbec494.png"
+  },
+  {
+    "revision": "75a3b44bf31584e719403183de506dc6",
+    "url": "/static/media/icon-woocommerce.75a3b44b.svg"
   },
   {
     "revision": "4392b765c2f8e3f8961f409f39eca1f8",
