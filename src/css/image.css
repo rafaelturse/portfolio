@@ -18,6 +18,10 @@
   color: #E9E9E9;
 }
 
+.fa-secondary{
+  opacity:.3
+}
+
 /* IMAGE */
 .image-company {
   max-height: 200px;
