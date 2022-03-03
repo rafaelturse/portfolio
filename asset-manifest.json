@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e0e681a.chunk.css",
-    "main.js": "/static/js/main.6c0f3c21.chunk.js",
-    "main.js.map": "/static/js/main.6c0f3c21.chunk.js.map",
+    "main.css": "/static/css/main.e9159489.chunk.css",
+    "main.js": "/static/js/main.97c80b9f.chunk.js",
+    "main.js.map": "/static/js/main.97c80b9f.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.42650a0b.chunk.js": "/static/js/2.42650a0b.chunk.js",
     "static/js/2.42650a0b.chunk.js.map": "/static/js/2.42650a0b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b1d877647da36cd8043ab31f45d1b4a7.js": "/precache-manifest.b1d877647da36cd8043ab31f45d1b4a7.js",
+    "precache-manifest.9fc39ad32968673e47cc8f948fef918d.js": "/precache-manifest.9fc39ad32968673e47cc8f948fef918d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.7e0e681a.chunk.css.map": "/static/css/main.7e0e681a.chunk.css.map",
+    "static/css/main.e9159489.chunk.css.map": "/static/css/main.e9159489.chunk.css.map",
+    "static/media/address-book.cd10293d.svg": "/static/media/address-book.cd10293d.svg",
     "static/media/certificate-AW-FW246DZIH2.jpg": "/static/media/certificate-AW-FW246DZIH2.72de3def.jpg",
     "static/media/certificate-AW-SZ6LX7M5BW.jpg": "/static/media/certificate-AW-SZ6LX7M5BW.4109bb9e.jpg",
     "static/media/certificate-UC-112c43d1-b059-4e18-ae02-60ad73a5b0ba.jpg": "/static/media/certificate-UC-112c43d1-b059-4e18-ae02-60ad73a5b0ba.e535ef79.jpg",
@@ -45,6 +46,7 @@
     "static/media/course-ts.png": "/static/media/course-ts.26cc95f2.png",
     "static/media/course-woocommerce.png": "/static/media/course-woocommerce.16b3e617.png",
     "static/media/course-wordpress.png": "/static/media/course-wordpress.7c701866.png",
+    "static/media/gear.2c6ec485.svg": "/static/media/gear.2c6ec485.svg",
     "static/media/icon-Inkscape.svg": "/static/media/icon-Inkscape.26340504.svg",
     "static/media/icon-aftereffects.png": "/static/media/icon-aftereffects.8079e6cd.png",
     "static/media/icon-ajax.png": "/static/media/icon-ajax.bf76f4db.png",
@@ -147,6 +149,7 @@
     "static/media/logo-rafaelturse-horizontal-dark.svg": "/static/media/logo-rafaelturse-horizontal-dark.9c6d8dc3.svg",
     "static/media/logo-rafaelturse-vertical.svg": "/static/media/logo-rafaelturse-vertical.3ee7e94d.svg",
     "static/media/rafaelturse-logo-inverted.svg": "/static/media/rafaelturse-logo-inverted.15f057f3.svg",
-    "static/media/rafaelturse-logo.svg": "/static/media/rafaelturse-logo.a55d11cb.svg"
+    "static/media/rafaelturse-logo.svg": "/static/media/rafaelturse-logo.a55d11cb.svg",
+    "static/media/trophy.d7781cfe.svg": "/static/media/trophy.d7781cfe.svg"
   }
 }

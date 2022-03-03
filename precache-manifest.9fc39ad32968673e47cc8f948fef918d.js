@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8cea671ff71c829be4c1314d5e1d5cd6",
+    "revision": "e69736f2f0ff8aa7fbb1a3765aae4a11",
     "url": "/index.html"
   },
   {
-    "revision": "0d6229340d5ee0750991",
-    "url": "/static/css/main.7e0e681a.chunk.css"
+    "revision": "c2228ad9acb25b3182d9",
+    "url": "/static/css/main.e9159489.chunk.css"
   },
   {
     "revision": "7885607878daff505d90",
     "url": "/static/js/2.42650a0b.chunk.js"
   },
   {
-    "revision": "0d6229340d5ee0750991",
-    "url": "/static/js/main.6c0f3c21.chunk.js"
+    "revision": "c2228ad9acb25b3182d9",
+    "url": "/static/js/main.97c80b9f.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
+  },
+  {
+    "revision": "cd10293d0d3e29855339bfa166d0269d",
+    "url": "/static/media/address-book.cd10293d.svg"
   },
   {
     "revision": "72de3deff679e0982ab1fcc5b5236a6b",
@@ -154,6 +158,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7c70186646a80270fd840b7d8971942f",
     "url": "/static/media/course-wordpress.7c701866.png"
+  },
+  {
+    "revision": "2c6ec485ddba0bb9adb96f03bfb11f33",
+    "url": "/static/media/gear.2c6ec485.svg"
   },
   {
     "revision": "26340504e9e2d6bc29a5cf0a69e9ec2c",
@@ -566,5 +574,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a55d11cb47febd05fd901fa3bc96bb81",
     "url": "/static/media/rafaelturse-logo.a55d11cb.svg"
+  },
+  {
+    "revision": "d7781cfe88c5d68d301836b29feea0d1",
+    "url": "/static/media/trophy.d7781cfe.svg"
   }
 ]);
