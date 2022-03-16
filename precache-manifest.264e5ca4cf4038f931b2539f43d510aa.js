@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e69736f2f0ff8aa7fbb1a3765aae4a11",
+    "revision": "077a9972b35054236ff89a973a660074",
     "url": "/index.html"
   },
   {
-    "revision": "c2228ad9acb25b3182d9",
+    "revision": "c871d60e9e3d167256ef",
     "url": "/static/css/main.e9159489.chunk.css"
   },
   {
@@ -12,16 +12,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.42650a0b.chunk.js"
   },
   {
-    "revision": "c2228ad9acb25b3182d9",
-    "url": "/static/js/main.97c80b9f.chunk.js"
+    "revision": "c871d60e9e3d167256ef",
+    "url": "/static/js/main.9664ee89.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
   },
   {
-    "revision": "cd10293d0d3e29855339bfa166d0269d",
-    "url": "/static/media/address-book.cd10293d.svg"
+    "revision": "3101fe168d401281311a56deb7843661",
+    "url": "/static/media/address-book.3101fe16.svg"
   },
   {
     "revision": "72de3deff679e0982ab1fcc5b5236a6b",
@@ -568,12 +568,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo-rafaelturse-vertical.3ee7e94d.svg"
   },
   {
-    "revision": "15f057f3eaf51098a4475b553abcd252",
-    "url": "/static/media/rafaelturse-logo-inverted.15f057f3.svg"
+    "revision": "5961dd514d6a2abf3dd714e22705f271",
+    "url": "/static/media/rafaelturse-logo-gear-light.5961dd51.svg"
   },
   {
-    "revision": "a55d11cb47febd05fd901fa3bc96bb81",
-    "url": "/static/media/rafaelturse-logo.a55d11cb.svg"
+    "revision": "d79d8128fe9738bf4a4c31ff80e28d89",
+    "url": "/static/media/rafaelturse-logo-gear.d79d8128.svg"
   },
   {
     "revision": "d7781cfe88c5d68d301836b29feea0d1",
