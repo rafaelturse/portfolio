@@ -1,34 +1,40 @@
 import Link from "next/link";
 import { profile, areas } from "@/lib/data";
 
+const NUMERALS = ["I", "II", "III", "IV"];
+
 export default function HomePage() {
   return (
-    <div className="mx-auto max-w-5xl px-5 py-16 sm:py-24">
-      <section className="text-center">
-        <p className="font-mono text-xs uppercase tracking-[0.25em] text-accent">
-          {profile.coordinates} — {profile.location}
-        </p>
-        <h1 className="mt-4 font-display text-4xl font-bold tracking-tight text-ink sm:text-6xl">
+    <div className="mx-auto max-w-3xl px-6 py-28 sm:py-36">
+      <header className="text-center">
+        <p className="font-body text-xs uppercase tracking-[0.4em] text-gold-soft">Portfolio</p>
+        <h1 className="mt-5 font-display text-6xl tracking-tight text-ink sm:text-7xl">
           {profile.name}
         </h1>
-        <p className="mt-3 font-mono text-lg text-signal">{profile.role}</p>
-      </section>
+      </header>
 
-      <section className="mt-16 grid gap-5 sm:grid-cols-2">
+      <nav className="mt-24 border-t border-line">
         {areas.map((area, i) => (
           <Link
             key={area.label}
             href={area.href}
-            className="corner-frame group border border-line bg-surface p-6 text-ink transition-colors hover:border-accent"
+            className="group flex items-baseline gap-6 border-b border-line py-7 transition-colors"
           >
-            <p className="font-mono text-xs text-ink-faint">0{i + 1}</p>
-            <p className="mt-1 font-display text-xl font-bold group-hover:text-accent">
-              {area.label}
-            </p>
-            <p className="mt-2 text-sm text-ink-soft">{area.description}</p>
+            <span className="font-display text-sm text-gold-soft">{NUMERALS[i]}</span>
+            <span className="flex-1">
+              <span className="font-display text-2xl font-medium text-ink transition-colors group-hover:text-gold-soft sm:text-3xl">
+                {area.label}
+              </span>
+              <span className="mt-1 block max-w-md font-body text-sm text-muted">
+                {area.description}
+              </span>
+            </span>
+            <span className="font-display text-lg text-muted transition-transform group-hover:translate-x-1 group-hover:text-gold-soft">
+              →
+            </span>
           </Link>
         ))}
-      </section>
+      </nav>
     </div>
   );
 }

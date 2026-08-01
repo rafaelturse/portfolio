@@ -1,25 +1,18 @@
-import { Gloria_Hallelujah, Indie_Flower, Open_Sans } from "next/font/google";
+import { Playfair_Display, Inter } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
-import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-const gloria = Gloria_Hallelujah({
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  weight: "400",
-  variable: "--font-gloria",
+  weight: ["500", "600"],
+  variable: "--font-playfair",
 });
 
-const indieFlower = Indie_Flower({
+const inter = Inter({
   subsets: ["latin"],
-  weight: "400",
-  variable: "--font-indie-flower",
-});
-
-const openSans = Open_Sans({
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-  variable: "--font-open-sans",
+  weight: ["300", "400", "500"],
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -33,9 +26,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${gloria.variable} ${indieFlower.variable} ${openSans.variable}`}>
-      <body className="bg-paper font-body text-ink antialiased min-h-full flex flex-col">
-        <Nav />
+    <html lang="en" className={`${playfair.variable} ${inter.variable}`}>
+      <body className="bg-bg bg-grain font-body font-light text-ink antialiased min-h-full flex flex-col">
         <main className="flex-1">{children}</main>
         <Footer />
       </body>
