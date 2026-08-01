@@ -33,6 +33,11 @@ export const areas: Area[] = [
     href: "/technical",
   },
   {
+    label: "Gallery",
+    description: "Some memories catch in pictures.",
+    href: "/technical",
+  },
+  {
     label: "Contacts",
     description: "Ways to reach me.",
     href: "/contacts",

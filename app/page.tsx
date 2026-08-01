@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { profile, areas } from "@/lib/data";
 
-const NUMERALS = ["I", "II", "III", "IV"];
+const NUMERALS = ["I", "II", "III", "IV", "V"];
 
 export default function HomePage() {
   return (
@@ -9,7 +9,9 @@ export default function HomePage() {
       <header className="text-center">
         <p className="font-body text-xs uppercase tracking-[0.4em] text-gold-soft">Portfolio</p>
         <h1 className="mt-5 font-display text-6xl tracking-tight text-ink sm:text-7xl">
-          {profile.name}
+          <Link href="/" className="transition-colors hover:text-gold-soft">
+            {profile.name}
+          </Link>
         </h1>
       </header>
 

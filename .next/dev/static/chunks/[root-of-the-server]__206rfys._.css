@@ -966,6 +966,10 @@
     .hover\:bg-surface-hover:hover {
       background-color: var(--color-surface-hover);
     }
+
+    .hover\:text-gold-soft:hover {
+      color: var(--color-gold-soft);
+    }
   }
 
   @media (min-width: 40rem) {
