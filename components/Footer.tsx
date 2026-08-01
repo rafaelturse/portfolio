@@ -4,25 +4,44 @@ import { profile, areas } from "@/lib/data";
 
 export default function Footer() {
     return (
-        <footer className="border-t border-line bg-paper-deep">
-            <div className="mx-auto max-w-5xl px-5 py-10">
-                <div className="flex flex-col gap-8 sm:flex-row sm:justify-between">
+        <footer className="bg-ink text-muted">
+            <div className="mx-auto max-w-5xl px-5 py-12">
+                {/* back to top */}
+                <div className="flex justify-end">
+                    <Link
+                        href="#top"
+                        aria-label="Back to top"
+                        className="text-describe transition-colors hover:text-soft"
+                    >
+                        ▲
+                    </Link>
+                </div>
+
+                <div className="mt-6 flex flex-col gap-10 sm:flex-row sm:justify-between">
                     <div>
-                        <p className="font-display text-sm font-bold text-ink">{profile.name}</p>
-                        <p className="font-mono text-xs text-ink-soft">{profile.coordinates}</p>
+                        <p className="font-display text-lg text-muted-light">{profile.name}</p>
+                        <p className="mt-1 font-accent text-sm tracking-wide text-muted">
+                            {profile.coordinates}
+                        </p>
                     </div>
 
                     <nav aria-label="Sitemap">
-                        <p className="font-mono text-xs uppercase tracking-widest text-accent">Sitemap</p>
+                        <p className="font-display text-base text-muted-light">Sitemap</p>
                         <ul className="mt-2 space-y-1">
                             <li>
-                                <Link href="/" className="text-sm text-ink-soft hover:text-accent">
+                                <Link
+                                    href="/"
+                                    className="font-accent text-sm tracking-wide text-muted transition-colors hover:text-muted-light"
+                                >
                                     Home
                                 </Link>
                             </li>
                             {areas.map((area) => (
                                 <li key={area.href}>
-                                    <Link href={area.href} className="text-sm text-ink-soft hover:text-accent">
+                                    <Link
+                                        href={area.href}
+                                        className="font-accent text-sm tracking-wide text-muted transition-colors hover:text-muted-light"
+                                    >
                                         {area.label}
                                     </Link>
                                 </li>
@@ -30,12 +49,15 @@ export default function Footer() {
                         </ul>
                     </nav>
 
-                    <ContactIcons size={18} className="text-ink-soft" />
+                    <ContactIcons size={20} className="text-describe" />
                 </div>
 
-                <p className="mt-8 font-mono text-xs text-ink-faint">
-                    built with Next.js + Tailwind — rev. {new Date().getFullYear()}
-                </p>
+                <div className="mt-10 flex justify-center">
+                    <span className="font-accent text-sm tracking-wide text-muted">
+                        developed by <strong className="text-muted-light">Rafael Turse</strong> with{" "}
+                        <strong className="text-muted-light">Next.js</strong>
+                    </span>
+                </div>
             </div>
         </footer>
     );

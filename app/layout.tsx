@@ -1,25 +1,25 @@
-import { Space_Grotesk, Inter, JetBrains_Mono } from "next/font/google";
+import { Gloria_Hallelujah, Indie_Flower, Open_Sans } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 
-const spaceGrotesk = Space_Grotesk({
+const gloria = Gloria_Hallelujah({
   subsets: ["latin"],
-  weight: ["500", "700"],
-  variable: "--font-space-grotesk",
+  weight: "400",
+  variable: "--font-gloria",
 });
 
-const inter = Inter({
+const indieFlower = Indie_Flower({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-inter",
+  weight: "400",
+  variable: "--font-indie-flower",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const openSans = Open_Sans({
   subsets: ["latin"],
-  weight: ["400", "500"],
-  variable: "--font-jetbrains-mono",
+  weight: ["400", "600", "700"],
+  variable: "--font-open-sans",
 });
 
 export const metadata: Metadata = {
@@ -33,11 +33,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}
-    >
-      <body className="bg-drafting font-body text-ink antialiased min-h-full flex flex-col">
+    <html lang="en" className={`${gloria.variable} ${indieFlower.variable} ${openSans.variable}`}>
+      <body className="bg-paper font-body text-ink antialiased min-h-full flex flex-col">
         <Nav />
         <main className="flex-1">{children}</main>
         <Footer />
