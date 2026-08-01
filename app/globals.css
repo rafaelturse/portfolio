@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: #0f0f11;
+  --color-bg: #030303;
   --color-surface: #17171a;
   --color-surface-hover: #1e1e22;
   --color-ink: #ece9e4;
@@ -11,10 +11,9 @@
   --color-gold: #b8963f;
   --color-gold-soft: #d9c07f;
 
-  --font-display: var(--font-playfair), serif;
-  --font-body: var(--font-inter), sans-serif;
-  --font-accent: var(--font-indie-flower), cursive;
   --font-display: var(--font-garamond), serif;
+  --font-body: var(--font-inter), sans-serif;
+  --font-accent: var(--font-indie-flower), cursive;  
 }
 
 html {

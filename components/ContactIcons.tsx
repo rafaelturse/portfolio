@@ -54,7 +54,7 @@ export default function ContactIcons({ size = 20, className = "" }: Props) {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={c.label}
-                        className="text-current transition-colors hover:text-accent"
+                        className="text-current transition-colors hover:text-gold-soft"
                     >
                         <Icon size={size} />
                     </a>

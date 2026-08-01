@@ -19,27 +19,27 @@ export const contacts: Contact[] = [
 export const areas: Area[] = [
   {
     label: "Writer",
-    description: "A bit of my journey as a writer, and where to find my book.",
+    description: "A bit of my journey as a writer, and where to find my books",
     href: "/writer",
   },
   {
     label: "Professional",
-    description: "My professional path, with a way to request my résumé.",
+    description: "My professional path, with a way to request my resumé",
     href: "/professional",
   },
   {
     label: "Technical",
-    description: "Technical skills and the tools I work with.",
+    description: "Technical skills and the tools I work with",
     href: "/technical",
   },
   {
     label: "Gallery",
-    description: "Some memories catch in pictures.",
+    description: "Some memories and places catch in pictures",
     href: "/technical",
   },
   {
     label: "Contacts",
-    description: "Ways to reach me.",
+    description: "Ways to reach me",
     href: "/contacts",
   },
 ];
