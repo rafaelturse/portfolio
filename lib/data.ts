@@ -1,5 +1,9 @@
-export type Contact = { label: string; href: string };
 export type Area = { label: string; description: string; href: string };
+export type Job = { role: string; company: string; range: string; description: string };
+export type Contact = { label: string; href: string };
+export type Degree = { credential: string; school: string; location: string };
+export type QuickLink = { label: string; description: string; href: string; external: boolean };
+
 
 export const profile = {
   name: "Rafael Turse",
@@ -7,14 +11,6 @@ export const profile = {
   location: "Toronto, Canada",
   coordinates: "43.65 N / 79.38 W",
 };
-
-export const contacts: Contact[] = [
-  { label: "LinkedIn", href: "https://www.linkedin.com/in/rafaelturse/?locale=en_US" },
-  { label: "GitHub", href: "https://github.com/rafaelturse" },
-  { label: "Instagram", href: "https://www.instagram.com/rafaelturse.pro/" },
-  { label: "Behance", href: "https://www.behance.net/rafaelturse/" },
-  { label: "YouTube", href: "https://www.youtube.com/channel/UC3FNVtx2TPGwhKsvkyI0cJw/videos" },
-];
 
 export const areas: Area[] = [
   {
@@ -24,7 +20,7 @@ export const areas: Area[] = [
   },
   {
     label: "Professional",
-    description: "My professional path, with a way to request my resumé",
+    description: "My professional path, with a way to request my resume",
     href: "/professional",
   },
   {
@@ -43,3 +39,46 @@ export const areas: Area[] = [
     href: "/contacts",
   },
 ];
+
+export const bioIntro = "Brazilian, Canadian - based in Toronto, Canada";
+
+export const bio =
+  "Self-taught, software engineer and among many other things, also a musician, draftsman, illustrator, and writer";
+
+export const education: Degree[] = [
+  {
+    credential: "Bachelor in Information Systems",
+    school: "São Judas Tadeu University",
+    location: "São Paulo, Brazil",
+  },
+  {
+    credential: "Postgraduate in Mobile Application Development",
+    school: "George Brown College",
+    location: "Toronto, Canada",
+  },
+];
+
+export const professionalLinks: QuickLink[] = [
+  {
+    label: "Request my resume",
+    description: "Sent directly to my inbox",
+    href: "mailto:hello@rafaelturse.com?subject=Resume request",
+    external: false,
+  },
+  {
+    label: "View my projects",
+    description: "Code and repositories on GitHub",
+    href: "https://github.com/rafaelturse",
+    external: true,
+  },
+];
+
+export const contacts: Contact[] = [
+  { label: "GitHub", href: "https://github.com/rafaelturse" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/rafaelturse/?locale=en_US" },
+  { label: "Behance", href: "https://www.behance.net/rafaelturse/" },
+  { label: "X", href: "https://www.x.com/rafaelturse/" },
+  { label: "Instagram", href: "https://www.instagram.com/rafaelturse.info/" },
+  { label: "YouTube", href: "https://www.youtube.com/channel/UC3FNVtx2TPGwhKsvkyI0cJw/videos" },
+];
+

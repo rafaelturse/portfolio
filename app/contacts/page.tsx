@@ -22,7 +22,7 @@ export default function ContactsPage() {
 
       <div className="mt-16 flex justify-center">
         <a href="mailto:hello@rafaelturse.com" className="border-b border-gold-soft font-display text-2xl text-ink transition-colors hover:text-gold-soft">
-          hello@rafaelturse.com
+          rafaelturse@hotmail.com
         </a>
       </div>
 
