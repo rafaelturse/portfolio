@@ -26,7 +26,7 @@ export default function ContactsPage() {
         </a>
       </div>
 
-      <div className="mt-16 flex justify-center">
+      <div className="mt-6 flex justify-center">
         <ContactIcons size={22} className="gap-8 text-muted" />
       </div>
 

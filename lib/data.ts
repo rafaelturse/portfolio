@@ -3,7 +3,7 @@ export type Job = { role: string; company: string; range: string; description: s
 export type Contact = { label: string; href: string };
 export type Degree = { credential: string; school: string; location: string };
 export type QuickLink = { label: string; description: string; href: string; external: boolean };
-
+export type StackGroup = { category: string; items: string[] };
 
 export const profile = {
   name: "Rafael Turse",
@@ -27,11 +27,6 @@ export const areas: Area[] = [
     label: "Technical",
     description: "Technical skills and the tools I work with",
     href: "/technical",
-  },
-  {
-    label: "Gallery",
-    description: "Some memories and places catch in pictures",
-    href: "#",
   },
   {
     label: "Contacts",
@@ -82,3 +77,15 @@ export const contacts: Contact[] = [
   { label: "YouTube", href: "https://www.youtube.com/channel/UC3FNVtx2TPGwhKsvkyI0cJw/videos" },
 ];
 
+export const stack: StackGroup[] = [
+  { category: "Languages", items: ["TypeScript", "JavaScript", "Java", "Kotlin"] },
+  { category: "Backend", items: ["Node", "Express", "Spring Boot", "PassportJS", "JWT", "Swagger"] },
+  { category: "Frontend", items: ["Next.js", "React", "HTML", "CSS", "Tailwind", "Bootstrap", "REST API", "JSON"] },
+  { category: "Mobile", items: ["iOS / Swift", "Android", "React Native"] },
+  { category: "Database", items: ["MySQL", "SQL Server", "ERM", "Data Mart"] },
+  {
+    category: "DevOps",
+    items: ["Docker", "Git", "Postman", "Jira", "Jest", "Winston", "Loki", "Prometheus", "Grafana", "VS Code"],
+  },
+  { category: "Business", items: ["ERP", "CRM", "WEB Application", "Mobile Application", "Office Solutions", "VBA"] },
+];
