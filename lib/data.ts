@@ -31,7 +31,7 @@ export const areas: Area[] = [
   {
     label: "Gallery",
     description: "Some memories and places catch in pictures",
-    href: "/technical",
+    href: "#",
   },
   {
     label: "Contacts",
@@ -60,14 +60,14 @@ export const education: Degree[] = [
 
 export const professionalLinks: QuickLink[] = [
   {
-    label: "Request my resume",
+    label: "Professional Inquiries",
     description: "Sent directly to my inbox",
     href: "mailto:hello@rafaelturse.com?subject=Resume request",
     external: false,
   },
   {
-    label: "View my projects",
-    description: "Code and repositories on GitHub",
+    label: "Access My Code",
+    description: "View and run my projects on GitHub",
     href: "https://github.com/rafaelturse",
     external: true,
   },

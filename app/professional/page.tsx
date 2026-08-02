@@ -12,7 +12,7 @@ export default function ProfessionalPage() {
     <div className="mx-auto max-w-3xl px-6 py-28 sm:py-36">
       <header className="text-center">
         <p className="font-body text-xs uppercase tracking-[0.4em] text-gold-soft">Professional</p>
-        <h1 className="mt-5 font-display text-5xl tracking-tight text-ink sm:text-6xl">My Journey</h1>
+        <h1 className="mt-5 font-display text-5xl tracking-[0.05em] text-ink sm:text-6xl">My Journey</h1>
         <p className="mx-auto mt-12 max-w-md font-body text-xs uppercase tracking-widest text-muted">
           {bioIntro}
         </p>

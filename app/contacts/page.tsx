@@ -11,8 +11,8 @@ export default function ContactsPage() {
     <div className="mx-auto max-w-3xl px-6 py-28 sm:py-36">
       <header className="text-center">
         <p className="font-body text-xs uppercase tracking-[0.4em] text-gold-soft">Contacts</p>
-        <h1 className="mt-5 font-display text-5xl tracking-tight text-ink sm:text-6xl">
-          Let&apos;s talk
+        <h1 className="mt-5 font-display text-5xl tracking-[0.05em] text-ink sm:text-6xl">
+          Let&apos;s Talk
         </h1>
         <p className="mx-auto mt-6 max-w-md font-body text-sm leading-relaxed text-muted">
           Based in {profile.location}. Reach out directly by email, or find me on any of the
