@@ -16,7 +16,7 @@ export const areas: Area[] = [
   {
     label: "Writer",
     description: "A bit of my journey as a writer, and where to find my books",
-    href: "/writer",
+    href: "#",
   },
   {
     label: "Professional",
