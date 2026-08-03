@@ -141,7 +141,7 @@ export const stack: StackGroup[] = [
   { category: "Backend", items: ["Node", "Express", "Spring Boot", "PassportJS", "JWT", "Swagger"] },
   { category: "Frontend", items: ["Next.js", "React", "HTML", "CSS", "Tailwind", "Bootstrap", "REST API", "JSON"] },
   { category: "Mobile", items: ["iOS / Swift", "Android", "React Native"] },
-  { category: "Database", items: ["MySQL", "SQL Server", "ERM", "Data Mart"] },
+  { category: "Database", items: ["MySQL", "SQL Server", "MongoDB", "ERM", "Data Mart"] },
   {
     category: "DevOps",
     items: ["Docker", "Git", "Postman", "Scrum", "Jira", "Jest", "Winston", "Loki", "Prometheus", "Grafana", "VS Code"],
