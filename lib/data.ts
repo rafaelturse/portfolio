@@ -20,7 +20,7 @@ export const areas: Area[] = [
   },
   {
     label: "Professional",
-    description: "My professional path, with a way to request my resume",
+    description: "My professional path in this journey",
     href: "/professional",
   },
   {
@@ -29,8 +29,8 @@ export const areas: Area[] = [
     href: "/technical",
   },
   {
-    label: "Contacts",
-    description: "Ways to reach me",
+    label: "Contact",
+    description: "Let's talk about something",
     href: "/contacts",
   },
 ];
