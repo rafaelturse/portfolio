@@ -15,7 +15,7 @@ export const profile = {
 export const areas: Area[] = [
   {
     label: "Writer",
-    description: "A bit of my journey as a writer, and where to find my books",
+    description: "Information and more about my books",
     href: "/writer",
   },
   {
@@ -30,7 +30,7 @@ export const areas: Area[] = [
   },
   {
     label: "Contact",
-    description: "Let's talk about something",
+    description: "Let's talk about something interesting",
     href: "/contacts",
   },
 ];
