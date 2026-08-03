@@ -1,9 +1,8 @@
+/* ############ */
+/* ### HOME ### */
+/* ############ */
+
 export type Area = { label: string; description: string; href: string };
-export type Job = { role: string; company: string; range: string; description: string };
-export type Contact = { label: string; href: string };
-export type Degree = { credential: string; school: string; location: string };
-export type QuickLink = { label: string; description: string; href: string; external: boolean };
-export type StackGroup = { category: string; items: string[] };
 
 export const profile = {
   name: "Rafael Turse",
@@ -89,6 +88,12 @@ export const books: Book[] = [
   },
 ];
 
+/* ################ */
+/* ### PERSONAL ### */
+/* ################ */
+
+export type Degree = { credential: string; school: string; location: string };
+
 export const bioIntro = "Brazilian, Canadian - based in Toronto, Canada";
 
 export const bio =
@@ -110,20 +115,11 @@ export const education: Degree[] = [
   },
 ];
 
-export const professionalLinks: QuickLink[] = [
-  {
-    label: "Professional Inquiries",
-    description: "Sent directly to my inbox",
-    href: "mailto:hello@rafaelturse.com?subject=Resume request",
-    external: false,
-  },
-  {
-    label: "Access My Code",
-    description: "View and run my projects on GitHub",
-    href: "https://github.com/rafaelturse",
-    external: true,
-  },
-];
+/* ############## */
+/* ### FOOTER ### */
+/* ############## */
+
+export type Contact = { label: string; href: string };
 
 export const contacts: Contact[] = [
   { label: "GitHub", href: "https://github.com/rafaelturse" },
@@ -134,6 +130,12 @@ export const contacts: Contact[] = [
   { label: "YouTube", href: "https://www.youtube.com/channel/UC3FNVtx2TPGwhKsvkyI0cJw/videos" },
 ];
 
+/* ################# */
+/* ### TECHNICAL ### */
+/* ################# */
+
+export type StackGroup = { category: string; items: string[] };
+
 export const stack: StackGroup[] = [
   { category: "Languages", items: ["TypeScript", "JavaScript", "Java", "Kotlin"] },
   { category: "Backend", items: ["Node", "Express", "Spring Boot", "PassportJS", "JWT", "Swagger"] },
@@ -141,8 +143,12 @@ export const stack: StackGroup[] = [
   { category: "Mobile", items: ["iOS / Swift", "Android", "React Native"] },
   { category: "Database", items: ["MySQL", "SQL Server", "ERM", "Data Mart"] },
   {
+    category: "Project",
+    items: ["Scrum", "Jira"],
+  },
+  {
     category: "DevOps",
-    items: ["Docker", "Git", "Postman", "Jira", "Jest", "Winston", "Loki", "Prometheus", "Grafana", "VS Code"],
+    items: ["Docker", "Git", "Postman", "Scrum", "Jira", "Jest", "Winston", "Loki", "Prometheus", "Grafana", "VS Code"],
   },
   { category: "Business", items: ["ERP", "CRM", "WEB Application", "Mobile Application", "Office Solutions", "VBA"] },
 ];
