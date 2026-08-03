@@ -18,7 +18,25 @@ export default function WriterPage() {
         </p>
       </header>
 
-      <div className="mx-auto mt-20 max-w-2xl">
+      <div className="mt-16 flex flex-col items-center">
+        <p className="font-body text-xs uppercase tracking-[0.4em] text-gold-soft">
+          SERIES
+        </p>
+
+        <div className="group/symbol mt-6 h-28 w-28 overflow-hidden rounded-full border border-line bg-surface shadow-[0_10px_30px_-10px_rgba(0,0,0,0.7)] transition-colors duration-300 hover:border-gold-soft">
+          <img
+            src="/symbols/the-dominator-of-souls-separator-symbol.svg"
+            alt="The Dominator of Souls symbol"
+            className="h-full w-full object-cover"
+          />
+        </div>
+
+        <p className="mt-4 font-display text-sm tracking-[0.04em] text-muted">
+          The Dominator of Souls
+        </p>
+      </div>
+
+      <div className="mx-auto mt-16 max-w-2xl">
         {books.map((book) => (
           <BookCard key={book.title} book={book} />
         ))}
