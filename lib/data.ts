@@ -38,7 +38,7 @@ export const areas: Area[] = [
 export const bioIntro = "Brazilian, Canadian - based in Toronto, Canada";
 
 export const bio =
-  "Self-taught, software engineer and among many other things, also a musician, draftsman, illustrator, and writer";
+  "Self-taught, software engineer and among many other things, also a musician, draftsman, illustrator, and writer.";
 
 export const education: Degree[] = [
   {
