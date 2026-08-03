@@ -13,7 +13,7 @@ export default function ProfessionalPage() {
         <p className="mx-auto mt-12 max-w-md font-body text-xs uppercase tracking-widest text-muted">
           {bioIntro}
         </p>
-        <p className="mx-auto max-w-md font-body text-sm leading-relaxed text-muted">{bio}</p>
+        <p className="mx-auto max-w-md font-body text-sm leading-relaxed text-muted ">{bio}</p>
       </header>
 
       <div className="mx-auto mt-4 max-w-sm">
@@ -25,6 +25,12 @@ export default function ProfessionalPage() {
             </p>
           </div>
         ))}
+      </div>
+      <div className="mx-auto mt-6">
+        <p className="mx-auto max-w-md font-body text-sm leading-relaxed text-muted tracking-[0.02em]">
+          <span className="float-left mr-3 mt-1 font-display text-6xl leading-[0.8] text-gold-soft">I</span>
+          worked for many years in full-stack software development for desktop, web, and mobile applications. In 2019, I decided to start a very different project by my own, and since then I have been developing a grand fantasy universe that bore its first fruit in 2026 with the launch of my first book, thus officially launching my career as a writer.
+        </p>
       </div>
     </div>
   );

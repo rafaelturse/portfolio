@@ -18,9 +18,7 @@ export default function TechnicalPage() {
         <div className="mx-auto mt-14 max-w-2xl">
           <div className="font-body text-[15px] leading-relaxed text-muted [text-align:justify] [hyphens:auto] sm:columns-2 sm:gap-10">
             <p className="[text-indent:0]">
-              <span className="float-left mr-3 mt-1 font-display text-6xl leading-[0.8] text-gold-soft">
-                I
-              </span>
+              <span className="float-left mr-3 mt-1 font-display text-6xl leading-[0.8] text-gold-soft">I</span>
               work as a software architect and engineer to develop complete end-to-end solutions. With
               solid experience in fullstack software development for web and mobile applications, I
               design practical, modern, secure and scalable systems, using methodologies and tools
@@ -28,9 +26,7 @@ export default function TechnicalPage() {
             </p>
 
             <p className="mt-6 sm:mt-0">
-              <span className="float-left mr-3 mt-1 font-display text-6xl leading-[0.8] text-gold-soft">
-                M
-              </span>
+              <span className="float-left mr-3 mt-1 font-display text-6xl leading-[0.8] text-gold-soft">M</span>
               y skills range from the strategic aspect to the technical implementation, including
               project management, requirements gathering, prototyping of interfaces and solutions,
               usability and user experience, backend and frontend programming, APIs and security,
