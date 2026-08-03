@@ -26,26 +26,6 @@ export default function ProfessionalPage() {
           </div>
         ))}
       </div>
-      <div className="mx-auto mt-4 max-w-sm">
-        {education.map((d) => (
-          <div key={d.credential} className="border-b border-line py-4 text-center last:border-none">
-            <p className="font-display text-base text-ink">{d.credential}</p>
-            <p className="mt-1 font-body text-xs text-muted">
-              {d.school} — {d.location}
-            </p>
-          </div>
-        ))}
-      </div>
-      <div className="mx-auto mt-4 max-w-sm">
-        {education.map((d) => (
-          <div key={d.credential} className="border-b border-line py-4 text-center last:border-none">
-            <p className="font-display text-base text-ink">{d.credential}</p>
-            <p className="mt-1 font-body text-xs text-muted">
-              {d.school} — {d.location}
-            </p>
-          </div>
-        ))}
-      </div>
     </div>
   );
 }
