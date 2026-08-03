@@ -6,9 +6,12 @@ export default function BookCard({ book }: { book: Book }) {
 
   return (
     <div className="flex flex-col gap-6 border-b border-line py-10 sm:flex-row sm:items-center last:border-none">
-      <div className="mx-auto aspect-[2/3] w-36 shrink-0 overflow-hidden border border-line bg-surface sm:mx-0">
+      <div className="group/cover relative mx-auto aspect-[2/3] w-36 shrink-0 overflow-hidden border border-line bg-surface p-2 shadow-[0_20px_40px_-15px_rgba(0,0,0,0.6)] transition-colors duration-300 hover:border-gold-soft sm:mx-0">
         {book.cover ? (
-          <img src={book.cover} alt={book.title} className="h-full w-full object-cover" />
+          <div className="relative h-full w-full overflow-hidden">
+            <img src={book.cover} alt={book.title} className="h-full w-full object-contain" />
+            <div className="pointer-events-none absolute inset-0 bg-gold-soft opacity-0 mix-blend-overlay transition-opacity duration-300 group-hover/cover:opacity-20" />
+          </div>
         ) : isPublished ? (
           <div className="flex h-full w-full items-center justify-center text-line">
             <svg width="40" height="40" viewBox="0 0 16 16" fill="currentColor">
