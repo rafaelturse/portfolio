@@ -16,7 +16,7 @@ export const areas: Area[] = [
   {
     label: "Writer",
     description: "A bit of my journey as a writer, and where to find my books",
-    href: "#",
+    href: "/writer",
   },
   {
     label: "Professional",
@@ -35,10 +35,67 @@ export const areas: Area[] = [
   },
 ];
 
+/* ############## */
+/* ### WRITER ### */
+/* ############## */
+
+export type BookStatus = "published" | "upcoming";
+export type Store = { label: string; href: string };
+
+export type Book = {
+  title: string;
+  series: string;
+  status: BookStatus;
+  release: string;
+  synopsis: string;
+  cover?: string;
+  stores?: Store[];
+};
+
+export const books: Book[] = [
+  {
+    title: "The Berdox Memories — Volume 1",
+    series: "The dominator of Souls",
+    status: "published",
+    release: "Sep-2026",
+    synopsis:
+      "The opening volume of an epic fantasy series — a world that will soon open up to the unknown.",
+    cover: "/books/the-memories-of-berdox-vol1-cover-en.jpg",
+    stores: [
+      { label: "US", href: "https://www.amazon.com" },
+      { label: "BR", href: "https://www.amazon.com.br" },
+    ],
+  },
+  {
+    title: "The Berdox Memories — Volume 2",
+    series: "The dominator of Souls",
+    status: "upcoming",
+    release: "Dec-2026",
+    synopsis: "Details will be announced closer to release.",
+  },
+  {
+    title: "The Berdox Memories — Volume 3",
+    series: "The dominator of Souls",
+    status: "upcoming",
+    release: "TBA",
+    synopsis: "Details will be announced closer to release.",
+  },
+  {
+    title: "The Berdox Memories — Volume 4",
+    series: "The dominator of Souls",
+    status: "upcoming",
+    release: "TBA",
+    synopsis: "Details will be announced closer to release.",
+  },
+];
+
 export const bioIntro = "Brazilian, Canadian - based in Toronto, Canada";
 
 export const bio =
   "Self-taught, software engineer and among many other things, also a musician, draftsman, illustrator, and writer.";
+
+export const writerBio =
+  `Rafael Turse is an independent writer seeking recognition in the world of writing. In 2026, he officially launches his first epic fantasy book, "The Berdox Memories – Volume 1," part of his promising series, also of his own authorship, "The Dominator of Souls", the first of many more to come!`
 
 export const education: Degree[] = [
   {
