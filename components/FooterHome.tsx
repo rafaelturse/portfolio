@@ -1,11 +1,8 @@
 import ContactIcons from "@/components/ContactIcons";
-import HomeLink from "./HomeLink";
 
-export default function Footer() {
+export default function FooterHome() {
     return (
-        <div>
-            <HomeLink />
-            
+        <div>            
             <footer className="border-t border-line">
                 <div className="mx-auto max-w-5xl px-5 py-8">
                     <div className="flex justify-center">
