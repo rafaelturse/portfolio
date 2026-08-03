@@ -4,7 +4,7 @@ export const metadata = {
   title: "Technical — Rafael Turse",
 };
 
-const NUMERALS = ["I", "II", "III", "IV", "V", "VI", "VII"];
+const NUMERALS = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"];
 
 export default function TechnicalPage() {
   return (
