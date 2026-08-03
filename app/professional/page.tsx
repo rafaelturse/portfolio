@@ -13,7 +13,7 @@ export default function ProfessionalPage() {
         <p className="mx-auto mt-12 max-w-md font-body text-xs uppercase tracking-widest text-muted">
           {bioIntro}
         </p>
-        <p className="mx-auto max-w-md font-body text-sm leading-relaxed text-muted ">{bio}</p>
+        <p className="mx-auto max-w-md font-body text-sm leading-relaxed text-muted tracking-[0.02em]">{bio}</p>
       </header>
 
       <div className="mx-auto mt-4 max-w-sm">
