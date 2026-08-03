@@ -44,11 +44,11 @@ export default function TechnicalPage() {
         {stack.map((group, i) => (
           <div
             key={group.category}
-            className="flex items-baseline gap-6 border-b border-line py-7"
+            className="group flex items-baseline gap-6 border-b border-line py-7 transition-colors"
           >
             <span className="font-display text-sm text-gold-soft">{NUMERALS[i]}</span>
             <span className="flex-1">
-              <span className="font-display text-2xl font-medium text-ink sm:text-3xl">
+              <span className="font-display text-2xl font-medium text-ink transition-colors group-hover:text-gold-soft sm:text-3xl">
                 {group.category}
               </span>
               <span className="mt-1 block font-body text-sm text-muted">
@@ -58,6 +58,6 @@ export default function TechnicalPage() {
           </div>
         ))}
       </nav>
-    </div >
+    </div>
   );
 }
