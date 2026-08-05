@@ -30,7 +30,7 @@ export const areas: Area[] = [
   {
     label: "Contact",
     description: "Let's talk about something interesting",
-    href: "/contacts",
+    href: "/contact",
   },
 ];
 

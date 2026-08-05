@@ -2,34 +2,69 @@
 
 import { useState, useRef } from "react";
 
-const CONTACT_EMAIL = "rafaelturse@hotmail.com";
+const WEB3FORMS_ACCESS_KEY = "4a50eb29-394b-49a0-a2c1-11cad171efba";
 
 export default function ContactForm() {
+  const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
-  const [showThanks, setShowThanks] = useState(false);
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
+    setStatus("sending");
 
-    const mailto = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(
-      subject
-    )}&body=${encodeURIComponent(message)}`;
+    try {
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          access_key: WEB3FORMS_ACCESS_KEY,
+          email,
+          subject: `[Portfolio] ${subject}`,
+          message,
+        }),
+      });
 
-    window.location.href = mailto;
+      const data = await res.json();
 
-    setSubject("");
-    setMessage("");
-    setShowThanks(true);
+      if (data.success) {
+        setEmail("");
+        setSubject("");
+        setMessage("");
+        setStatus("sent");
+      } else {
+        setStatus("error");
+      }
+    } catch {
+      setStatus("error");
+    }
 
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
-    timeoutRef.current = setTimeout(() => setShowThanks(false), 5000);
+    timeoutRef.current = setTimeout(() => setStatus("idle"), 5000);
   }
 
   return (
     <div className="mx-auto mt-8 max-w-md">
       <form onSubmit={handleSubmit} className="mt-10 space-y-8">
+        <div>
+          <label
+            htmlFor="email"
+            className="font-body text-xs uppercase tracking-[0.2em] text-muted"
+          >
+            Your email
+          </label>
+          <input
+            id="email"
+            type="email"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="mt-2 w-full border-0 border-b border-line bg-transparent py-2 font-body text-sm text-ink outline-none transition-colors focus:border-gold-soft"
+          />
+        </div>
+
         <div>
           <label
             htmlFor="subject"
@@ -67,20 +102,26 @@ export default function ContactForm() {
         <div className="flex justify-center pt-2">
           <button
             type="submit"
-            className="group inline-flex items-center gap-2 border-b border-gold-soft pb-1 font-display text-lg text-ink transition-colors hover:text-gold-soft"
+            disabled={status === "sending"}
+            className="group inline-flex items-center gap-2 border-b border-gold-soft pb-1 font-display text-lg text-ink transition-colors hover:text-gold-soft disabled:opacity-50"
           >
-            Send
+            {status === "sending" ? "Sending…" : "Send"}
             <span className="transition-transform group-hover:translate-x-1">→</span>
           </button>
         </div>
       </form>
 
       <div
-        className={`mt-6 text-center font-body text-sm text-gold-soft transition-opacity duration-500 ${showThanks ? "opacity-100" : "pointer-events-none opacity-0"
-          }`}
+        className={`mt-6 text-center font-body text-sm transition-opacity duration-500 ${
+          status === "sent" || status === "error"
+            ? "opacity-100"
+            : "pointer-events-none opacity-0"
+        } ${status === "error" ? "text-red-400" : "text-gold-soft"}`}
         aria-live="polite"
       >
-        Thank you, I&apos;ll reply soon.
+        {status === "error"
+          ? "Something went wrong — try again, or email me directly."
+          : "Thank you, I'll reply soon."}
       </div>
     </div>
   );
