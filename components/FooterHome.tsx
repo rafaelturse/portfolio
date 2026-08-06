@@ -2,8 +2,8 @@ import ContactIcons from "@/components/ContactIcons";
 
 export default function FooterHome() {
     return (
-        <div>            
-            <footer className="border-t border-line">
+        <div>
+            <footer className="mt-10 border-t border-line">
                 <div className="mx-auto max-w-5xl px-5 py-8">
                     <div className="flex justify-center">
                         <ContactIcons size={24} className="gap-5 text-muted" />
