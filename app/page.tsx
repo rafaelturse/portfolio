@@ -8,7 +8,7 @@ export default function HomePage() {
     <div className="mx-auto max-w-3xl px-6 py-28 sm:py-36">
       <header className="text-center">
         <div className="mb-4 flex justify-center">
-          <img src="/symbols/logo-rafaelturse-shield.png" alt="Rafael Turse logo" width={100} height={100} />
+          <img src="/symbols/logo-rafaelturse-shield-rt.png" alt="Rafael Turse logo" width={100} height={100} />
         </div>
         <h1 className="font-display text-6xl tracking-tight text-ink sm:text-7xl">
           <Link href="/" className="transition-colors tracking-[0.05em] hover:text-gold-soft">
