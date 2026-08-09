@@ -14,9 +14,9 @@ export default function Footer() {
 
                     <div className="mt-6 flex justify-center">
                         <span className="font-accent text-sm tracking-wide text-muted">
-                            developed by <span className="text-muted-light">Rafael Turse</span> with{" "}
-                            <span className="text-muted-light">Next.js</span> and{" "}
-                            <span className="text-muted-light">Tailwind</span>
+                            developed by <span className="text-muted-light transition-colors hover:text-gold-soft">Rafael Turse</span> with{" "}
+                            <span className="text-muted-light transition-colors hover:text-gold-soft">Next.js</span> and{" "}
+                            <span className="text-muted-light transition-colors hover:text-gold-soft">Tailwind</span>
                         </span>
                     </div>
                 </div>
