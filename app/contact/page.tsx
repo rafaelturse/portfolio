@@ -13,7 +13,7 @@ export default function ContactsPage() {
           Let&apos;s Talk
         </h1>
         <p className="mx-auto mt-6 max-w-md font-body text-sm leading-relaxed text-muted">
-          Send a message below and I'll get back to you
+          Send a message below and I'll get back to you.
         </p>
       </header>
 

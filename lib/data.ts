@@ -32,6 +32,11 @@ export const areas: Area[] = [
     description: "Let's talk about something interesting",
     href: "/contact",
   },
+  {
+    label: "Support",
+    description: "If you'd like to support my work",
+    href: "/support",
+  },
 ];
 
 /* ############## */
@@ -146,9 +151,30 @@ export const stack: StackGroup[] = [
     category: "DevOps",
     items: ["Docker", "Git", "Postman", "Scrum", "Jira", "Jest", "Winston", "Loki", "Prometheus", "Grafana", "VS Code"],
   },
-   {
+  {
     category: "Project",
     items: ["Scrum", "Jira"],
   },
   { category: "Business", items: ["ERP", "CRM", "WEB Application", "Mobile Application", "Office Solutions", "VBA"] },
+];
+
+/* ################# */
+/* ### SUPPORT ##### */
+/* ################# */
+
+export type SupportLink = { label: string; description: string; href: string; external: boolean };
+
+export const supportLinks: SupportLink[] = [
+  {
+    label: "Buy Me a Coffee",
+    description: "A small one-time gesture, always appreciated",
+    href: "https://buymeacoffee.com/rafaelturse",
+    external: true,
+  },
+  {
+    label: "PayPal",
+    description: "Direct support, any amount welcome",
+    href: "#",
+    external: false,
+  },
 ];
