@@ -58,7 +58,7 @@ export type Book = {
 
 export const books: Book[] = [
   {
-    title: "The Berdox Memories — Volume 1 - Fragmented",
+    title: "The Berdox Memories — Volume 1 — Fragmented",
     series: "The dominator of Souls",
     status: "published",
     release: "Sep-2026",
