@@ -92,7 +92,7 @@ export default function TechnicalPage() {
         <h1 className="mt-12 font-display text-5xl tracking-tight text-ink sm:text-6xl">Technologies</h1>
       </div>
 
-      <div className="mx-auto mt-8 grid max-w-4xl grid-cols-4 gap-3 sm:gap-6">
+      <div className="mx-auto mt-8 grid max-w-4xl grid-cols-1 gap-3 sm:grid-cols-4">
         {stack.map((group) => (
           <StackCard
             key={group.category}
