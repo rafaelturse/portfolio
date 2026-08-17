@@ -179,7 +179,7 @@ export const stack: StackGroup[] = [
     category: "Project",
     items: ["Scrum", "Jira", "Asana"],
   },
-  { category: "Business", items: ["ERP", "CRM", "WEB Application", "Mobile Application", "Office Solutions", "VBA"] },
+  { category: "Business", items: ["ERP", "CRM", "WEB", "Mobile", "Desktop", "Office Solutions", "VBA"] },
 ];
 
 export const methodologies: string[] = [
