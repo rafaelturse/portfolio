@@ -63,7 +63,7 @@ export default function TechnicalPage() {
           <h1 className="mt-5 font-display text-5xl tracking-tight text-ink sm:text-6xl">Core stack</h1>
         </div>
 
-        <div className="mx-auto mt-14 max-w-2xl">
+        <div className="mx-auto mt-14 max-w-3xl">
           <div className="font-body text-[15px] leading-relaxed text-muted [text-align:justify] [hyphens:auto] sm:columns-2 sm:gap-10">
             <p className="[text-indent:0]">
               <span className="float-left mr-3 mt-1 font-display text-6xl leading-[0.8] text-gold-soft">I</span>
