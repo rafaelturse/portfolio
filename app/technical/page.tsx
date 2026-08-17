@@ -89,7 +89,7 @@ export default function TechnicalPage() {
       </header>
 
       <div className="text-center">
-        <h1 className="mt-12 font-display text-5xl tracking-tight text-ink sm:text-6xl">Methodologies</h1>
+        <h1 className="mt-14 font-display text-5xl tracking-tight text-ink sm:text-6xl">Methodologies</h1>
       </div>
 
       <div className="mx-auto mt-8 grid max-w-4xl grid-cols-1 gap-x-10 gap-y-1 sm:grid-cols-3">
@@ -106,7 +106,7 @@ export default function TechnicalPage() {
       </div>
 
       <div className="text-center">
-        <h1 className="mt-12 font-display text-5xl tracking-tight text-ink sm:text-6xl">Technologies</h1>
+        <h1 className="mt-14 font-display text-5xl tracking-tight text-ink sm:text-6xl">Technologies</h1>
       </div>
 
       <div className="mx-auto mt-8 grid max-w-4xl grid-cols-1 gap-3 sm:grid-cols-4">
