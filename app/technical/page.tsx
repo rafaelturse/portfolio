@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import { stack } from "@/lib/data";
+import { stack, methodologies } from "@/lib/data";
 import StackCard from "@/components/StackCard";
 
 export const metadata = {
@@ -87,6 +87,23 @@ export default function TechnicalPage() {
           </div>
         </div>
       </header>
+
+      <div className="text-center">
+        <h1 className="mt-12 font-display text-5xl tracking-tight text-ink sm:text-6xl">Methodologies</h1>
+      </div>
+
+      <div className="mx-auto mt-8 grid max-w-4xl grid-cols-1 gap-x-10 gap-y-1 sm:grid-cols-3">
+        {methodologies.map((item) => (
+          <div key={item} className="flex items-start gap-3 border-b border-line py-3">
+            <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border border-gold-soft text-gold-soft">
+              <svg width="10" height="10" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M13.485 1.431a1.473 1.473 0 0 1 2.104 2.062l-7.84 9.801a1.473 1.473 0 0 1-2.12.04L.431 8.138a1.473 1.473 0 0 1 2.084-2.083l4.111 4.112 6.82-8.69a.486.486 0 0 1 .04-.045z" />
+              </svg>
+            </span>
+            <p className="font-body text-sm leading-relaxed text-muted">{item}</p>
+          </div>
+        ))}
+      </div>
 
       <div className="text-center">
         <h1 className="mt-12 font-display text-5xl tracking-tight text-ink sm:text-6xl">Technologies</h1>
