@@ -9,7 +9,10 @@ export default function WriterPage() {
   return (
     <div className="mx-auto max-w-3xl px-6 py-28 sm:py-36">
       <header className="text-center">
-        <p className="font-body text-xs uppercase tracking-[0.4em] text-gold-soft">Writer</p>
+        <div className=" flex justify-center">
+          <img src="/symbols/logo-rafaelturse-shield-rt.png" alt="Rafael Turse logo" width={100} height={100} />
+        </div>
+        <p className="mt-16 font-body text-xs uppercase tracking-[0.4em] text-gold-soft">Writer</p>
         <h1 className="mt-5 font-display text-5xl tracking-[0.05em] text-ink sm:text-6xl">
           Creating The Beyond!
         </h1>
