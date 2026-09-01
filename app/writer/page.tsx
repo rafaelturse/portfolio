@@ -35,7 +35,7 @@ export default function WriterPage() {
         </div>
 
         <p className="mt-4 font-display text-sm tracking-[0.04em] text-muted">
-          The Dominator of Souls
+          The Berdox Memories
         </p>
       </div>
 

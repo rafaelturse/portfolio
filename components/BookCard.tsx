@@ -1,8 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 import type { Book } from "@/lib/data";
 
 export default function BookCard({ book }: { book: Book }) {
   const isPublished = book.status === "published";
+  const [open, setOpen] = useState(false);
 
   return (
     <div className="flex flex-col gap-6 border-b border-line py-10 sm:flex-row sm:items-center last:border-none">
@@ -38,26 +42,45 @@ export default function BookCard({ book }: { book: Book }) {
         </p>
 
         {book.stores && book.stores.length > 0 && (
-          <div className="mt-4 flex justify-center gap-4 sm:justify-end">
-            {book.stores.map((store) => (
-              <Link
-                key={store.label}
-                href={store.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label={`Visit ${store.label} store`}
-                className="group flex flex-col items-center gap-1"
+          <div
+            className="relative mt-5 flex justify-center sm:justify-end"
+            onMouseLeave={() => setOpen(false)}
+          >
+            <button
+              type="button"
+              onClick={() => setOpen((v) => !v)}
+              className="flex w-full max-w-xs items-center justify-center gap-2 border border-line px-4 py-2 font-body text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:border-gold-soft hover:text-gold-soft sm:w-auto sm:justify-end"
+            >
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+              </svg>
+              View on Amazon
+              <svg
+                width="10"
+                height="10"
+                viewBox="0 0 16 16"
+                fill="currentColor"
+                className={`transition-transform duration-200 ${open ? "rotate-180" : ""}`}
               >
-                <span className="flex h-11 w-11 items-center justify-center rounded-full border border-line text-muted transition-colors group-hover:border-gold-soft group-hover:text-gold-soft">
-                  <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor">
-                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
-                  </svg>
-                </span>
-                <span className="font-body text-[10px] uppercase tracking-[0.2em] text-muted transition-colors group-hover:text-gold-soft">
-                  {store.label}
-                </span>
-              </Link>
-            ))}
+                <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </button>
+
+            {open && (
+              <div className="absolute top-full z-10 max-h-64 w-full max-w-xs overflow-y-auto border border-line bg-bg shadow-[0_20px_40px_-15px_rgba(0,0,0,0.6)]">
+                {book.stores.map((store) => (
+                  <Link
+                    key={store.label}
+                    href={store.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block border-b border-line px-4 py-2.5 font-body text-sm text-muted transition-colors last:border-none hover:border-gold-soft hover:bg-surface hover:text-gold-soft"
+                  >
+                    {store.label}
+                  </Link>
+                ))}
+              </div>
+            )}
           </div>
         )}
       </div>
