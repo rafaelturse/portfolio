@@ -16,7 +16,8 @@ export default function RedirectNotice({ href, onClose }: RedirectNoticeProps) {
 
   useEffect(() => {
     if (secondsLeft <= 0) {
-      window.location.href = href;
+      window.open(href, "_blank", "noopener,noreferrer");
+      onClose();
       return;
     }
 
@@ -25,7 +26,7 @@ export default function RedirectNotice({ href, onClose }: RedirectNoticeProps) {
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [secondsLeft, href]);
+  }, [secondsLeft, href, onClose]);
 
   return (
     <div
