@@ -1,6 +1,7 @@
 import { Playfair_Display, EB_Garamond, Inter, Indie_Flower } from "next/font/google";
 import type { Metadata } from "next";
 import "./globals.css";
+import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
 
 const playfair = Playfair_Display({
@@ -40,6 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${garamond.variable} ${inter.variable} ${indieFlower.variable}`}>
       <body className="bg-bg bg-grain font-body font-normal text-ink antialiased min-h-screen flex flex-col">
+        <Header />
         <main className="flex-1">{children}</main>
         <SiteFooter />
       </body>
