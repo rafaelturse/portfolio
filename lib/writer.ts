@@ -1,0 +1,2 @@
+export const writerBio =
+  `Rafael Turse is an independent writer seeking recognition in the world of writing. In 2026, he officially launches his first epic fantasy book, "The Berdox Memories – Volume 1 - Fragmented", part of his promising series, also of his own authorship, "The Dominator of Souls", the first of many more to come!`;
