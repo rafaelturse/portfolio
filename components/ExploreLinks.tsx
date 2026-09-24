@@ -66,11 +66,11 @@ export default function ExploreLinks({ ids = [] }: { ids: ExploreLinkId[] }) {
           const Icon = item.icon;
           return (
             <Link key={id} href={item.href}>
-              <div className="group flex min-h-[220px] flex-col items-center justify-center gap-4 rounded-3xl border border-line p-8 text-center transition-all duration-300 ease-out hover:-translate-y-1 hover:border-gold-soft" style={{ backgroundColor: "#111" }}>
-                <span className="text-gold-soft transition-colors duration-300 ease-out">
+              <div className="group flex min-h-[220px] flex-col items-center justify-center gap-4 rounded-3xl bg-card p-8 text-center shadow-[0_20px_50px_-20px_rgba(0,0,0,0.8)] transition-transform duration-300 ease-out hover:-translate-y-1">
+                <span className="text-gold-soft transition-colors duration-300 ease-out group-hover:text-red-soft">
                   <Icon size={32} />
                 </span>
-                <p className="font-display text-base uppercase tracking-[0.2em] text-ink">
+                <p className="font-display text-base uppercase tracking-[0.2em] text-ink transition-colors duration-300 ease-out group-hover:text-gold-soft">
                   {item.label}
                 </p>
                 <p className="font-body text-sm leading-relaxed text-muted">
