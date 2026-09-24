@@ -2,7 +2,7 @@ import Link from "next/link";
 import { FeatherIcon, MapPinIcon } from "@/lib/icons";
 
 const AUTHOR_BIO =
-  `Brazilian and Canadian, currently residing in Toronto, Canada. Rafael Turse is an independent writer seeking to make his mark in the world of literature. He is, without a doubt, self-taught, and among many other things, he is also a programmer, musician, illustrator, and writer. In 2026, he officially launches his first epic fantasy novel, "The Memories of Berdox - Volume 1 - Fragmented," a title belonging to the promising series, also of his own authorship, "The Dominator of Souls," the first of many more to come!`;
+  `Brazilian and Canadian, currently residing in Toronto, Canada. Rafael Turse is an independent writer seeking to make his mark in the world of literature. He is, without a doubt, self-taught, and among many other things, he is also a programmer, musician, draftsman, illustrator, and writer. In 2026, he officially launches his first epic fantasy novel, "The Memories of Berdox - Volume 1 - Fragmented," a title belonging to the promising series, also of his own authorship, "The Dominator of Souls," the first of many more to come!`;
 
 const AUTHOR_LOCATION = "Toronto, ON — Canada";
 const AUTHOR_PHOTO = "/img/photo/author.png";

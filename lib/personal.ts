@@ -1,9 +1,7 @@
 export type Degree = { credential: string; school: string; location: string };
 
-export const bioIntro = "Brazilian, Canadian - based in Toronto, Canada";
-
 export const bio =
-  "Self-taught, software engineer and among many other things, also a musician, draftsman, illustrator, and writer.";
+  "Brazilian, Canadian - based in Toronto, Canada. Rafael Turse is self-taught, software engineer and among many other things, also a musician, draftsman, illustrator, and writer.";
 
 export const education: Degree[] = [
   {

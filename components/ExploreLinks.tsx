@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { BookIcon, BriefcaseIcon, CodeCircleIcon, MailIcon, HeartIcon, GridIcon, type IconProps } from "@/lib/icons";
+import { FeatherIcon, BriefcaseIcon, CodeCircleIcon, MailIcon, HeartIcon, GridIcon, type IconProps } from "@/lib/icons";
 import type { ReactElement } from "react";
 
 export type ExploreLinkId = "writer" | "professional" | "technical" | "contact" | "support";
@@ -15,7 +15,7 @@ type LinkInfo = {
 
 const ALL_LINKS: Record<ExploreLinkId, LinkInfo> = {
   writer: {
-    icon: BookIcon,
+    icon: FeatherIcon,
     label: "Writer",
     description: "Information and more about my books",
     href: "/writer",

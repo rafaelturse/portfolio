@@ -100,3 +100,31 @@ export const HeartIcon = ({ size = 32 }: IconProps): ReactElement => (
     <path d="M6.979 3.074a6 6 0 0 1 4.988 1.425l.037 .033l.034 -.03a6 6 0 0 1 4.733 -1.44l.246 .036a6 6 0 0 1 3.364 10.008l-.18 .185l-.048 .041l-7.45 7.379a1 1 0 0 1 -1.313 .082l-.094 -.082l-7.493 -7.422a6 6 0 0 1 3.176 -10.215z" />
   </svg>
 );
+
+export const CodeIcon = ({ size = 18 }: IconProps): ReactElement => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M7 8l-4 4l4 4" />
+    <path d="M17 8l4 4l-4 4" />
+    <path d="M14 4l-4 16" />
+  </svg>
+);
+
+export const SchoolIcon = ({ size = 32 }: IconProps): ReactElement => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M22.446 9.024l-9.95 -4.024a1.161 1.161 0 0 0 -.992 0l-9.95 4.024a1.106 1.106 0 0 0 0 2.026l2.302 .93l-.806 5.83c-.02 .147 .002 .296 .062 .431c.694 1.54 3.13 3.189 6.938 3.189c3.807 0 6.244 -1.65 6.938 -3.189a1.02 1.02 0 0 0 .062 -.43l-.806 -5.831l2.302 -.93a1.106 1.106 0 0 0 0 -2.026" />
+    <path d="M4 13l0 5.5c0 1 .5 1.5 1 1.5" />
+  </svg>
+);
+
+export const CertificateIcon = ({ size = 32 }: IconProps): ReactElement => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M15 3a1 1 0 0 1 .992 .883l.007 .117l.001 3.25l2.816 -1.626a1 1 0 0 1 1.368 .318l.021 .034l.021 .034l1.517 2.867a1 1 0 0 1 -.35 1.336l-2.902 1.786l2.9 1.786a1 1 0 0 1 .407 1.222l-.021 .053l-.021 .053l-1.517 2.867a1 1 0 0 1 -1.32 .43l-.048 -.024l-.045 -.026l-2.814 -1.625l-.005 3.245a1 1 0 0 1 -.883 .993l-.117 .006h-3a1 1 0 0 1 -.993 -.884l-.007 -.116v-3.25l-2.815 1.626a1 1 0 0 1 -1.368 -.318l-.021 -.034l-1.538 -2.901a1 1 0 0 1 .35 -1.336l2.903 -1.787l-2.902 -1.786a1 1 0 0 1 -.406 -1.222l.02 -.053l1.538 -2.901a1 1 0 0 1 1.32 -.43l.048 .024l.045 .026l2.813 1.625l.001 -3.245a1 1 0 0 1 .883 -.993l.117 -.006h3z" />
+  </svg>
+);
+
+export const UserIcon = ({ size = 18 }: IconProps): ReactElement => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z" />
+    <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" />
+  </svg>
+);

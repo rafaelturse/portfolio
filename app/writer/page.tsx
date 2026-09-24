@@ -19,7 +19,7 @@ export default function WriterPage() {
         </h1>
       </header>
 
-      <div className="mt-16">
+      <div className="mt-22">
         <AuthorSection />
       </div>
 
