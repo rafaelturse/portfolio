@@ -1,6 +1,7 @@
 import { writerBio, books } from "@/lib/data";
 import FeaturedBook from "@/components/FeaturedBook";
 import AuthorSection from "@/components/AuthorSection";
+import ExploreLinks from "@/components/ExploreLinks";
 
 export const metadata = {
   title: "Writer — Rafael Turse",
@@ -25,6 +26,8 @@ export default function WriterPage() {
       <div className="mt-16">
         <FeaturedBook book={featured} />
       </div>
+
+      <ExploreLinks ids={["professional", "technical", "contact", "support"]} />
     </div>
   );
 }
