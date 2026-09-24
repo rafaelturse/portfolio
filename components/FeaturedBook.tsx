@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState } from "react";
 import type { Book } from "@/lib/data";
 import { MedalIcon, BookmarkIcon, MoreIcon } from "@/lib/icons";
 import BookCover from "./BookCover";
@@ -9,12 +9,6 @@ import RedirectNotice from "./RedirectNotice";
 
 export default function FeaturedBook({ book }: { book: Book }) {
   const [redirectOpen, setRedirectOpen] = useState(false);
-  const popupRef = useRef<Window | null>(null);
-
-  function handleMoreClick() {
-    popupRef.current = window.open("", "_blank");
-    setRedirectOpen(true);
-  }
 
   return (
     <div>
@@ -59,7 +53,7 @@ export default function FeaturedBook({ book }: { book: Book }) {
               <div className="mt-6 flex justify-end border-t border-line pt-5">
                 <button
                   type="button"
-                  onClick={handleMoreClick}
+                  onClick={() => setRedirectOpen(true)}
                   className="flex items-center gap-2 border border-red-soft bg-red-soft px-4 py-2 font-body text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:bg-transparent hover:text-red-soft"
                 >
                   <MoreIcon size={14} />
@@ -72,11 +66,7 @@ export default function FeaturedBook({ book }: { book: Book }) {
       </div>
 
       {redirectOpen && book.detailUrl && (
-        <RedirectNotice
-          href={book.detailUrl}
-          popup={popupRef.current}
-          onClose={() => setRedirectOpen(false)}
-        />
+        <RedirectNotice href={book.detailUrl} onClose={() => setRedirectOpen(false)} />
       )}
     </div>
   );

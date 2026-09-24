@@ -1,29 +1,22 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { ExternalLinkIcon } from "@/lib/icons";
 
 type RedirectNoticeProps = {
   href: string;
-  popup: Window | null;
   onClose: () => void;
 };
 
 const REDIRECT_SECONDS = 5;
 
-export default function RedirectNotice({ href, popup, onClose }: RedirectNoticeProps) {
+export default function RedirectNotice({ href, onClose }: RedirectNoticeProps) {
   const hostname = new URL(href).hostname;
   const [secondsLeft, setSecondsLeft] = useState(REDIRECT_SECONDS);
 
   useEffect(() => {
     if (secondsLeft <= 0) {
-      if (popup && !popup.closed) {
-        popup.location.href = href;
-      } else {
-        window.open(href, "_blank", "noopener,noreferrer");
-      }
-      onClose();
+      window.location.href = href;
       return;
     }
 
@@ -32,19 +25,7 @@ export default function RedirectNotice({ href, popup, onClose }: RedirectNoticeP
     }, 1000);
 
     return () => clearTimeout(timer);
-  }, [secondsLeft, href, popup, onClose]);
-
-  function handleCancel() {
-    popup?.close();
-    onClose();
-  }
-
-  function handleContinueClick() {
-    if (popup && !popup.closed) {
-      popup.location.href = href;
-    }
-    onClose();
-  }
+  }, [secondsLeft, href]);
 
   return (
     <div
@@ -52,7 +33,7 @@ export default function RedirectNotice({ href, popup, onClose }: RedirectNoticeP
       onClick={onClose}
     >
       <div
-        className="w-full max-w-sm border border-line p-8 text-center"
+        className="w-full max-w-sm rounded-3xl border border-line p-8 text-center"
         style={{ backgroundColor: "#111" }}
         onClick={(e) => e.stopPropagation()}
       >
@@ -72,18 +53,18 @@ export default function RedirectNotice({ href, popup, onClose }: RedirectNoticeP
         <div className="mt-6 flex items-center justify-center gap-4">
           <button
             type="button"
-            onClick={handleCancel}
+            onClick={onClose}
             className="border border-line px-4 py-2 font-body text-xs uppercase tracking-[0.2em] text-muted transition-colors hover:border-gold-soft hover:text-gold-soft"
           >
             Cancel
           </button>
-          <Link
-            href={href}
-            onClick={handleContinueClick}
+          <button
+            type="button"
+            onClick={() => (window.location.href = href)}
             className="border border-red-soft bg-red-soft px-4 py-2 font-body text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:bg-transparent hover:text-red-soft"
           >
             Continue
-          </Link>
+          </button>
         </div>
       </div>
     </div>
