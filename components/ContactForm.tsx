@@ -59,7 +59,7 @@ export default function ContactForm() {
         className="mt-6 rounded-3xl p-6 shadow-[0_20px_50px_-20px_rgba(0,0,0,0.8)] sm:p-10"
         style={{ backgroundColor: "#111" }}
       >
-        <form onSubmit={handleSubmit} className="space-y-8">
+        <form onSubmit={handleSubmit} className="space-y-8 divide-y-0">
           <div>
             <label
               htmlFor="email"
@@ -111,22 +111,24 @@ export default function ContactForm() {
             />
           </div>
 
-          <div className="flex justify-center pt-2">
-            <button
-              type="submit"
-              disabled={status === "sending"}
-              className="group inline-flex items-center gap-2 border-b border-gold-soft pb-1 font-display text-lg text-ink transition-colors hover:text-gold-soft disabled:opacity-50"
-            >
-              {status === "sending" ? "Sending…" : "Send"}
-              <span className="transition-transform group-hover:translate-x-1">→</span>
-            </button>
+          <div className="flex justify-end">
+            <div className="flex justify-end">
+              <button
+                type="submit"
+                disabled={status === "sending"}
+                className="flex items-center gap-2 border border-red-soft bg-red-soft px-4 py-2 font-body text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:bg-transparent hover:text-red-soft disabled:opacity-50"
+              >
+                <SendIcon size={14} />
+                {status === "sending" ? "Sending…" : "Send"}
+              </button>
+            </div>
           </div>
         </form>
 
         <div
           className={`mt-6 text-center font-body text-sm transition-opacity duration-500 ${status === "sent" || status === "error"
-              ? "opacity-100"
-              : "pointer-events-none opacity-0"
+            ? "opacity-100"
+            : "pointer-events-none opacity-0"
             } ${status === "error" ? "text-red-400" : "text-gold-soft"}`}
           aria-live="polite"
         >
