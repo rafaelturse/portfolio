@@ -45,7 +45,7 @@ export default function TechnicalPage() {
       <header>
         <div className="text-center">
           <p className="font-body text-xs uppercase tracking-[0.4em] text-gold-soft">Technical</p>
-          <h1 className="mt-5 font-display text-5xl tracking-[0.05em] text-ink sm:text-6xl">Core stack</h1>
+          <h1 className="mt-5 font-display text-5xl tracking-[0.05em] text-ink sm:text-6xl">Core Stack</h1>
         </div>
 
         <div className="mt-22">
