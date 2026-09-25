@@ -84,3 +84,11 @@
   background-image: radial-gradient(circle, #ffffff 1px, transparent 1px);
   background-size: 3px 3px;
 }
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
