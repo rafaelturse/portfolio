@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import SiteFooter from "@/components/SiteFooter";
+import CookieBanner from "@/components/Analytics/CookieBanner";
+import GoogleAnalyticsConsent from "@/components/Analytics/GoogleAnalyticsConsent";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -44,6 +46,8 @@ export default function RootLayout({
         <Header />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <CookieBanner />
+        <GoogleAnalyticsConsent />
       </body>
     </html>
   );
