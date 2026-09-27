@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { COMMUNITY_PLATFORMS, type CommunityPlatformId } from "@/lib/community";
-import { MailIcon } from "@/lib/icons";
+import { MailIcon, MoreIcon } from "@/lib/icons";
 
 export default function CommunityLinks() {
   const [selected, setSelected] = useState<CommunityPlatformId | null>("linkedin");
@@ -55,8 +55,9 @@ export default function CommunityLinks() {
               href={selectedPlatform.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block border border-gold-soft px-4 py-2 font-body text-xs uppercase tracking-[0.2em] text-gold-soft transition-colors hover:bg-gold-soft hover:text-bg"
+              className="inline-flex items-center gap-2 border border-red-soft bg-red-soft px-4 py-2 font-body text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:bg-transparent hover:text-red-soft"
             >
+              <MoreIcon size={14} />
               Visit
             </Link>
           </div>

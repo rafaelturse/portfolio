@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FeatherIcon, MapPinIcon } from "@/lib/icons";
+import { FeatherIcon, MapPinIcon, MoreIcon } from "@/lib/icons";
 
 const AUTHOR_BIO =
   `Brazilian and Canadian, currently residing in Toronto, Canada. Rafael Turse is an independent writer seeking to make his mark in the world of literature. He is, without a doubt, self-taught, and among many other things, he is also a programmer, musician, draftsman, illustrator, and writer. In 2026, he officially launches his first epic fantasy novel, "The Memories of Berdox - Volume 1 - Fragmented," a title belonging to the promising series, also of his own authorship, "The Dominator of Souls," the first of many more to come!`;
@@ -46,8 +46,9 @@ export default function AuthorSection() {
                 href={AMAZON_AUTHOR_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="border border-red-soft bg-red-soft px-4 py-2 font-body text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:bg-transparent hover:text-red-soft"
+                className="inline-flex items-center gap-2 border border-red-soft bg-red-soft px-4 py-2 font-body text-xs uppercase tracking-[0.2em] text-ink transition-colors hover:bg-transparent hover:text-red-soft"
               >
+                <MoreIcon size={14} />
                 View on Amazon
               </Link>
             </div>
