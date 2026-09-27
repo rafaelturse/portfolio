@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { areas } from "@/lib/data";
 import LanguageSwitcher from "./LanguageSwitcher";
+import SupportMenu from "./SupportMenu";
 
 export default function Header() {
   const pathname = usePathname();
@@ -38,16 +39,20 @@ export default function Header() {
           >
             Home
           </Link>
-          {areas.map((area) => (
-            <Link
-              key={area.href}
-              href={area.href}
-              className={`font-body text-xs uppercase tracking-[0.15em] transition-colors hover:text-gold-soft ${pathname === area.href ? "text-gold-soft" : "text-muted"
-                }`}
-            >
-              {area.label}
-            </Link>
-          ))}
+          {areas.map((area) =>
+            area.label === "Support" ? (
+              <SupportMenu key={area.href} />
+            ) : (
+              <Link
+                key={area.href}
+                href={area.href}
+                className={`font-body text-xs uppercase tracking-[0.15em] transition-colors hover:text-gold-soft ${pathname === area.href ? "text-gold-soft" : "text-muted"
+                  }`}
+              >
+                {area.label}
+              </Link>
+            )
+          )}
           <LanguageSwitcher />
         </nav>
 
@@ -70,11 +75,18 @@ export default function Header() {
               key={area.href}
               href={area.href}
               onClick={() => setOpen(false)}
-              className="border-b border-line py-3 font-body text-xs uppercase tracking-[0.15em] text-muted transition-colors last:border-none hover:text-gold-soft"
+              className="border-b border-line py-3 font-body text-xs uppercase tracking-[0.15em] text-muted transition-colors hover:text-gold-soft"
             >
               {area.label}
             </Link>
           ))}
+          <Link
+            href="/privacy"
+            onClick={() => setOpen(false)}
+            className="py-3 pl-4 font-body text-xs uppercase tracking-[0.15em] text-muted transition-colors last:border-none hover:text-gold-soft"
+          >
+            — Privacy
+          </Link>
         </nav>
       )}
     </header>
