@@ -28,9 +28,8 @@ export default function CommunityLinks() {
               key={platform.id}
               type="button"
               onClick={() => setSelected(isActive ? null : platform.id)}
-              className={`flex min-h-[80px] flex-col items-center justify-center gap-2 rounded-3xl bg-card p-4 text-center shadow-[0_20px_50px_-20px_rgba(0,0,0,0.8)] transition-all duration-300 ease-out hover:-translate-y-1 ${
-                isActive ? "ring-2 ring-gold-soft" : ""
-              }`}
+              className={`flex min-h-[80px] flex-col items-center justify-center gap-2 rounded-3xl bg-card p-4 text-center shadow-[0_20px_50px_-20px_rgba(0,0,0,0.8)] transition-all duration-300 ease-out hover:-translate-y-1 ${isActive ? "ring-2 ring-gold-soft" : ""
+                }`}
             >
               <span style={{ color: platform.iconColor }}>
                 <Icon size={28} />

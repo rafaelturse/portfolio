@@ -26,9 +26,8 @@ export default function SupportMenu() {
       <button
         type="button"
         onClick={() => setOpen((v) => !v)}
-        className={`flex items-center gap-1 font-body text-xs uppercase tracking-[0.15em] transition-colors hover:text-gold-soft ${
-          isActive ? "text-gold-soft" : "text-muted"
-        }`}
+        className={`flex items-center gap-1 font-body text-xs uppercase tracking-[0.15em] transition-colors hover:text-gold-soft ${isActive ? "text-gold-soft" : "text-muted"
+          }`}
       >
         Support
         <span className={`transition-transform duration-200 ${open ? "rotate-90" : ""}`}>›</span>

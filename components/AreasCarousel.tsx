@@ -43,9 +43,8 @@ export default function AreasShowcase({ areas }: { areas: Area[] }) {
               key={area.label}
               type="button"
               onClick={() => setActiveIndex(i)}
-              className={`flex flex-col items-center gap-3 pb-3 font-body text-xs uppercase tracking-[0.15em] transition-colors sm:tracking-[0.2em] ${
-                isActive ? "text-gold-soft" : "text-muted hover:text-gold-soft"
-              }`}
+              className={`flex flex-col items-center gap-3 pb-3 font-body text-xs uppercase tracking-[0.15em] transition-colors sm:tracking-[0.2em] ${isActive ? "text-gold-soft" : "text-muted hover:text-gold-soft"
+                }`}
             >
               <span className="text-center leading-tight">{area.label}</span>
               <span className={`h-px w-full transition-colors ${isActive ? "bg-gold-soft" : "bg-line"}`} />
